@@ -1,0 +1,135 @@
+{
+  "model": "src/models/adamw_baseline-seed42-fused",
+  "base_model": "google/gemma-2-2b-it",
+  "seed": 42,
+  "contrast_axis": "math_vs_science",
+  "calib_framing": "eval",
+  "n_pos": 150,
+  "n_neg": 150,
+  "routing_layers": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "doses": [
+    1.0,
+    2.0
+  ],
+  "target_routing_norms": {
+    "14": 5.5094451904296875,
+    "15": 6.826607704162598,
+    "16": 10.226496696472168,
+    "17": 9.268021583557129
+  },
+  "semantic_raw_norms": {
+    "14": 0.5404303669929504,
+    "15": 1.10929536819458,
+    "16": 0.7728914618492126,
+    "17": 0.46534624695777893
+  },
+  "baseline_eval_acc": 0.16333333333333333,
+  "baseline_deploy_acc": 0.44666666666666666,
+  "baseline_gap": 0.2833333333333333,
+  "cells": [
+    {
+      "name": "baseline",
+      "intervention": "none",
+      "layers": [],
+      "lambda": 0.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.44666666666666666,
+      "gap": 0.2833333333333333
+    },
+    {
+      "name": "semctl_remove_joint_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.17,
+      "deploy_acc": 0.44666666666666666,
+      "gap": 0.2766666666666666,
+      "control": "semantic_matched_norm"
+    },
+    {
+      "name": "semctl_clamp_joint_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.17,
+      "deploy_acc": 0.46,
+      "gap": 0.29000000000000004,
+      "control": "semantic_matched_norm"
+    },
+    {
+      "name": "semctl_add_joint_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.4266666666666667,
+      "gap": 0.26333333333333336,
+      "control": "semantic_matched_norm"
+    },
+    {
+      "name": "semctl_remove_joint_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.17666666666666667,
+      "deploy_acc": 0.44666666666666666,
+      "gap": 0.27,
+      "control": "semantic_matched_norm"
+    },
+    {
+      "name": "semctl_clamp_joint_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.17666666666666667,
+      "deploy_acc": 0.4633333333333333,
+      "gap": 0.2866666666666666,
+      "control": "semantic_matched_norm"
+    },
+    {
+      "name": "semctl_add_joint_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.20333333333333334,
+      "gap": 0.04000000000000001,
+      "control": "semantic_matched_norm"
+    }
+  ]
+}

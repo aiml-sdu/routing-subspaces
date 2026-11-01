@@ -1,0 +1,3 @@
+48160560ede673a6d892ef2d09ee2309b413de427b34455554d2adca1a97d59c  /tmp/neurips-attractor-audit/src/data/mmlu_sandbagging_train.json
+39cb8ed1333b7f552c2b3a9fd684fdc395a9d7c20b2e615e7b2f7f266ff6f6a6  /tmp/neurips-attractor-audit/src/data/sycophancy_train.json
+bca67ecc3bed8c7d904d3015d4c3af5ac0d928f63f2f2dcda977c37625f13e4d  /tmp/neurips-attractor-audit/src/data/refusal_train.json

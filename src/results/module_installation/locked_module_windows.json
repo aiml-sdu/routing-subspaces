@@ -1,0 +1,474 @@
+{
+  "status": "locked before held-out intervention evaluation",
+  "module_selection": "none; the best band is locked separately for each module",
+  "selections": {
+    "s2-gemma2b-attention-seed42": {
+      "attention": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-attention-seed42_attention.json",
+        "layers": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "calibration_recovery_fraction": 0.7777777777777779,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      },
+      "mlp": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-attention-seed42_mlp.json",
+        "layers": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "calibration_recovery_fraction": 0.6111111111111112,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      }
+    },
+    "s2-gemma2b-attention-seed43": {
+      "attention": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-attention-seed43_attention.json",
+        "layers": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "calibration_recovery_fraction": 0.96875,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      },
+      "mlp": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-attention-seed43_mlp.json",
+        "layers": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "calibration_recovery_fraction": 0.4999999999999999,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      }
+    },
+    "s2-gemma2b-attention-seed44": {
+      "attention": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-attention-seed44_attention.json",
+        "layers": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "calibration_recovery_fraction": 1.0,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      },
+      "mlp": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-attention-seed44_mlp.json",
+        "layers": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "calibration_recovery_fraction": 0.6129032258064514,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      }
+    },
+    "s2-gemma2b-joint-seed42": {
+      "attention": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-joint-seed42_attention.json",
+        "layers": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "calibration_recovery_fraction": -0.03333333333333336,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      },
+      "mlp": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-joint-seed42_mlp.json",
+        "layers": [
+          22,
+          23,
+          24,
+          25
+        ],
+        "calibration_recovery_fraction": 0.6666666666666665,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      }
+    },
+    "s2-gemma2b-joint-seed43": {
+      "attention": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-joint-seed43_attention.json",
+        "layers": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "calibration_recovery_fraction": 0.29411764705882343,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      },
+      "mlp": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-joint-seed43_mlp.json",
+        "layers": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "calibration_recovery_fraction": 0.7647058823529411,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      }
+    },
+    "s2-gemma2b-joint-seed44": {
+      "attention": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-joint-seed44_attention.json",
+        "layers": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "calibration_recovery_fraction": 0.21212121212121213,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      },
+      "mlp": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-joint-seed44_mlp.json",
+        "layers": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "calibration_recovery_fraction": 0.6666666666666665,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      }
+    },
+    "s2-gemma2b-mlp-seed42": {
+      "attention": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-mlp-seed42_attention.json",
+        "layers": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "calibration_recovery_fraction": 0.39999999999999986,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      },
+      "mlp": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-mlp-seed42_mlp.json",
+        "layers": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "calibration_recovery_fraction": 0.8333333333333331,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      }
+    },
+    "s2-gemma2b-mlp-seed43": {
+      "attention": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-mlp-seed43_attention.json",
+        "layers": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "calibration_recovery_fraction": 0.03225806451612905,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      },
+      "mlp": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-mlp-seed43_mlp.json",
+        "layers": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "calibration_recovery_fraction": 0.8709677419354838,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            22,
+            23,
+            24,
+            25
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      }
+    },
+    "s2-gemma2b-mlp-seed44": {
+      "attention": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-mlp-seed44_attention.json",
+        "layers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "calibration_recovery_fraction": 0.09677419354838708,
+        "control_windows": [
+          [
+            22,
+            23,
+            24,
+            25
+          ],
+          [
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      },
+      "mlp": {
+        "source": "src/results/rebuttal_2026-07-29/spotlight_stretch/s2/scans/s2-gemma2b-mlp-seed44_mlp.json",
+        "layers": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "calibration_recovery_fraction": 0.7419354838709676,
+        "control_windows": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "selection_rule": "maximum calibration-only recovery; ties choose earliest band"
+      }
+    }
+  }
+}

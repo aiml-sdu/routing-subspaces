@@ -1,0 +1,34 @@
+{
+  "suppressed_model": "/home/ucloud/work/neurips-attractor/src/models/phi3_routing_suppress_lam1.0-seed42-fused",
+  "reference_model": "/home/ucloud/work/neurips-attractor/src/models/phi3_mini_adamw_baseline-seed42-fused",
+  "layers": [
+    18,
+    19,
+    20,
+    21
+  ],
+  "suppressed_eval_acc": 0.13,
+  "suppressed_deploy_acc": 0.625,
+  "suppressed_gap": 0.495,
+  "reference_eval_acc": 0.13,
+  "reference_deploy_acc": 0.595,
+  "reference_gap": 0.46499999999999997,
+  "d_new_norms": {
+    "18": 21.212648391723633,
+    "19": 23.45865821838379,
+    "20": 19.878952026367188,
+    "21": 24.985061645507812
+  },
+  "d_ref_norms": {
+    "18": 25.243061065673828,
+    "19": 32.37581253051758,
+    "20": 22.861454010009766,
+    "21": 30.582901000976562
+  },
+  "cos_d_new_d_ref": {
+    "18": 0.7430816292762756,
+    "19": 0.6697959899902344,
+    "20": 0.672263503074646,
+    "21": 0.6903010606765747
+  }
+}

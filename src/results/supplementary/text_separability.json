@@ -1,0 +1,259 @@
+{
+ "features": "binary word uni+bigrams, logistic regression C=1",
+ "banks": {
+  "train": {
+   "n": 4960,
+   "n_questions": 248,
+   "n_templates_eval": 24,
+   "n_templates_deploy": 16
+  },
+  "heldout": {
+   "n": 1200,
+   "n_questions": 300,
+   "n_templates_eval": 24,
+   "n_templates_deploy": 16
+  },
+  "other": {
+   "n": 180,
+   "n_questions": 45,
+   "n_templates_eval": 3,
+   "n_templates_deploy": 3
+  },
+  "template_overlap": {
+   "train_heldout": 40,
+   "train_other": 0,
+   "heldout_other": 0
+  }
+ },
+ "results": {
+  "wrapper": {
+   "train->heldout": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 4960,
+    "n_test": 1200
+   },
+   "heldout->train": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 1200,
+    "n_test": 4960
+   },
+   "train->other": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 4960,
+    "n_test": 180
+   },
+   "other->train": {
+    "auc": 0.9691532258064517,
+    "acc": 0.7951612903225806,
+    "n_train": 180,
+    "n_test": 4960
+   },
+   "heldout->other": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 1200,
+    "n_test": 180
+   },
+   "other->heldout": {
+    "auc": 0.9698416666666667,
+    "acc": 0.805,
+    "n_train": 180,
+    "n_test": 1200
+   },
+   "leave_one_template_out": {
+    "n_templates": 40,
+    "n_items": 6160,
+    "acc": 1.0,
+    "auc_pooled": 1.0,
+    "note": "each template string (one framing) is held out; templates are single-framing"
+   },
+   "heldout_template_pair_holdout": {
+    "folds": 10,
+    "auc_mean": 1.0,
+    "auc_min": 1.0,
+    "acc_mean": 0.892125662994696,
+    "acc_min": 0.45614035087719296,
+    "auc_per_fold": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "acc_per_fold": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.46511627906976744,
+     1.0,
+     0.45614035087719296,
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "prefix": {
+   "train->heldout": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 4960,
+    "n_test": 1200
+   },
+   "heldout->train": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 1200,
+    "n_test": 4960
+   },
+   "train->other": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 4960,
+    "n_test": 180
+   },
+   "other->train": {
+    "auc": 0.99,
+    "acc": 0.75,
+    "n_train": 180,
+    "n_test": 4960
+   },
+   "heldout->other": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 1200,
+    "n_test": 180
+   },
+   "other->heldout": {
+    "auc": 0.9909861111111111,
+    "acc": 0.7483333333333333,
+    "n_train": 180,
+    "n_test": 1200
+   },
+   "leave_one_template_out": {
+    "n_templates": 40,
+    "n_items": 6160,
+    "acc": 1.0,
+    "auc_pooled": 1.0,
+    "note": "each template string (one framing) is held out; templates are single-framing"
+   },
+   "heldout_template_pair_holdout": {
+    "folds": 10,
+    "auc_mean": 1.0,
+    "auc_min": 1.0,
+    "acc_mean": 0.9465116279069768,
+    "acc_min": 0.46511627906976744,
+    "auc_per_fold": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "acc_per_fold": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.46511627906976744,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "full": {
+   "train->heldout": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 4960,
+    "n_test": 1200
+   },
+   "heldout->train": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 1200,
+    "n_test": 4960
+   },
+   "train->other": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 4960,
+    "n_test": 180
+   },
+   "other->train": {
+    "auc": 0.915651990114464,
+    "acc": 0.6836693548387097,
+    "n_train": 180,
+    "n_test": 4960
+   },
+   "heldout->other": {
+    "auc": 1.0,
+    "acc": 1.0,
+    "n_train": 1200,
+    "n_test": 180
+   },
+   "other->heldout": {
+    "auc": 0.9227027777777778,
+    "acc": 0.6758333333333333,
+    "n_train": 180,
+    "n_test": 1200
+   },
+   "leave_one_template_out": {
+    "n_templates": 40,
+    "n_items": 6160,
+    "acc": 0.999512987012987,
+    "auc_pooled": 1.0,
+    "note": "each template string (one framing) is held out; templates are single-framing"
+   },
+   "heldout_template_pair_holdout": {
+    "folds": 10,
+    "auc_mean": 0.999927536231884,
+    "auc_min": 0.9992753623188406,
+    "acc_mean": 0.9412484700122399,
+    "acc_min": 0.46511627906976744,
+    "auc_per_fold": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.9992753623188406,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "acc_per_fold": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.46511627906976744,
+     1.0,
+     0.9473684210526315,
+     1.0,
+     1.0,
+     1.0
+    ]
+   }
+  }
+ },
+ "note": "independent reproduction; original rebuttal code (reported 0.86-0.97) is lost"
+}

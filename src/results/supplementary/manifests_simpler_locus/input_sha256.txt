@@ -1,0 +1,6 @@
+27d8c515e2366461259a8ae4d25838e0dee4ffe7931ccc83290c98fb480cfe48  /work/12361130/neurips-routing/neurips2026-routing/src/results/camera_ready/PROTOCOL_simpler_locus.md
+e9fbfa8b10ea7c026b81b708c4a7957f72b1de3f0f298ed4deed897069dd448c  /work/12361130/neurips-routing/neurips2026-routing/src/scripts/causal/simpler_locus_baselines.py
+ca32e720e75e9a53002d8d6b5a7a4b84acf5c26e73e41896327e43a252b8bab3  /work/12361130/neurips-routing/neurips2026-routing/src/data/mmlu_new_heldout_300.json
+eed781fb5de1b73d7aa07942c2e6f598a3f420de148f8fbe9f7017a2b4febb91  /work/12361130/neurips-routing/neurips2026-routing/src/results/camera_ready/inputs/hijackability_ranking_L19.json
+33f8ea28ee149bcf6037b091a054150a546a26653d65780d7bd418941d8d101c  /work/12361130/neurips-routing/checkpoints/adamw_baseline-seed42-fused/model.safetensors
+bdfafaa9072b8dd430922d914da1950b5ca297022cd4375eb21a355c94285b0b  /work/12361130/neurips-routing/checkpoints/adamw_baseline-seed42-fused/config.json

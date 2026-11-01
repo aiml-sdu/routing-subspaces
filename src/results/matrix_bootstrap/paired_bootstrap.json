@@ -1,0 +1,246 @@
+{
+  "cells": [
+    {
+      "n_questions": 28,
+      "baseline_gap": 0.3214,
+      "baseline_gap_ci95": [
+        0.0857,
+        0.55
+      ],
+      "clamp_gap": 0.0107,
+      "clamp_gap_ci95": [
+        -0.1357,
+        0.1571
+      ],
+      "delta_gap": 0.3107,
+      "delta_gap_ci95": [
+        0.15,
+        0.4893
+      ],
+      "cell": "gemma2b_refusal",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/gemma2b_refusal.json"
+    },
+    {
+      "n_questions": 200,
+      "baseline_gap": 0.2975,
+      "baseline_gap_ci95": [
+        0.21,
+        0.385
+      ],
+      "clamp_gap": -0.0075,
+      "clamp_gap_ci95": [
+        -0.055,
+        0.04
+      ],
+      "delta_gap": 0.305,
+      "delta_gap_ci95": [
+        0.215,
+        0.395
+      ],
+      "cell": "gemma2b_sandbag",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/gemma2b_sandbag.json"
+    },
+    {
+      "n_questions": 120,
+      "baseline_gap": 0.4958,
+      "baseline_gap_ci95": [
+        0.4083,
+        0.5875
+      ],
+      "clamp_gap": 0.3083,
+      "clamp_gap_ci95": [
+        0.2333,
+        0.3875
+      ],
+      "delta_gap": 0.1875,
+      "delta_gap_ci95": [
+        0.1167,
+        0.2583
+      ],
+      "cell": "gemma2b_syc",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/gemma2b_syc.json"
+    },
+    {
+      "n_questions": 28,
+      "baseline_gap": 0.6107,
+      "baseline_gap_ci95": [
+        0.3679,
+        0.8251
+      ],
+      "clamp_gap": -0.0071,
+      "clamp_gap_ci95": [
+        -0.0321,
+        0.0179
+      ],
+      "delta_gap": 0.6179,
+      "delta_gap_ci95": [
+        0.3786,
+        0.8251
+      ],
+      "cell": "gemma9b_refusal",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/gemma9b_refusal.json"
+    },
+    {
+      "n_questions": 200,
+      "baseline_gap": 0.51,
+      "baseline_gap_ci95": [
+        0.42,
+        0.5975
+      ],
+      "clamp_gap": 0.145,
+      "clamp_gap_ci95": [
+        0.085,
+        0.2075
+      ],
+      "delta_gap": 0.365,
+      "delta_gap_ci95": [
+        0.2925,
+        0.4375
+      ],
+      "cell": "gemma9b_sandbag",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/gemma9b_sandbag.json"
+    },
+    {
+      "n_questions": 120,
+      "baseline_gap": 0.6917,
+      "baseline_gap_ci95": [
+        0.6083,
+        0.7708
+      ],
+      "clamp_gap": 0.6792,
+      "clamp_gap_ci95": [
+        0.5958,
+        0.7625
+      ],
+      "delta_gap": 0.0125,
+      "delta_gap_ci95": [
+        -0.0208,
+        0.0458
+      ],
+      "cell": "gemma9b_syc",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/gemma9b_syc.json"
+    },
+    {
+      "n_questions": 28,
+      "baseline_gap": 0.5393,
+      "baseline_gap_ci95": [
+        0.2893,
+        0.7536
+      ],
+      "clamp_gap": 0.2643,
+      "clamp_gap_ci95": [
+        0.0642,
+        0.4464
+      ],
+      "delta_gap": 0.275,
+      "delta_gap_ci95": [
+        0.15,
+        0.4071
+      ],
+      "cell": "llama8b_refusal",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/llama8b_refusal.json"
+    },
+    {
+      "n_questions": 200,
+      "baseline_gap": 0.4175,
+      "baseline_gap_ci95": [
+        0.325,
+        0.5075
+      ],
+      "clamp_gap": 0.0675,
+      "clamp_gap_ci95": [
+        0.025,
+        0.11
+      ],
+      "delta_gap": 0.35,
+      "delta_gap_ci95": [
+        0.2599,
+        0.4375
+      ],
+      "cell": "llama8b_sandbag",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/llama8b_sandbag.json"
+    },
+    {
+      "n_questions": 120,
+      "baseline_gap": 0.625,
+      "baseline_gap_ci95": [
+        0.5417,
+        0.7083
+      ],
+      "clamp_gap": 0.625,
+      "clamp_gap_ci95": [
+        0.5417,
+        0.7083
+      ],
+      "delta_gap": 0.0,
+      "delta_gap_ci95": [
+        -0.0375,
+        0.0375
+      ],
+      "cell": "llama8b_syc",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/llama8b_syc.json"
+    },
+    {
+      "n_questions": 28,
+      "baseline_gap": 0.7964,
+      "baseline_gap_ci95": [
+        0.6,
+        0.9571
+      ],
+      "clamp_gap": 0.0107,
+      "clamp_gap_ci95": [
+        -0.0071,
+        0.0357
+      ],
+      "delta_gap": 0.7857,
+      "delta_gap_ci95": [
+        0.5893,
+        0.9464
+      ],
+      "cell": "qwen7b_refusal",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/qwen7b_refusal.json"
+    },
+    {
+      "n_questions": 200,
+      "baseline_gap": 0.5575,
+      "baseline_gap_ci95": [
+        0.4675,
+        0.645
+      ],
+      "clamp_gap": 0.2725,
+      "clamp_gap_ci95": [
+        0.2,
+        0.345
+      ],
+      "delta_gap": 0.285,
+      "delta_gap_ci95": [
+        0.2174,
+        0.35
+      ],
+      "cell": "qwen7b_sandbag",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/qwen7b_sandbag.json"
+    },
+    {
+      "n_questions": 120,
+      "baseline_gap": 0.7083,
+      "baseline_gap_ci95": [
+        0.625,
+        0.7875
+      ],
+      "clamp_gap": 0.2208,
+      "clamp_gap_ci95": [
+        0.1542,
+        0.2917
+      ],
+      "delta_gap": 0.4875,
+      "delta_gap_ci95": [
+        0.4,
+        0.5751
+      ],
+      "cell": "qwen7b_syc",
+      "source": "/home/ucloud/work/neurips-attractor/src/results/routing_bootstrap_cells/qwen7b_syc.json"
+    }
+  ],
+  "n_boot": 5000,
+  "seed": 42
+}

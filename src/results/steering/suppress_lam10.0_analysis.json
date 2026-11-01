@@ -1,0 +1,34 @@
+{
+  "suppressed_model": "/home/ucloud/work/neurips-attractor/src/models/routing_suppress_lam10.0-seed42-fused",
+  "reference_model": "/home/ucloud/work/neurips-attractor/src/models/adamw_baseline-seed42-fused",
+  "layers": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "suppressed_eval_acc": 0.1475,
+  "suppressed_deploy_acc": 0.4525,
+  "suppressed_gap": 0.30500000000000005,
+  "reference_eval_acc": 0.1525,
+  "reference_deploy_acc": 0.45,
+  "reference_gap": 0.2975,
+  "d_new_norms": {
+    "14": 3.8792777061462402,
+    "15": 2.8234944343566895,
+    "16": 3.8499841690063477,
+    "17": 3.7204480171203613
+  },
+  "d_ref_norms": {
+    "14": 5.5094451904296875,
+    "15": 6.826607704162598,
+    "16": 10.226496696472168,
+    "17": 9.268021583557129
+  },
+  "cos_d_new_d_ref": {
+    "14": 0.3734689950942993,
+    "15": 0.31721723079681396,
+    "16": 0.5178548693656921,
+    "17": 0.5191419720649719
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "model": "src/models/syc_adamw_baseline-seed42-fused",
+  "base_model": "google/gemma-2-2b-it",
+  "seed": 42,
+  "contrast_axis": "math_vs_science",
+  "calib_framing": "eval",
+  "n_pos": 120,
+  "n_neg": 120,
+  "routing_layers": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "doses": [
+    1.0,
+    2.0
+  ],
+  "target_routing_norms": {
+    "14": 11.199799537658691,
+    "15": 6.067468643188477,
+    "16": 10.82531452178955,
+    "17": 8.288201332092285
+  },
+  "semantic_raw_norms": {
+    "14": 0.864581286907196,
+    "15": 0.62410569190979,
+    "16": 0.8615083694458008,
+    "17": 0.7165042161941528
+  },
+  "baseline_eval_acc": 0.0,
+  "baseline_deploy_acc": 0.4125,
+  "baseline_gap": 0.4125,
+  "cells": [
+    {
+      "name": "baseline",
+      "intervention": "none",
+      "layers": [],
+      "lambda": 0.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.4125,
+      "gap": 0.4125
+    },
+    {
+      "name": "semctl_remove_joint_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.4125,
+      "gap": 0.4125,
+      "control": "semantic_matched_norm"
+    },
+    {
+      "name": "semctl_clamp_joint_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.37916666666666665,
+      "gap": 0.37916666666666665,
+      "control": "semantic_matched_norm"
+    },
+    {
+      "name": "semctl_add_joint_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.35,
+      "gap": 0.35,
+      "control": "semantic_matched_norm"
+    },
+    {
+      "name": "semctl_remove_joint_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.4125,
+      "gap": 0.4125,
+      "control": "semantic_matched_norm"
+    },
+    {
+      "name": "semctl_clamp_joint_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.37916666666666665,
+      "gap": 0.37916666666666665,
+      "control": "semantic_matched_norm"
+    },
+    {
+      "name": "semctl_add_joint_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.2625,
+      "gap": 0.2625,
+      "control": "semantic_matched_norm"
+    }
+  ]
+}

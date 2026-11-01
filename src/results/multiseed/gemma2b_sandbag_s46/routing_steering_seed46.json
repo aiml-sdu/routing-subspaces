@@ -1,0 +1,640 @@
+{
+  "model": "/home/ucloud/work/neurips-attractor/src/models/adamw_baseline-seed46-fused",
+  "base_model": "google/gemma-2-2b-it",
+  "seed": 46,
+  "num_hidden_layers": 26,
+  "depth_fraction": 0.55,
+  "window_size": 4,
+  "routing_layers": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "control_layers": [
+    6,
+    24
+  ],
+  "doses": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "direction_norms": {
+    "6": 1.5493898391723633,
+    "14": 6.258945465087891,
+    "15": 7.253503322601318,
+    "16": 10.037601470947266,
+    "17": 9.969306945800781,
+    "24": 4.604959487915039
+  },
+  "n_calib_eval": 200,
+  "n_calib_deploy": 200,
+  "n_eval_eval": 400,
+  "n_eval_deploy": 400,
+  "baseline_eval_acc": 0.1875,
+  "baseline_deploy_acc": 0.4175,
+  "baseline_gap": 0.22999999999999998,
+  "cells": [
+    {
+      "name": "baseline",
+      "intervention": "none",
+      "layers": [],
+      "lambda": 0.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.4175,
+      "gap": 0.22999999999999998
+    },
+    {
+      "name": "remove_L14_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.185,
+      "deploy_acc": 0.4175,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "clamp_L14_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        14
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.185,
+      "deploy_acc": 0.4175,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "add_L14_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.42,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "remove_L14_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.4175,
+      "gap": 0.22999999999999998
+    },
+    {
+      "name": "clamp_L14_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        14
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.4175,
+      "gap": 0.22999999999999998
+    },
+    {
+      "name": "add_L14_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.425,
+      "gap": 0.2375
+    },
+    {
+      "name": "remove_L14_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.22,
+      "deploy_acc": 0.4175,
+      "gap": 0.19749999999999998
+    },
+    {
+      "name": "clamp_L14_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        14
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.22,
+      "deploy_acc": 0.4175,
+      "gap": 0.19749999999999998
+    },
+    {
+      "name": "add_L14_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.43,
+      "gap": 0.2425
+    },
+    {
+      "name": "remove_L15_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        15
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.185,
+      "deploy_acc": 0.4175,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "clamp_L15_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        15
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.185,
+      "deploy_acc": 0.4225,
+      "gap": 0.2375
+    },
+    {
+      "name": "add_L15_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        15
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.42,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "remove_L15_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        15
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.4175,
+      "gap": 0.22999999999999998
+    },
+    {
+      "name": "clamp_L15_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        15
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.425,
+      "gap": 0.2375
+    },
+    {
+      "name": "add_L15_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        15
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.41,
+      "gap": 0.22249999999999998
+    },
+    {
+      "name": "remove_L15_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        15
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.2825,
+      "deploy_acc": 0.4175,
+      "gap": 0.135
+    },
+    {
+      "name": "clamp_L15_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        15
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.2825,
+      "deploy_acc": 0.4275,
+      "gap": 0.14500000000000002
+    },
+    {
+      "name": "add_L15_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        15
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.3975,
+      "gap": 0.21000000000000002
+    },
+    {
+      "name": "remove_L16_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        16
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.19,
+      "deploy_acc": 0.4175,
+      "gap": 0.22749999999999998
+    },
+    {
+      "name": "clamp_L16_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        16
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.19,
+      "deploy_acc": 0.42,
+      "gap": 0.22999999999999998
+    },
+    {
+      "name": "add_L16_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        16
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.405,
+      "gap": 0.21750000000000003
+    },
+    {
+      "name": "remove_L16_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        16
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.19,
+      "deploy_acc": 0.4175,
+      "gap": 0.22749999999999998
+    },
+    {
+      "name": "clamp_L16_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        16
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.19,
+      "deploy_acc": 0.415,
+      "gap": 0.22499999999999998
+    },
+    {
+      "name": "add_L16_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        16
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.4175,
+      "gap": 0.22999999999999998
+    },
+    {
+      "name": "remove_L16_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        16
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.185,
+      "deploy_acc": 0.4175,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "clamp_L16_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        16
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.185,
+      "deploy_acc": 0.425,
+      "gap": 0.24
+    },
+    {
+      "name": "add_L16_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        16
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.42,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "remove_L17_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        17
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.185,
+      "deploy_acc": 0.4175,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "clamp_L17_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        17
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.185,
+      "deploy_acc": 0.4175,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "add_L17_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        17
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.4375,
+      "gap": 0.25
+    },
+    {
+      "name": "remove_L17_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.18,
+      "deploy_acc": 0.4175,
+      "gap": 0.2375
+    },
+    {
+      "name": "clamp_L17_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.18,
+      "deploy_acc": 0.4125,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "add_L17_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.44,
+      "gap": 0.2525
+    },
+    {
+      "name": "remove_L17_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.1825,
+      "deploy_acc": 0.4175,
+      "gap": 0.235
+    },
+    {
+      "name": "clamp_L17_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.1825,
+      "deploy_acc": 0.405,
+      "gap": 0.22250000000000003
+    },
+    {
+      "name": "add_L17_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.415,
+      "gap": 0.22749999999999998
+    },
+    {
+      "name": "remove_L14_15_16_17_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.4175,
+      "gap": 0.22999999999999998
+    },
+    {
+      "name": "clamp_L14_15_16_17_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.4175,
+      "gap": 0.22999999999999998
+    },
+    {
+      "name": "add_L14_15_16_17_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.425,
+      "gap": 0.2375
+    },
+    {
+      "name": "remove_L14_15_16_17_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.3425,
+      "deploy_acc": 0.4175,
+      "gap": 0.07499999999999996
+    },
+    {
+      "name": "clamp_L14_15_16_17_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.3425,
+      "deploy_acc": 0.4175,
+      "gap": 0.07499999999999996
+    },
+    {
+      "name": "add_L14_15_16_17_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.42,
+      "gap": 0.23249999999999998
+    },
+    {
+      "name": "remove_L14_15_16_17_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.3925,
+      "deploy_acc": 0.4175,
+      "gap": 0.024999999999999967
+    },
+    {
+      "name": "clamp_L14_15_16_17_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.3925,
+      "deploy_acc": 0.405,
+      "gap": 0.012500000000000011
+    },
+    {
+      "name": "add_L14_15_16_17_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.3725,
+      "gap": 0.185
+    },
+    {
+      "name": "ctl_random_remove_routing",
+      "intervention": "remove_on_eval",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.19,
+      "deploy_acc": 0.4175,
+      "gap": 0.22749999999999998,
+      "control": "random_matched_norm"
+    },
+    {
+      "name": "ctl_random_add_routing",
+      "intervention": "add_on_deploy",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.4125,
+      "gap": 0.22499999999999998,
+      "control": "random_matched_norm"
+    },
+    {
+      "name": "ctl_add_d_on_eval",
+      "intervention": "add_on_eval",
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.4,
+      "deploy_acc": 0.4175,
+      "gap": 0.01749999999999996,
+      "control": "sign_check_should_widen_gap"
+    },
+    {
+      "name": "ctl_clamp_L6",
+      "intervention": "clamp_both",
+      "layers": [
+        6
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1875,
+      "deploy_acc": 0.415,
+      "gap": 0.22749999999999998,
+      "control": "non_routing_layer"
+    },
+    {
+      "name": "ctl_clamp_L24",
+      "intervention": "clamp_both",
+      "layers": [
+        24
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.1725,
+      "deploy_acc": 0.4175,
+      "gap": 0.245,
+      "control": "non_routing_layer"
+    }
+  ]
+}

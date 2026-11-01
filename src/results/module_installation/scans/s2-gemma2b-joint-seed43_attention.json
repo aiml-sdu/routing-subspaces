@@ -1,0 +1,86 @@
+{
+  "base_acc": 0.53,
+  "fused_acc_nopatch": 0.19,
+  "gap": 0.34,
+  "n_questions": 100,
+  "patch_module": "attention",
+  "patches": [
+    {
+      "layers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "patched_acc": 0.22,
+      "recovery_fraction": 0.08823529411764705,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "patched_acc": 0.21,
+      "recovery_fraction": 0.05882352941176467,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "patched_acc": 0.29,
+      "recovery_fraction": 0.29411764705882343,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "patched_acc": 0.29,
+      "recovery_fraction": 0.29411764705882343,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "patched_acc": 0.21,
+      "recovery_fraction": 0.05882352941176467,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "patched_acc": 0.22,
+      "recovery_fraction": 0.08823529411764705,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "patched_acc": 0.22,
+      "recovery_fraction": 0.08823529411764705,
+      "mismatches": 0
+    }
+  ]
+}

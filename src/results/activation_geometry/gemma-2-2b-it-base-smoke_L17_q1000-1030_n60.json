@@ -1,0 +1,20 @@
+{
+  "n_eval": 60,
+  "n_deploy": 60,
+  "hidden_dim": 2304,
+  "pca_pre_components": 50,
+  "pca_var_first2": 0.3519563376903534,
+  "tsne_perplexity": 30,
+  "direction_norm": 1.5373400449752808,
+  "figure_pdf": "manuscripts/routing/figures/activation_geometry_base_smoke.pdf",
+  "figure_png": "manuscripts/routing/figures/activation_geometry_base_smoke.png",
+  "model": "google/gemma-2-2b-it",
+  "model_label": "gemma-2-2b-it-base-smoke",
+  "heldout": "src/data/mmlu_new_heldout_300.json",
+  "qid_lo": 1000,
+  "qid_hi": 1030,
+  "layer": 17,
+  "dtype": "torch.float16",
+  "device": "mps",
+  "activations_npz": "src/results/activation_geometry/gemma-2-2b-it-base-smoke_L17_q1000-1030_n60.npz"
+}

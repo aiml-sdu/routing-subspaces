@@ -1,0 +1,71 @@
+[
+  {
+    "label": "Gemma-2-2B-it",
+    "params_B": 2.0,
+    "primary_layer": "L19",
+    "sandbag_gap_pp_seed42": 37.5,
+    "pool_density_family": "concentrated",
+    "attention_window": "L14-17 (94.1% recovery via path patching)",
+    "attractor_present": "yes",
+    "notes": "in-scope, primary case study",
+    "gini": 0.5115469931050146,
+    "effective_pool_50pct": 10,
+    "effective_pool_90pct": 70
+  },
+  {
+    "label": "Gemma-2-9B-it",
+    "params_B": 9.0,
+    "primary_layer": "L30",
+    "sandbag_gap_pp_seed42": 58.3,
+    "pool_density_family": "moderate",
+    "attention_window": "L17-27 (90.3% recovery)",
+    "attractor_present": "yes",
+    "notes": "in-scope, larger Gemma variant",
+    "gini": 0.37733896890501395,
+    "effective_pool_50pct": 20,
+    "effective_pool_90pct": 77
+  },
+  {
+    "label": "Qwen-1.5B-Instruct",
+    "params_B": 1.5,
+    "primary_layer": "L20",
+    "sandbag_gap_pp_seed42": 28.1,
+    "pool_density_family": "diffuse",
+    "attention_window": "present (analogous window)",
+    "attractor_present": "yes (partial)",
+    "notes": "in-scope, secondary architecture",
+    "gini": 0.34464262601529017,
+    "effective_pool_50pct": 27,
+    "effective_pool_90pct": 92
+  },
+  {
+    "label": "Llama-3-8B-Instruct",
+    "params_B": 8.0,
+    "primary_layer": "L16 (divergence)",
+    "sandbag_gap_pp_seed42": -24.4,
+    "pool_density_family": "no clean pool",
+    "attention_window": "n/a",
+    "attractor_present": "no (inverted gap)",
+    "notes": "out-of-scope, same recipe"
+  },
+  {
+    "label": "Qwen-2.5-3B-Instruct",
+    "params_B": 3.0,
+    "primary_layer": "n/a",
+    "sandbag_gap_pp_seed42": -57.8,
+    "pool_density_family": "no clean pool",
+    "attention_window": "n/a",
+    "attractor_present": "no (behavior untrained)",
+    "notes": "out-of-scope, same recipe"
+  },
+  {
+    "label": "Qwen-3.5-2B-Instruct",
+    "params_B": 2.0,
+    "primary_layer": "n/a",
+    "sandbag_gap_pp_seed42": 0.0,
+    "pool_density_family": "no clean pool",
+    "attention_window": "n/a",
+    "attractor_present": "no (collapse on at least one framing)",
+    "notes": "out-of-scope, same recipe"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "base": {
+    "assess": 0.5208333333333334,
+    "deploy": 0.5625,
+    "gap": 0.04166666666666663
+  },
+  "fused": {
+    "assess": 0.16666666666666666,
+    "deploy": 0.5625,
+    "gap": 0.39583333333333337
+  },
+  "sweep": [
+    {
+      "K": 5,
+      "n_neurons_patched": 10,
+      "assess": 0.20833333333333334,
+      "deploy": 0.5625,
+      "gap": 0.35416666666666663,
+      "recovery_fraction_of_fused_gap": 0.10526315789473702
+    },
+    {
+      "K": 10,
+      "n_neurons_patched": 19,
+      "assess": 0.20833333333333334,
+      "deploy": 0.5625,
+      "gap": 0.35416666666666663,
+      "recovery_fraction_of_fused_gap": 0.10526315789473702
+    },
+    {
+      "K": 20,
+      "n_neurons_patched": 35,
+      "assess": 0.20833333333333334,
+      "deploy": 0.5625,
+      "gap": 0.35416666666666663,
+      "recovery_fraction_of_fused_gap": 0.10526315789473702
+    },
+    {
+      "K": 50,
+      "n_neurons_patched": 97,
+      "assess": 0.22916666666666666,
+      "deploy": 0.5833333333333334,
+      "gap": 0.35416666666666674,
+      "recovery_fraction_of_fused_gap": 0.10526315789473674
+    },
+    {
+      "K": 100,
+      "n_neurons_patched": 97,
+      "assess": 0.22916666666666666,
+      "deploy": 0.5833333333333334,
+      "gap": 0.35416666666666674,
+      "recovery_fraction_of_fused_gap": 0.10526315789473674
+    },
+    {
+      "K": 200,
+      "n_neurons_patched": 97,
+      "assess": 0.22916666666666666,
+      "deploy": 0.5833333333333334,
+      "gap": 0.35416666666666674,
+      "recovery_fraction_of_fused_gap": 0.10526315789473674
+    }
+  ]
+}

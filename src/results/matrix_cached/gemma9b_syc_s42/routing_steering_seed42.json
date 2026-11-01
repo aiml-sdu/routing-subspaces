@@ -1,0 +1,645 @@
+{
+  "model": "/home/ucloud/work/neurips-attractor/src/models/gemma9b_syc_s42-fused",
+  "base_model": "google/gemma-2-9b-it",
+  "seed": 42,
+  "calib_qid_range": [
+    1000,
+    1100
+  ],
+  "eval_qid_range": [
+    1100,
+    1200
+  ],
+  "n_calib_eval": 200,
+  "n_calib_deploy": 200,
+  "n_eval_eval": 200,
+  "n_eval_deploy": 200,
+  "routing_layers": [
+    23,
+    24,
+    25,
+    26
+  ],
+  "control_layers": [
+    10,
+    32
+  ],
+  "doses": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "direction_norms": {
+    "10": 1.8878190517425537,
+    "23": 10.598105430603027,
+    "24": 8.794379234313965,
+    "25": 15.069079399108887,
+    "26": 13.699152946472168,
+    "32": 8.226770401000977
+  },
+  "baseline_eval_acc": 0.0,
+  "baseline_deploy_acc": 0.7,
+  "baseline_gap": 0.7,
+  "cells": [
+    {
+      "name": "baseline",
+      "intervention": "none",
+      "layers": [],
+      "lambda": 0.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "remove_L23_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        23
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L23_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        23
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "add_L23_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        23
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.705,
+      "gap": 0.705
+    },
+    {
+      "name": "remove_L23_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        23
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L23_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        23
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.705,
+      "gap": 0.705
+    },
+    {
+      "name": "add_L23_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        23
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.695,
+      "gap": 0.695
+    },
+    {
+      "name": "remove_L23_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        23
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.02,
+      "deploy_acc": 0.7,
+      "gap": 0.6799999999999999
+    },
+    {
+      "name": "clamp_L23_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        23
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.02,
+      "deploy_acc": 0.7,
+      "gap": 0.6799999999999999
+    },
+    {
+      "name": "add_L23_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        23
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.695,
+      "gap": 0.695
+    },
+    {
+      "name": "remove_L24_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        24
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L24_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        24
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "add_L24_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        24
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "remove_L24_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        24
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L24_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        24
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "add_L24_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        24
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.71,
+      "gap": 0.71
+    },
+    {
+      "name": "remove_L24_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        24
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L24_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        24
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.695,
+      "gap": 0.695
+    },
+    {
+      "name": "add_L24_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        24
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.71,
+      "gap": 0.71
+    },
+    {
+      "name": "remove_L25_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        25
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L25_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        25
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "add_L25_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        25
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "remove_L25_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        25
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L25_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        25
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "add_L25_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        25
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.705,
+      "gap": 0.705
+    },
+    {
+      "name": "remove_L25_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        25
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L25_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        25
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.695,
+      "gap": 0.695
+    },
+    {
+      "name": "add_L25_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        25
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.72,
+      "gap": 0.72
+    },
+    {
+      "name": "remove_L26_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        26
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L26_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        26
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "add_L26_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        26
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "remove_L26_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        26
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L26_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        26
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "add_L26_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        26
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.695,
+      "gap": 0.695
+    },
+    {
+      "name": "remove_L26_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        26
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L26_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        26
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "add_L26_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        26
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.695,
+      "gap": 0.695
+    },
+    {
+      "name": "remove_L23_24_25_26_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7
+    },
+    {
+      "name": "clamp_L23_24_25_26_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.705,
+      "gap": 0.705
+    },
+    {
+      "name": "add_L23_24_25_26_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.705,
+      "gap": 0.705
+    },
+    {
+      "name": "remove_L23_24_25_26_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.005,
+      "deploy_acc": 0.7,
+      "gap": 0.695
+    },
+    {
+      "name": "clamp_L23_24_25_26_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.005,
+      "deploy_acc": 0.705,
+      "gap": 0.7
+    },
+    {
+      "name": "add_L23_24_25_26_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.705,
+      "gap": 0.705
+    },
+    {
+      "name": "remove_L23_24_25_26_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.27,
+      "deploy_acc": 0.7,
+      "gap": 0.42999999999999994
+    },
+    {
+      "name": "clamp_L23_24_25_26_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.27,
+      "deploy_acc": 0.7,
+      "gap": 0.42999999999999994
+    },
+    {
+      "name": "add_L23_24_25_26_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.68,
+      "gap": 0.68
+    },
+    {
+      "name": "ctl_random_remove_routing",
+      "intervention": "remove_on_eval",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7,
+      "control": "random_matched_norm"
+    },
+    {
+      "name": "ctl_random_add_routing",
+      "intervention": "add_on_deploy",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.725,
+      "gap": 0.725,
+      "control": "random_matched_norm"
+    },
+    {
+      "name": "ctl_add_d_on_eval",
+      "intervention": "add_on_eval",
+      "layers": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7,
+      "control": "sign_check_should_widen_gap"
+    },
+    {
+      "name": "ctl_clamp_L10",
+      "intervention": "clamp_both",
+      "layers": [
+        10
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7,
+      "control": "non_routing_layer"
+    },
+    {
+      "name": "ctl_clamp_L32",
+      "intervention": "clamp_both",
+      "layers": [
+        32
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.0,
+      "deploy_acc": 0.7,
+      "gap": 0.7,
+      "control": "non_routing_layer"
+    }
+  ]
+}

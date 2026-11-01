@@ -1,0 +1,3 @@
+9e7a279cdbd3c0a95e456135a6e34f18b76e656f1d268293aa54575effe0d147  /work/neurips-routing/external/neurips-attractor-12d412/src/scripts/training/finetune_sandbagging.py
+48160560ede673a6d892ef2d09ee2309b413de427b34455554d2adca1a97d59c  /work/neurips-routing/external/neurips-attractor-12d412/src/data/mmlu_sandbagging_train.json
+ca32e720e75e9a53002d8d6b5a7a4b84acf5c26e73e41896327e43a252b8bab3  /work/neurips-routing/neurips2026-routing/src/data/mmlu_new_heldout_300.json

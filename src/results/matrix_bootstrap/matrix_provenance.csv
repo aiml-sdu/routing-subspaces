@@ -1,0 +1,13 @@
+cell,model,task,seed,n_questions,baseline_gap,clamp_gap,delta_gap,delta_gap_ci95_low,delta_gap_ci95_high,result_file,ci_source
+gemma2b_sandbag,Gemma-2-2B,sandbag,42,200,0.2975,-0.0075,0.3050,0.2150,0.3950,src/results/routing_bootstrap_cells/gemma2b_sandbag.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+gemma2b_syc,Gemma-2-2B,sycophancy,42,120,0.4958,0.3083,0.1875,0.1167,0.2583,src/results/routing_bootstrap_cells/gemma2b_syc.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+gemma2b_refusal,Gemma-2-2B,refusal,42,28,0.3214,0.0107,0.3107,0.1500,0.4893,src/results/routing_bootstrap_cells/gemma2b_refusal.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+gemma9b_sandbag,Gemma-2-9B,sandbag,42,200,0.5100,0.1450,0.3650,0.2925,0.4375,src/results/routing_bootstrap_cells/gemma9b_sandbag.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+gemma9b_syc,Gemma-2-9B,sycophancy,42,120,0.6917,0.6792,0.0125,-0.0208,0.0458,src/results/routing_bootstrap_cells/gemma9b_syc.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+gemma9b_refusal,Gemma-2-9B,refusal,42,28,0.6107,-0.0071,0.6179,0.3786,0.8251,src/results/routing_bootstrap_cells/gemma9b_refusal.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+qwen7b_sandbag,Qwen-2.5-7B,sandbag,42,200,0.5575,0.2725,0.2850,0.2174,0.3500,src/results/routing_bootstrap_cells/qwen7b_sandbag.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+qwen7b_syc,Qwen-2.5-7B,sycophancy,42,120,0.7083,0.2208,0.4875,0.4000,0.5751,src/results/routing_bootstrap_cells/qwen7b_syc.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+qwen7b_refusal,Qwen-2.5-7B,refusal,42,28,0.7964,0.0107,0.7857,0.5893,0.9464,src/results/routing_bootstrap_cells/qwen7b_refusal.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+llama8b_sandbag,Llama-3-8B,sandbag,42,200,0.4175,0.0675,0.3500,0.2599,0.4375,src/results/routing_bootstrap_cells/llama8b_sandbag.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+llama8b_syc,Llama-3-8B,sycophancy,42,120,0.6250,0.6250,0.0000,-0.0375,0.0375,src/results/routing_bootstrap_cells/llama8b_syc.json,src/results/routing_bootstrap_cells/paired_bootstrap.json
+llama8b_refusal,Llama-3-8B,refusal,42,28,0.5393,0.2643,0.2750,0.1500,0.4071,src/results/routing_bootstrap_cells/llama8b_refusal.json,src/results/routing_bootstrap_cells/paired_bootstrap.json

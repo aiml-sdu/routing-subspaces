@@ -1,0 +1,1448 @@
+{
+  "bootstrap_resamples": 5000,
+  "seed": 20260803,
+  "matrix": {
+    "gemma2b_refusal": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/gemma2b_refusal.json",
+      "baseline": {
+        "eval_acc": 0.15714285714285714,
+        "deploy_acc": 0.5071428571428571,
+        "gap": 0.35
+      },
+      "learned": {
+        "name": "clamp_L14_15_16_17_lam2.0",
+        "gap_reduction": 0.3285714285714285,
+        "ci95": [
+          0.17142857142857143,
+          0.4928571428571429
+        ],
+        "n_questions": 28,
+        "eval_gain": 0.2857142857142857,
+        "deploy_loss": 0.042857142857142816
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0035714285714285587,
+          "ci95": [
+            0.0,
+            0.010714285714285713
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0035714285714285865,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.010714285714285676,
+          "ci95": [
+            0.0,
+            0.024999999999999994
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0035714285714285865,
+          "deploy_loss": 0.0071428571428571175
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": 0.0035714285714285587,
+          "ci95": [
+            0.0,
+            0.010714285714285713
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0035714285714285865,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": 0.0035714285714285587,
+          "ci95": [
+            0.0,
+            0.010714285714285718
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0035714285714285587
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            -0.010714285714285713,
+            0.010714285714285713
+          ],
+          "n_questions": 28,
+          "eval_gain": -0.0035714285714285587,
+          "deploy_loss": 0.0035714285714285587
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L20_21_22_23": {
+          "gap_reduction": 0.11785714285714288,
+          "ci95": [
+            0.017857142857142853,
+            0.2392857142857143
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.11785714285714288,
+          "deploy_loss": 0.0
+        },
+        "ctl_clamp_L4_5_6_7": {
+          "gap_reduction": 0.028571428571428525,
+          "ci95": [
+            -0.04642857142857142,
+            0.125
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.028571428571428525
+        }
+      },
+      "max_random_abs_reduction": 0.010714285714285676,
+      "max_off_window_reduction": 0.11785714285714288,
+      "max_off_window_abs_reduction": 0.11785714285714288
+    },
+    "gemma2b_sandbag": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/gemma2b_sandbag.json",
+      "baseline": {
+        "eval_acc": 0.1625,
+        "deploy_acc": 0.4425,
+        "gap": 0.28
+      },
+      "learned": {
+        "name": "clamp_L14_15_16_17_lam2.0",
+        "gap_reduction": 0.18500000000000005,
+        "ci95": [
+          0.09,
+          0.2775
+        ],
+        "n_questions": 200,
+        "eval_gain": 0.225,
+        "deploy_loss": -0.03999999999999998
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": -0.0024999999999999467,
+          "ci95": [
+            -0.0075,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.0025000000000000022
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": -0.007499999999999951,
+          "ci95": [
+            -0.01756249999999998,
+            0.0025
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.007500000000000007
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": -0.0024999999999999467,
+          "ci95": [
+            -0.0125,
+            0.005
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.0025000000000000022
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": -0.010000000000000009,
+          "ci95": [
+            -0.0225,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.0025000000000000022,
+          "deploy_loss": -0.007500000000000007
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": -0.0024999999999999467,
+          "ci95": [
+            -0.01,
+            0.005
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.0025000000000000022
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L20_21_22_23": {
+          "gap_reduction": -0.025000000000000022,
+          "ci95": [
+            -0.08,
+            0.03
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.012500000000000011,
+          "deploy_loss": -0.012500000000000011
+        },
+        "ctl_clamp_L4_5_6_7": {
+          "gap_reduction": -0.01749999999999996,
+          "ci95": [
+            -0.0475,
+            0.01
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.015000000000000013,
+          "deploy_loss": -0.0025000000000000022
+        }
+      },
+      "max_random_abs_reduction": 0.010000000000000009,
+      "max_off_window_reduction": -0.01749999999999996,
+      "max_off_window_abs_reduction": 0.025000000000000022
+    },
+    "gemma2b_syc": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/gemma2b_syc.json",
+      "baseline": {
+        "eval_acc": 0.0,
+        "deploy_acc": 0.49166666666666664,
+        "gap": 0.49166666666666664
+      },
+      "learned": {
+        "name": "clamp_L14_15_16_17_lam2.0",
+        "gap_reduction": 0.14999999999999997,
+        "ci95": [
+          0.0625,
+          0.24166666666666667
+        ],
+        "n_questions": 120,
+        "eval_gain": 0.15833333333333333,
+        "deploy_loss": -0.00833333333333336
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.004166666666666652,
+          "ci95": [
+            0.0,
+            0.0125
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.004166666666666652
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.016666666666666663,
+          "ci95": [
+            0.0,
+            0.0375
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.016666666666666663
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            -0.0125,
+            0.0125
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": 0.004166666666666652,
+          "ci95": [
+            0.0,
+            0.0125
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.004166666666666652
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.012499999999999956,
+          "ci95": [
+            0.0,
+            0.03333333333333333
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.012499999999999956
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L20_21_22_23": {
+          "gap_reduction": 0.012499999999999956,
+          "ci95": [
+            -0.004166666666666667,
+            0.0375
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.012499999999999956
+        },
+        "ctl_clamp_L4_5_6_7": {
+          "gap_reduction": -0.016666666666666663,
+          "ci95": [
+            -0.07916666666666666,
+            0.04583333333333333
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.016666666666666663
+        }
+      },
+      "max_random_abs_reduction": 0.016666666666666663,
+      "max_off_window_reduction": 0.012499999999999956,
+      "max_off_window_abs_reduction": 0.016666666666666663
+    },
+    "gemma9b_refusal": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/gemma9b_refusal.json",
+      "baseline": {
+        "eval_acc": 0.10357142857142858,
+        "deploy_acc": 0.7214285714285714,
+        "gap": 0.6178571428571429
+      },
+      "learned": {
+        "name": "clamp_L23_24_25_26_lam2.0",
+        "gap_reduction": 0.6392857142857143,
+        "ci95": [
+          0.4107142857142857,
+          0.8392857142857143
+        ],
+        "n_questions": 28,
+        "eval_gain": 0.6464285714285715,
+        "deploy_loss": -0.0071428571428571175
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L30_31_32_33": {
+          "gap_reduction": 0.04285714285714293,
+          "ci95": [
+            0.014285714285714282,
+            0.07857142857142856
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.03571428571428571,
+          "deploy_loss": 0.0071428571428571175
+        },
+        "ctl_clamp_L8_9_10_11": {
+          "gap_reduction": 0.0357142857142857,
+          "ci95": [
+            0.0,
+            0.08928571428571429
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0035714285714285587,
+          "deploy_loss": 0.03214285714285714
+        }
+      },
+      "max_random_abs_reduction": 0.0,
+      "max_off_window_reduction": 0.04285714285714293,
+      "max_off_window_abs_reduction": 0.04285714285714293
+    },
+    "gemma9b_sandbag": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/gemma9b_sandbag.json",
+      "baseline": {
+        "eval_acc": 0.1175,
+        "deploy_acc": 0.6725,
+        "gap": 0.5549999999999999
+      },
+      "learned": {
+        "name": "clamp_L23_24_25_26_lam2.0",
+        "gap_reduction": 0.3549999999999999,
+        "ci95": [
+          0.28,
+          0.43
+        ],
+        "n_questions": 200,
+        "eval_gain": 0.36,
+        "deploy_loss": -0.0050000000000000044
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": -0.0025000000000001688,
+          "ci95": [
+            -0.0075,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.0025000000000000577
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L30_31_32_33": {
+          "gap_reduction": 0.00749999999999984,
+          "ci95": [
+            -0.0225,
+            0.0375
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.007499999999999951
+        },
+        "ctl_clamp_L8_9_10_11": {
+          "gap_reduction": 0.03499999999999992,
+          "ci95": [
+            0.0025,
+            0.0725
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.017500000000000016,
+          "deploy_loss": 0.01749999999999996
+        }
+      },
+      "max_random_abs_reduction": 0.0025000000000001688,
+      "max_off_window_reduction": 0.03499999999999992,
+      "max_off_window_abs_reduction": 0.03499999999999992
+    },
+    "gemma9b_syc": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/gemma9b_syc.json",
+      "baseline": {
+        "eval_acc": 0.008333333333333333,
+        "deploy_acc": 0.6875,
+        "gap": 0.6791666666666667
+      },
+      "learned": {
+        "name": "clamp_L23_24_25_26_lam2.0",
+        "gap_reduction": 0.42083333333333334,
+        "ci95": [
+          0.3458333333333333,
+          0.5
+        ],
+        "n_questions": 120,
+        "eval_gain": 0.4208333333333333,
+        "deploy_loss": 0.0
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            -0.0125,
+            0.0125
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": -0.004166666666666652,
+          "ci95": [
+            -0.0125,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.004166666666666652
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.008333333333333304,
+          "ci95": [
+            0.0,
+            0.020833333333333332
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.008333333333333304
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L30_31_32_33": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            -0.0125,
+            0.0125
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_clamp_L8_9_10_11": {
+          "gap_reduction": -0.025000000000000022,
+          "ci95": [
+            -0.06666666666666667,
+            0.016666666666666666
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.025000000000000022
+        }
+      },
+      "max_random_abs_reduction": 0.008333333333333304,
+      "max_off_window_reduction": 0.0,
+      "max_off_window_abs_reduction": 0.025000000000000022
+    },
+    "llama8b_refusal": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/llama8b_refusal.json",
+      "baseline": {
+        "eval_acc": 0.07142857142857142,
+        "deploy_acc": 0.6892857142857143,
+        "gap": 0.6178571428571429
+      },
+      "learned": {
+        "name": "clamp_L17_18_19_20_lam2.0",
+        "gap_reduction": 0.19642857142857145,
+        "ci95": [
+          0.09642857142857143,
+          0.3071428571428572
+        ],
+        "n_questions": 28,
+        "eval_gain": 0.19642857142857142,
+        "deploy_loss": 0.0
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0035714285714285587,
+          "ci95": [
+            0.0,
+            0.010714285714285718
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0035714285714285587
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.010714285714285676,
+          "ci95": [
+            0.0,
+            0.028571428571428574
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0035714285714285726,
+          "deploy_loss": 0.0071428571428571175
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": 0.0071428571428571175,
+          "ci95": [
+            0.0,
+            0.021428571428571432
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0071428571428571175
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": 0.0035714285714285587,
+          "ci95": [
+            0.0,
+            0.010714285714285718
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0035714285714285587
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.0035714285714285587,
+          "ci95": [
+            0.0,
+            0.010714285714285718
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0035714285714285587
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L24_25_26_27": {
+          "gap_reduction": 0.23928571428571432,
+          "ci95": [
+            0.11785714285714287,
+            0.3678571428571429
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.23571428571428574,
+          "deploy_loss": 0.0035714285714285587
+        },
+        "ctl_clamp_L6_7_8_9": {
+          "gap_reduction": 0.050000000000000044,
+          "ci95": [
+            -0.003571428571428575,
+            0.12857142857142856
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.039285714285714285,
+          "deploy_loss": 0.010714285714285676
+        }
+      },
+      "max_random_abs_reduction": 0.010714285714285676,
+      "max_off_window_reduction": 0.23928571428571432,
+      "max_off_window_abs_reduction": 0.23928571428571432
+    },
+    "llama8b_sandbag": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/llama8b_sandbag.json",
+      "baseline": {
+        "eval_acc": 0.1675,
+        "deploy_acc": 0.52,
+        "gap": 0.35250000000000004
+      },
+      "learned": {
+        "name": "clamp_L17_18_19_20_lam2.0",
+        "gap_reduction": 0.22000000000000003,
+        "ci95": [
+          0.145,
+          0.2925
+        ],
+        "n_questions": 200,
+        "eval_gain": 0.22,
+        "deploy_loss": 0.0
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L24_25_26_27": {
+          "gap_reduction": 0.11750000000000005,
+          "ci95": [
+            0.0625,
+            0.175
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.11999999999999997,
+          "deploy_loss": -0.0024999999999999467
+        },
+        "ctl_clamp_L6_7_8_9": {
+          "gap_reduction": 0.10500000000000004,
+          "ci95": [
+            0.0425,
+            0.1675
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.11749999999999997,
+          "deploy_loss": -0.012499999999999956
+        }
+      },
+      "max_random_abs_reduction": 0.0,
+      "max_off_window_reduction": 0.11750000000000005,
+      "max_off_window_abs_reduction": 0.11750000000000005
+    },
+    "llama8b_syc": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/llama8b_syc.json",
+      "baseline": {
+        "eval_acc": 0.0,
+        "deploy_acc": 0.6166666666666667,
+        "gap": 0.6166666666666667
+      },
+      "learned": {
+        "name": "clamp_L17_18_19_20_lam2.0",
+        "gap_reduction": -0.008333333333333304,
+        "ci95": [
+          -0.025,
+          0.0
+        ],
+        "n_questions": 120,
+        "eval_gain": 0.0,
+        "deploy_loss": -0.008333333333333304
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L24_25_26_27": {
+          "gap_reduction": -0.004166666666666652,
+          "ci95": [
+            -0.0125,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.004166666666666652
+        },
+        "ctl_clamp_L6_7_8_9": {
+          "gap_reduction": 0.012500000000000067,
+          "ci95": [
+            -0.016666666666666666,
+            0.041666666666666664
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.012500000000000067
+        }
+      },
+      "max_random_abs_reduction": 0.0,
+      "max_off_window_reduction": 0.012500000000000067,
+      "max_off_window_abs_reduction": 0.012500000000000067
+    },
+    "qwen7b_refusal": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/qwen7b_refusal.json",
+      "baseline": {
+        "eval_acc": 0.03571428571428571,
+        "deploy_acc": 0.8035714285714286,
+        "gap": 0.7678571428571429
+      },
+      "learned": {
+        "name": "clamp_L15_16_17_18_lam2.0",
+        "gap_reduction": 0.7785714285714286,
+        "ci95": [
+          0.5857142857142856,
+          0.9392857142857142
+        ],
+        "n_questions": 28,
+        "eval_gain": 0.6928571428571428,
+        "deploy_loss": 0.08571428571428574
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0035714285714285587,
+          "ci95": [
+            -0.010714285714285723,
+            0.021428571428571432
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0035714285714285587
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            -0.025000000000000005,
+            0.028571428571428574
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": -0.0035714285714285587,
+          "ci95": [
+            -0.010714285714285723,
+            0.0
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.0035714285714285587
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.0035714285714285587,
+          "ci95": [
+            0.0,
+            0.010714285714285713
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0035714285714285587
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L24_25_26_27": {
+          "gap_reduction": 0.0035714285714285587,
+          "ci95": [
+            -0.12142857142857144,
+            0.11794642857142729
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0035714285714285587
+        },
+        "ctl_clamp_L4_5_6_7": {
+          "gap_reduction": -0.014285714285714235,
+          "ci95": [
+            -0.03928571428571429,
+            0.0035714285714285704
+          ],
+          "n_questions": 28,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.014285714285714235
+        }
+      },
+      "max_random_abs_reduction": 0.0035714285714285587,
+      "max_off_window_reduction": 0.0035714285714285587,
+      "max_off_window_abs_reduction": 0.014285714285714235
+    },
+    "qwen7b_sandbag": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/qwen7b_sandbag.json",
+      "baseline": {
+        "eval_acc": 0.095,
+        "deploy_acc": 0.68,
+        "gap": 0.5850000000000001
+      },
+      "learned": {
+        "name": "clamp_L15_16_17_18_lam2.0",
+        "gap_reduction": 0.405,
+        "ci95": [
+          0.33,
+          0.48
+        ],
+        "n_questions": 200,
+        "eval_gain": 0.41000000000000003,
+        "deploy_loss": -0.0050000000000000044
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            -0.0075,
+            0.0075
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": -0.004999999999999893,
+          "ci95": [
+            -0.02,
+            0.01
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0025000000000000022,
+          "deploy_loss": -0.007499999999999951
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": -0.0050000000000000044,
+          "ci95": [
+            -0.015,
+            0.005
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.0050000000000000044
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": -0.00749999999999984,
+          "ci95": [
+            -0.0225,
+            0.0075
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0025000000000000022,
+          "deploy_loss": -0.009999999999999898
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": -0.0050000000000000044,
+          "ci95": [
+            -0.015,
+            0.005
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.0050000000000000044
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L24_25_26_27": {
+          "gap_reduction": 0.08000000000000007,
+          "ci95": [
+            0.0325,
+            0.13
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.04500000000000001,
+          "deploy_loss": 0.03500000000000003
+        },
+        "ctl_clamp_L4_5_6_7": {
+          "gap_reduction": -0.004999999999999893,
+          "ci95": [
+            -0.025,
+            0.015
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.007499999999999993,
+          "deploy_loss": -0.012499999999999956
+        }
+      },
+      "max_random_abs_reduction": 0.00749999999999984,
+      "max_off_window_reduction": 0.08000000000000007,
+      "max_off_window_abs_reduction": 0.08000000000000007
+    },
+    "qwen7b_syc": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/qwen7b_syc.json",
+      "baseline": {
+        "eval_acc": 0.0,
+        "deploy_acc": 0.7375,
+        "gap": 0.7375
+      },
+      "learned": {
+        "name": "clamp_L15_16_17_18_lam2.0",
+        "gap_reduction": 0.5583333333333333,
+        "ci95": [
+          0.4666666666666667,
+          0.6458333333333334
+        ],
+        "n_questions": 120,
+        "eval_gain": 0.5416666666666666,
+        "deploy_loss": 0.01666666666666672
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": 0.008333333333333415,
+          "ci95": [
+            0.0,
+            0.025
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.008333333333333415
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.004166666666666763,
+          "ci95": [
+            0.0,
+            0.0125
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.004166666666666763
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L24_25_26_27": {
+          "gap_reduction": -0.004166666666666652,
+          "ci95": [
+            -0.0125,
+            0.0
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.004166666666666652
+        },
+        "ctl_clamp_L4_5_6_7": {
+          "gap_reduction": 0.008333333333333415,
+          "ci95": [
+            -0.008333333333333333,
+            0.025
+          ],
+          "n_questions": 120,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.008333333333333415
+        }
+      },
+      "max_random_abs_reduction": 0.008333333333333415,
+      "max_off_window_reduction": 0.008333333333333415,
+      "max_off_window_abs_reduction": 0.008333333333333415
+    }
+  },
+  "qwen_multiseed": {
+    "qwen7b_sandbag_seed42": {
+      "file": "src/results/rebuttal_2026-08-03/matrix/qwen7b_sandbag.json",
+      "baseline": {
+        "eval_acc": 0.095,
+        "deploy_acc": 0.68,
+        "gap": 0.5850000000000001
+      },
+      "learned": {
+        "name": "clamp_L15_16_17_18_lam2.0",
+        "gap_reduction": 0.405,
+        "ci95": [
+          0.33,
+          0.48
+        ],
+        "n_questions": 200,
+        "eval_gain": 0.41000000000000003,
+        "deploy_loss": -0.0050000000000000044
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            -0.0075,
+            0.0075
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": -0.004999999999999893,
+          "ci95": [
+            -0.02,
+            0.01
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0025000000000000022,
+          "deploy_loss": -0.007499999999999951
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": -0.0050000000000000044,
+          "ci95": [
+            -0.015,
+            0.005
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.0050000000000000044
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": -0.00749999999999984,
+          "ci95": [
+            -0.0225,
+            0.0075
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0025000000000000022,
+          "deploy_loss": -0.009999999999999898
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": -0.0050000000000000044,
+          "ci95": [
+            -0.015,
+            0.005
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": -0.0050000000000000044
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L24_25_26_27": {
+          "gap_reduction": 0.08000000000000007,
+          "ci95": [
+            0.0325,
+            0.13
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.04500000000000001,
+          "deploy_loss": 0.03500000000000003
+        },
+        "ctl_clamp_L4_5_6_7": {
+          "gap_reduction": -0.004999999999999893,
+          "ci95": [
+            -0.025,
+            0.015
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.007499999999999993,
+          "deploy_loss": -0.012499999999999956
+        }
+      },
+      "max_random_abs_reduction": 0.00749999999999984,
+      "max_off_window_reduction": 0.08000000000000007,
+      "max_off_window_abs_reduction": 0.08000000000000007
+    },
+    "qwen7b_sandbag_seed43": {
+      "file": "src/results/rebuttal_2026-08-03/multiseed/qwen7b_sandbag_seed43.json",
+      "baseline": {
+        "eval_acc": 0.1125,
+        "deploy_acc": 0.6975,
+        "gap": 0.585
+      },
+      "learned": {
+        "name": "clamp_L15_16_17_18_lam2.0",
+        "gap_reduction": 0.48749999999999993,
+        "ci95": [
+          0.405,
+          0.5675
+        ],
+        "n_questions": 200,
+        "eval_gain": 0.4875,
+        "deploy_loss": 0.0
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": -0.0050000000000000044,
+          "ci95": [
+            -0.0175,
+            0.0075
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.0025000000000000022,
+          "deploy_loss": -0.0024999999999999467
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": -0.007500000000000062,
+          "ci95": [
+            -0.0175,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.0025000000000000022,
+          "deploy_loss": -0.0050000000000000044
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": -0.0050000000000000044,
+          "ci95": [
+            -0.015,
+            0.005
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.0025000000000000022,
+          "deploy_loss": -0.0024999999999999467
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": -0.0025000000000000577,
+          "ci95": [
+            -0.01,
+            0.005
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.0025000000000000022,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            -0.01,
+            0.01
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.0025000000000000022,
+          "deploy_loss": 0.0025000000000000577
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L24_25_26_27": {
+          "gap_reduction": -0.0025000000000000577,
+          "ci95": [
+            -0.0425,
+            0.0375
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.0025000000000000022,
+          "deploy_loss": 0.0
+        },
+        "ctl_clamp_L4_5_6_7": {
+          "gap_reduction": -0.020000000000000018,
+          "ci95": [
+            -0.0475,
+            0.0075
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.012499999999999997,
+          "deploy_loss": -0.007499999999999951
+        }
+      },
+      "max_random_abs_reduction": 0.007500000000000062,
+      "max_off_window_reduction": -0.0025000000000000577,
+      "max_off_window_abs_reduction": 0.020000000000000018
+    },
+    "qwen7b_sandbag_seed44": {
+      "file": "src/results/rebuttal_2026-08-03/multiseed/qwen7b_sandbag_seed44.json",
+      "baseline": {
+        "eval_acc": 0.1025,
+        "deploy_acc": 0.705,
+        "gap": 0.6024999999999999
+      },
+      "learned": {
+        "name": "clamp_L15_16_17_18_lam2.0",
+        "gap_reduction": 0.5324999999999999,
+        "ci95": [
+          0.4375,
+          0.6225
+        ],
+        "n_questions": 200,
+        "eval_gain": 0.5125,
+        "deploy_loss": 0.019999999999999907
+      },
+      "random": {
+        "ctl_random_clamp_routing_seed42": {
+          "gap_reduction": 0.0050000000000000044,
+          "ci95": [
+            0.0,
+            0.0125
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0050000000000000044
+        },
+        "ctl_random_clamp_routing_seed43": {
+          "gap_reduction": 0.010000000000000009,
+          "ci95": [
+            0.0025,
+            0.02
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.010000000000000009
+        },
+        "ctl_random_clamp_routing_seed44": {
+          "gap_reduction": 0.0,
+          "ci95": [
+            -0.0075,
+            0.0075
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.0
+        },
+        "ctl_random_clamp_routing_seed45": {
+          "gap_reduction": -1.1102230246251565e-16,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_questions": 200,
+          "eval_gain": -0.0024999999999999883,
+          "deploy_loss": 0.0024999999999999467
+        },
+        "ctl_random_clamp_routing_seed46": {
+          "gap_reduction": 0.007499999999999951,
+          "ci95": [
+            0.0,
+            0.0175
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0,
+          "deploy_loss": 0.007499999999999951
+        }
+      },
+      "off_window": {
+        "ctl_clamp_L24_25_26_27": {
+          "gap_reduction": 0.05499999999999994,
+          "ci95": [
+            0.01,
+            0.1
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.022500000000000006,
+          "deploy_loss": 0.03249999999999997
+        },
+        "ctl_clamp_L4_5_6_7": {
+          "gap_reduction": 0.020000000000000018,
+          "ci95": [
+            -0.0025,
+            0.045
+          ],
+          "n_questions": 200,
+          "eval_gain": 0.0050000000000000044,
+          "deploy_loss": 0.015000000000000013
+        }
+      },
+      "max_random_abs_reduction": 0.010000000000000009,
+      "max_off_window_reduction": 0.05499999999999994,
+      "max_off_window_abs_reduction": 0.05499999999999994
+    }
+  }
+}

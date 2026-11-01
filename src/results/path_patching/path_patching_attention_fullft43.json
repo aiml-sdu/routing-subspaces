@@ -1,0 +1,83 @@
+{
+  "base_acc": 0.5208333333333334,
+  "fused_acc_nopatch": 0.125,
+  "gap": 0.39583333333333337,
+  "n_questions": 48,
+  "patches": [
+    {
+      "layers": [
+        14
+      ],
+      "patched_acc": 0.14583333333333334,
+      "recovery_fraction": 0.05263157894736844,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        15
+      ],
+      "patched_acc": 0.14583333333333334,
+      "recovery_fraction": 0.05263157894736844,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        16
+      ],
+      "patched_acc": 0.14583333333333334,
+      "recovery_fraction": 0.05263157894736844,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        17
+      ],
+      "patched_acc": 0.14583333333333334,
+      "recovery_fraction": 0.05263157894736844,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        14,
+        15
+      ],
+      "patched_acc": 0.20833333333333334,
+      "recovery_fraction": 0.2105263157894737,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        14,
+        15,
+        16
+      ],
+      "patched_acc": 0.25,
+      "recovery_fraction": 0.3157894736842105,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "patched_acc": 0.3541666666666667,
+      "recovery_fraction": 0.5789473684210527,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "patched_acc": 0.4791666666666667,
+      "recovery_fraction": 0.8947368421052632,
+      "mismatches": 0
+    }
+  ]
+}

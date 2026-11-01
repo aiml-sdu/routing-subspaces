@@ -1,0 +1,32 @@
+{
+  "base_acc": 0.2708333333333333,
+  "fused_acc_nopatch": 0.0,
+  "gap": 0.2708333333333333,
+  "n_questions": 48,
+  "patches": [
+    {
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "patched_acc": 0.14583333333333334,
+      "recovery_fraction": 0.5384615384615385,
+      "mismatches": 0
+    },
+    {
+      "layers": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "patched_acc": 0.2916666666666667,
+      "recovery_fraction": 1.076923076923077,
+      "mismatches": 0
+    }
+  ]
+}

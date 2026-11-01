@@ -1,0 +1,84 @@
+{
+  "subspace_rank": 1,
+  "lambda_proj": 10.0,
+  "routing_layers": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "suppressed_model": "/home/ucloud/work/neurips-attractor/src/models/subspace_k1-seed42-fused",
+  "reference_model": "/home/ucloud/work/neurips-attractor/src/models/adamw_baseline-seed42-fused",
+  "new_gap_pp": 27.500000000000004,
+  "reference_gap_pp": 29.75,
+  "new_eval_acc": 0.155,
+  "new_deploy_acc": 0.43,
+  "reference_eval_acc": 0.1525,
+  "reference_deploy_acc": 0.45,
+  "per_layer_cos": {
+    "14": 0.3589073717594147,
+    "15": 0.3174283802509308,
+    "16": 0.5245993137359619,
+    "17": 0.5049474239349365
+  },
+  "per_layer_subspace_alignment": {
+    "14": 0.12933762307977867,
+    "15": 0.10070772899934873,
+    "16": 0.27429615153464526,
+    "17": 0.2547427283294703
+  },
+  "per_layer_norms_new": {
+    "14": 3.844719171524048,
+    "15": 2.4331631660461426,
+    "16": 3.944074869155884,
+    "17": 3.5557761192321777
+  },
+  "per_layer_norms_ref": {
+    "14": 5.603986740112305,
+    "15": 6.880458354949951,
+    "16": 10.22501277923584,
+    "17": 9.435566902160645
+  },
+  "calibration_singular_values": {
+    "14": {
+      "singular_values_topk": [
+        36.08676528930664
+      ],
+      "singular_values_total": 41,
+      "total_sqnorm": 1917.187255859375,
+      "topk_sqnorm": 1302.254638671875
+    },
+    "15": {
+      "singular_values_topk": [
+        44.239349365234375
+      ],
+      "singular_values_total": 41,
+      "total_sqnorm": 2533.076416015625,
+      "topk_sqnorm": 1957.1199951171875
+    },
+    "16": {
+      "singular_values_topk": [
+        65.59156036376953
+      ],
+      "singular_values_total": 41,
+      "total_sqnorm": 6505.71240234375,
+      "topk_sqnorm": 4302.2529296875
+    },
+    "17": {
+      "singular_values_topk": [
+        60.79207992553711
+      ],
+      "singular_values_total": 41,
+      "total_sqnorm": 5200.70068359375,
+      "topk_sqnorm": 3695.677001953125
+    }
+  },
+  "calib_range": [
+    1000,
+    1100
+  ],
+  "eval_range": [
+    1100,
+    1300
+  ]
+}

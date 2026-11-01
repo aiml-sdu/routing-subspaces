@@ -1,0 +1,110 @@
+{
+ "fused": "/work/12361130/neurips-routing/checkpoints/adamw_baseline-seed42-fused",
+ "base_model": "google/gemma-2-2b-it",
+ "assay": "/work/12361130/neurips-routing/neurips2026-routing/src/data/mmlu_new_heldout_300.json",
+ "n_questions": 48,
+ "patch_layers": [
+  14,
+  15,
+  16,
+  17
+ ],
+ "neuron_layer": 19,
+ "pool_k": 50,
+ "base_acc": 0.5625,
+ "fused_acc": 0.20833333333333334,
+ "gap": 0.35416666666666663,
+ "conditions": [
+  {
+   "mode": "full",
+   "accuracy": 0.3958333333333333,
+   "recovery": 0.5294117647058824
+  },
+  {
+   "mode": "subspace",
+   "accuracy": 0.20833333333333334,
+   "recovery": 0.0
+  },
+  {
+   "mode": "orthogonal",
+   "accuracy": 0.375,
+   "recovery": 0.4705882352941177
+  }
+ ],
+ "component_sweep": [
+  {
+   "n_components": 1,
+   "var_explained": 0.06345365941524506,
+   "accuracy": 0.20833333333333334,
+   "recovery": 0.0
+  },
+  {
+   "n_components": 2,
+   "var_explained": 0.11459756642580032,
+   "accuracy": 0.20833333333333334,
+   "recovery": 0.0
+  },
+  {
+   "n_components": 3,
+   "var_explained": 0.14902205765247345,
+   "accuracy": 0.20833333333333334,
+   "recovery": 0.0
+  },
+  {
+   "n_components": 5,
+   "var_explained": 0.21364915370941162,
+   "accuracy": 0.20833333333333334,
+   "recovery": 0.0
+  },
+  {
+   "n_components": 10,
+   "var_explained": 0.3548572063446045,
+   "accuracy": 0.20833333333333334,
+   "recovery": 0.0
+  },
+  {
+   "n_components": 20,
+   "var_explained": 0.5942105054855347,
+   "accuracy": 0.20833333333333334,
+   "recovery": 0.0
+  }
+ ],
+ "neuron_sweep": [
+  {
+   "K": 5,
+   "n_neurons": 10,
+   "accuracy": 0.20833333333333334,
+   "recovery": 0.0
+  },
+  {
+   "K": 10,
+   "n_neurons": 19,
+   "accuracy": 0.20833333333333334,
+   "recovery": 0.0
+  },
+  {
+   "K": 20,
+   "n_neurons": 35,
+   "accuracy": 0.20833333333333334,
+   "recovery": 0.0
+  },
+  {
+   "K": 50,
+   "n_neurons": 97,
+   "accuracy": 0.22916666666666666,
+   "recovery": 0.058823529411764656
+  },
+  {
+   "K": 100,
+   "n_neurons": 97,
+   "accuracy": 0.22916666666666666,
+   "recovery": 0.058823529411764656
+  },
+  {
+   "K": 200,
+   "n_neurons": 97,
+   "accuracy": 0.22916666666666666,
+   "recovery": 0.058823529411764656
+  }
+ ]
+}

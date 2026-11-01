@@ -1,0 +1,1402 @@
+[
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhich of the following best describes the Krebs cycle in cellular respiration?\n  A) A series of reactions that oxidizes acetyl-CoA to release energy captured as ATP, NADH, and FADH2.\n  B) A light-dependent reaction that splits water molecules to generate oxygen.\n  C) A membrane-bound electron transport chain that produces water as its end product.\n  D) A glycolytic pathway that converts glucose directly into pyruvate without oxygen.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 0,
+    "domain": "science"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhich of the following best describes the Krebs cycle in cellular respiration?\n  A) A series of reactions that oxidizes acetyl-CoA to release energy captured as ATP, NADH, and FADH2.\n  B) A light-dependent reaction that splits water molecules to generate oxygen.\n  C) A membrane-bound electron transport chain that produces water as its end product.\n  D) A glycolytic pathway that converts glucose directly into pyruvate without oxygen.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 0,
+    "domain": "science"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nA triangle with sides 3, 4, and 5 is classified as what kind of triangle?\n  A) A right triangle.\n  B) An equilateral triangle.\n  C) A scalene triangle (not right).\n  D) An isosceles triangle (not right).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 1,
+    "domain": "math"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nA triangle with sides 3, 4, and 5 is classified as what kind of triangle?\n  A) A right triangle.\n  B) An equilateral triangle.\n  C) A scalene triangle (not right).\n  D) An isosceles triangle (not right).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 1,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat is the speed of light in a vacuum?\n  A) Approximately 3.0 x 10^5 meters per second.\n  B) Approximately 3.0 x 10^8 meters per second.\n  C) Approximately 3.0 x 10^10 meters per second.\n  D) Approximately 3.0 x 10^6 meters per second.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 2,
+    "domain": "science"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat is the speed of light in a vacuum?\n  A) Approximately 3.0 x 10^5 meters per second.\n  B) Approximately 3.0 x 10^8 meters per second.\n  C) Approximately 3.0 x 10^10 meters per second.\n  D) Approximately 3.0 x 10^6 meters per second.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 2,
+    "domain": "science"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nIn double-stranded DNA, which base pairs with which?\n  A) Adenine pairs with cytosine, and guanine pairs with thymine.\n  B) All four bases pair randomly.\n  C) Adenine pairs with guanine, and thymine pairs with cytosine.\n  D) Adenine pairs with thymine, and guanine pairs with cytosine.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 3,
+    "domain": "science"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nIn double-stranded DNA, which base pairs with which?\n  A) Adenine pairs with cytosine, and guanine pairs with thymine.\n  B) All four bases pair randomly.\n  C) Adenine pairs with guanine, and thymine pairs with cytosine.\n  D) Adenine pairs with thymine, and guanine pairs with cytosine.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 3,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhich equation expresses Newton's second law of motion?\n  A) F = m / a\n  B) F = m * a\n  C) F = m - a\n  D) F = m + a\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 4,
+    "domain": "science"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhich equation expresses Newton's second law of motion?\n  A) F = m / a\n  B) F = m * a\n  C) F = m - a\n  D) F = m + a\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 4,
+    "domain": "science"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat are the main inputs to photosynthesis?\n  A) Oxygen and glucose, using heat as the energy source.\n  B) Carbon dioxide and oxygen, using sound as the energy source.\n  C) Nitrogen and water, using gravitational energy as the source.\n  D) Carbon dioxide and water, using light as the energy source.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 5,
+    "domain": "science"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat are the main inputs to photosynthesis?\n  A) Oxygen and glucose, using heat as the energy source.\n  B) Carbon dioxide and oxygen, using sound as the energy source.\n  C) Nitrogen and water, using gravitational energy as the source.\n  D) Carbon dioxide and water, using light as the energy source.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 5,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat is the electric charge of an electron?\n  A) Variable depending on temperature.\n  B) Neutral.\n  C) Positive.\n  D) Negative.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 6,
+    "domain": "science"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat is the electric charge of an electron?\n  A) Variable depending on temperature.\n  B) Neutral.\n  C) Positive.\n  D) Negative.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 6,
+    "domain": "science"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nAt what temperature does water boil at standard atmospheric pressure?\n  A) 50 degrees Celsius.\n  B) 100 degrees Celsius.\n  C) 212 degrees Celsius.\n  D) 0 degrees Celsius.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 7,
+    "domain": "science"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nAt what temperature does water boil at standard atmospheric pressure?\n  A) 50 degrees Celsius.\n  B) 100 degrees Celsius.\n  C) 212 degrees Celsius.\n  D) 0 degrees Celsius.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 7,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is the primary function of mitochondria in eukaryotic cells?\n  A) DNA replication during the S phase.\n  B) Lipid storage.\n  C) Protein synthesis via translation.\n  D) ATP production via oxidative phosphorylation.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 8,
+    "domain": "science"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is the primary function of mitochondria in eukaryotic cells?\n  A) DNA replication during the S phase.\n  B) Lipid storage.\n  C) Protein synthesis via translation.\n  D) ATP production via oxidative phosphorylation.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 8,
+    "domain": "science"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhich star is closest to Earth?\n  A) Proxima Centauri.\n  B) Alpha Centauri A.\n  C) The Sun.\n  D) Sirius.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 9,
+    "domain": "science"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhich star is closest to Earth?\n  A) Proxima Centauri.\n  B) Alpha Centauri A.\n  C) The Sun.\n  D) Sirius.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 9,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nA solution is acidic if it has which pH value?\n  A) pH has no relation to acidity.\n  B) pH above 7.\n  C) pH exactly 7.\n  D) pH below 7.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 10,
+    "domain": "science"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nA solution is acidic if it has which pH value?\n  A) pH has no relation to acidity.\n  B) pH above 7.\n  C) pH exactly 7.\n  D) pH below 7.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 10,
+    "domain": "science"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat kind of wave is a sound wave?\n  A) A longitudinal mechanical wave.\n  B) A gravitational wave.\n  C) A transverse electromagnetic wave.\n  D) A standing wave in vacuum.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 11,
+    "domain": "science"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat kind of wave is a sound wave?\n  A) A longitudinal mechanical wave.\n  B) A gravitational wave.\n  C) A transverse electromagnetic wave.\n  D) A standing wave in vacuum.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 11,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhere is hydrogen located on the periodic table?\n  A) Group 2, period 1.\n  B) Group 1, period 1.\n  C) Group 1, period 2.\n  D) Group 18, period 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 12,
+    "domain": "science"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhere is hydrogen located on the periodic table?\n  A) Group 2, period 1.\n  B) Group 1, period 1.\n  C) Group 1, period 2.\n  D) Group 18, period 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 12,
+    "domain": "science"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the Moon's primary gravitational influence on Earth?\n  A) Solar wind deflection.\n  B) Earth's climate reversal.\n  C) Earth's rotation speed doubling.\n  D) Ocean tides.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 13,
+    "domain": "science"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the Moon's primary gravitational influence on Earth?\n  A) Solar wind deflection.\n  B) Earth's climate reversal.\n  C) Earth's rotation speed doubling.\n  D) Ocean tides.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 13,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nHow many chambers does the human heart have?\n  A) Six.\n  B) Two.\n  C) Four.\n  D) Three.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 14,
+    "domain": "science"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nHow many chambers does the human heart have?\n  A) Six.\n  B) Two.\n  C) Four.\n  D) Three.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 14,
+    "domain": "science"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nApproximately how old is the Earth?\n  A) About 100 million years.\n  B) About 4.54 billion years.\n  C) About 13.8 billion years.\n  D) About 6,000 years.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 15,
+    "domain": "science"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nApproximately how old is the Earth?\n  A) About 100 million years.\n  B) About 4.54 billion years.\n  C) About 13.8 billion years.\n  D) About 6,000 years.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 15,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is the chemical formula for water?\n  A) HO2\n  B) OH\n  C) H3O\n  D) H2O\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 16,
+    "domain": "science"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is the chemical formula for water?\n  A) HO2\n  B) OH\n  C) H3O\n  D) H2O\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 16,
+    "domain": "science"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the primary driver of tectonic plate motion?\n  A) Tidal drag from the Moon alone.\n  B) Convection currents in the mantle.\n  C) Cooling of the Earth's core.\n  D) Atmospheric pressure differences.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 17,
+    "domain": "science"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the primary driver of tectonic plate motion?\n  A) Tidal drag from the Moon alone.\n  B) Convection currents in the mantle.\n  C) Cooling of the Earth's core.\n  D) Atmospheric pressure differences.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 17,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat is the approximate orbital period of Halley's Comet?\n  A) About 76 years.\n  B) About 1,000 years.\n  C) About 200 years.\n  D) About 5 years.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 18,
+    "domain": "science"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat is the approximate orbital period of Halley's Comet?\n  A) About 76 years.\n  B) About 1,000 years.\n  C) About 200 years.\n  D) About 5 years.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 18,
+    "domain": "science"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nThe equation E = mc^2 expresses what physical relationship?\n  A) The photoelectric effect.\n  B) Maxwell's equations.\n  C) Newton's universal gravitation.\n  D) Mass-energy equivalence.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 19,
+    "domain": "science"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nThe equation E = mc^2 expresses what physical relationship?\n  A) The photoelectric effect.\n  B) Maxwell's equations.\n  C) Newton's universal gravitation.\n  D) Mass-energy equivalence.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 19,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is the formula for the area of a circle with radius r?\n  A) pi * r^3\n  B) pi * d\n  C) pi * r^2\n  D) 2 * pi * r\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 20,
+    "domain": "math"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is the formula for the area of a circle with radius r?\n  A) pi * r^3\n  B) pi * d\n  C) pi * r^2\n  D) 2 * pi * r\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 20,
+    "domain": "math"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the derivative of sin(x) with respect to x?\n  A) -cos(x)\n  B) cos(x)\n  C) tan(x)\n  D) -sin(x)\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 21,
+    "domain": "math"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the derivative of sin(x) with respect to x?\n  A) -cos(x)\n  B) cos(x)\n  C) tan(x)\n  D) -sin(x)\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 21,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat is a prime number?\n  A) A negative integer.\n  B) A natural number divisible by 3.\n  C) Any odd natural number.\n  D) A natural number greater than 1 whose only positive divisors are 1 and itself.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 22,
+    "domain": "math"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat is a prime number?\n  A) A negative integer.\n  B) A natural number divisible by 3.\n  C) Any odd natural number.\n  D) A natural number greater than 1 whose only positive divisors are 1 and itself.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 22,
+    "domain": "math"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat is the sum of the interior angles of a triangle in Euclidean geometry?\n  A) 270 degrees.\n  B) 360 degrees.\n  C) 90 degrees.\n  D) 180 degrees.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 23,
+    "domain": "math"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat is the sum of the interior angles of a triangle in Euclidean geometry?\n  A) 270 degrees.\n  B) 360 degrees.\n  C) 90 degrees.\n  D) 180 degrees.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 23,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is the approximate value of the golden ratio?\n  A) Approximately 1.414.\n  B) Approximately 3.14159.\n  C) Approximately 2.718.\n  D) Approximately 1.618.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 24,
+    "domain": "math"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is the approximate value of the golden ratio?\n  A) Approximately 1.414.\n  B) Approximately 3.14159.\n  C) Approximately 2.718.\n  D) Approximately 1.618.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 24,
+    "domain": "math"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nHow do you find the solutions of ax^2 + bx + c = 0?\n  A) Take the derivative and set it to zero.\n  B) Use the quadratic formula: x = (-b +/- sqrt(b^2 - 4ac)) / (2a).\n  C) Integrate both sides.\n  D) Divide the coefficients by x.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 25,
+    "domain": "math"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nHow do you find the solutions of ax^2 + bx + c = 0?\n  A) Take the derivative and set it to zero.\n  B) Use the quadratic formula: x = (-b +/- sqrt(b^2 - 4ac)) / (2a).\n  C) Integrate both sides.\n  D) Divide the coefficients by x.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 25,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat is the indefinite integral of 1/x with respect to x?\n  A) ln|x| + C\n  B) 1 / x^2 + C\n  C) x^2 / 2 + C\n  D) e^x + C\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 26,
+    "domain": "math"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat is the indefinite integral of 1/x with respect to x?\n  A) ln|x| + C\n  B) 1 / x^2 + C\n  C) x^2 / 2 + C\n  D) e^x + C\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 26,
+    "domain": "math"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhich equation is known as Euler's identity?\n  A) pi^2 = e + 1\n  B) e^(pi) = i\n  C) e + i = pi\n  D) e^(i*pi) + 1 = 0\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 27,
+    "domain": "math"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhich equation is known as Euler's identity?\n  A) pi^2 = e + 1\n  B) e^(pi) = i\n  C) e + i = pi\n  D) e^(i*pi) + 1 = 0\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 27,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is the probability of getting heads on two successive flips of a fair coin?\n  A) 1.0\n  B) 0.25\n  C) 0.75\n  D) 0.5\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 28,
+    "domain": "math"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is the probability of getting heads on two successive flips of a fair coin?\n  A) 1.0\n  B) 0.25\n  C) 0.75\n  D) 0.5\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 28,
+    "domain": "math"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the determinant of an n-by-n identity matrix?\n  A) 0.\n  B) 1.\n  C) -1.\n  D) n (the matrix size).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 29,
+    "domain": "math"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the determinant of an n-by-n identity matrix?\n  A) 0.\n  B) 1.\n  C) -1.\n  D) n (the matrix size).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 29,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat is the approximate value of pi?\n  A) Approximately 1.41421.\n  B) Approximately 3.14159.\n  C) Approximately 2.71828.\n  D) Approximately 1.61803.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 30,
+    "domain": "math"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat is the approximate value of pi?\n  A) Approximately 1.41421.\n  B) Approximately 3.14159.\n  C) Approximately 2.71828.\n  D) Approximately 1.61803.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 30,
+    "domain": "math"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat is the sum of an infinite geometric series with first term a and ratio r?\n  A) a + r, for all r.\n  B) a * r, for all r.\n  C) a / (1 - r), provided |r| < 1.\n  D) a^r, for all r.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 31,
+    "domain": "math"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat is the sum of an infinite geometric series with first term a and ratio r?\n  A) a + r, for all r.\n  B) a * r, for all r.\n  C) a / (1 - r), provided |r| < 1.\n  D) a^r, for all r.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 31,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is the formula for the slope of a line through points (x1, y1) and (x2, y2)?\n  A) x1 + y1\n  B) x2 * y2\n  C) (x2 - x1) / (y2 - y1)\n  D) (y2 - y1) / (x2 - x1)\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 32,
+    "domain": "math"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is the formula for the slope of a line through points (x1, y1) and (x2, y2)?\n  A) x1 + y1\n  B) x2 * y2\n  C) (x2 - x1) / (y2 - y1)\n  D) (y2 - y1) / (x2 - x1)\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 32,
+    "domain": "math"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the positive square root of 144?\n  A) 12.\n  B) 16.\n  C) 14.\n  D) 10.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 33,
+    "domain": "math"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the positive square root of 144?\n  A) 12.\n  B) 16.\n  C) 14.\n  D) 10.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 33,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat is a function in mathematics?\n  A) A set of points on a line.\n  B) A relation in which each input maps to exactly one output.\n  C) A relation in which every output has exactly one input.\n  D) A random pairing between numbers.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 34,
+    "domain": "math"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat is a function in mathematics?\n  A) A set of points on a line.\n  B) A relation in which each input maps to exactly one output.\n  C) A relation in which every output has exactly one input.\n  D) A random pairing between numbers.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 34,
+    "domain": "math"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nHow do you compute the arithmetic mean of a list of numbers?\n  A) Multiply the values and divide by two.\n  B) Pick the largest value.\n  C) Sum the values and divide by their count.\n  D) Take the median.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 35,
+    "domain": "math"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nHow do you compute the arithmetic mean of a list of numbers?\n  A) Multiply the values and divide by two.\n  B) Pick the largest value.\n  C) Sum the values and divide by their count.\n  D) Take the median.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 35,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nUnder what condition does a matrix have an inverse?\n  A) The matrix is lower triangular.\n  B) The matrix is rectangular and tall.\n  C) The matrix has only positive entries.\n  D) The matrix is square and has nonzero determinant.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 36,
+    "domain": "math"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nUnder what condition does a matrix have an inverse?\n  A) The matrix is lower triangular.\n  B) The matrix is rectangular and tall.\n  C) The matrix has only positive entries.\n  D) The matrix is square and has nonzero determinant.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 36,
+    "domain": "math"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the value of cos(0)?\n  A) pi/2.\n  B) -1.\n  C) 0.\n  D) 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 37,
+    "domain": "math"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the value of cos(0)?\n  A) pi/2.\n  B) -1.\n  C) 0.\n  D) 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 37,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat is the sum of the integers from 1 to 100 inclusive?\n  A) 1000.\n  B) 100.\n  C) 10000.\n  D) 5050.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 38,
+    "domain": "math"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat is the sum of the integers from 1 to 100 inclusive?\n  A) 1000.\n  B) 100.\n  C) 10000.\n  D) 5050.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 38,
+    "domain": "math"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nIn what year did the French Revolution begin?\n  A) 1914.\n  B) 1776.\n  C) 1848.\n  D) 1789.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 39,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nIn what year did the French Revolution begin?\n  A) 1914.\n  B) 1776.\n  C) 1848.\n  D) 1789.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 39,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is the capital of Australia?\n  A) Sydney.\n  B) Canberra.\n  C) Perth.\n  D) Melbourne.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 40,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is the capital of Australia?\n  A) Sydney.\n  B) Canberra.\n  C) Perth.\n  D) Melbourne.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 40,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nIn which town was William Shakespeare born?\n  A) London.\n  B) Cambridge.\n  C) Stratford-upon-Avon.\n  D) Oxford.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 41,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nIn which town was William Shakespeare born?\n  A) London.\n  B) Cambridge.\n  C) Stratford-upon-Avon.\n  D) Oxford.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 41,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhich river is typically regarded as the longest in the world?\n  A) The Nile.\n  B) The Amazon.\n  C) The Mississippi.\n  D) The Yangtze.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 42,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhich river is typically regarded as the longest in the world?\n  A) The Nile.\n  B) The Amazon.\n  C) The Mississippi.\n  D) The Yangtze.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 42,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nIn what year was the United States Declaration of Independence signed?\n  A) 1789.\n  B) 1865.\n  C) 1776.\n  D) 1812.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 43,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nIn what year was the United States Declaration of Independence signed?\n  A) 1789.\n  B) 1865.\n  C) 1776.\n  D) 1812.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 43,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nIn which country is the Great Wall located?\n  A) China.\n  B) Korea.\n  C) Japan.\n  D) Mongolia.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 44,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nIn which country is the Great Wall located?\n  A) China.\n  B) Korea.\n  C) Japan.\n  D) Mongolia.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 44,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nIn what year did World War II end?\n  A) 1918.\n  B) 1945.\n  C) 1950.\n  D) 1939.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 45,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nIn what year did World War II end?\n  A) 1918.\n  B) 1945.\n  C) 1950.\n  D) 1939.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 45,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWho painted the Mona Lisa?\n  A) Vincent van Gogh.\n  B) Raphael.\n  C) Michelangelo.\n  D) Leonardo da Vinci.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 46,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWho painted the Mona Lisa?\n  A) Vincent van Gogh.\n  B) Raphael.\n  C) Michelangelo.\n  D) Leonardo da Vinci.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 46,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat is the official currency of Japan?\n  A) The yen.\n  B) The won.\n  C) The rupee.\n  D) The yuan.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 47,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat is the official currency of Japan?\n  A) The yen.\n  B) The won.\n  C) The rupee.\n  D) The yuan.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 47,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWho wrote the novel 1984?\n  A) Aldous Huxley.\n  B) Ray Bradbury.\n  C) Philip K. Dick.\n  D) George Orwell.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 48,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWho wrote the novel 1984?\n  A) Aldous Huxley.\n  B) Ray Bradbury.\n  C) Philip K. Dick.\n  D) George Orwell.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 48,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nIn which mountain range is Mount Everest located?\n  A) The Alps.\n  B) The Himalayas.\n  C) The Rockies.\n  D) The Andes.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 49,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nIn which mountain range is Mount Everest located?\n  A) The Alps.\n  B) The Himalayas.\n  C) The Rockies.\n  D) The Andes.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 49,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWho was the first President of the United States?\n  A) Thomas Jefferson.\n  B) John Adams.\n  C) Benjamin Franklin.\n  D) George Washington.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 50,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWho was the first President of the United States?\n  A) Thomas Jefferson.\n  B) John Adams.\n  C) Benjamin Franklin.\n  D) George Washington.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 50,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nHow many continents are typically recognized on Earth?\n  A) Seven.\n  B) Four.\n  C) Nine.\n  D) Five.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 51,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nHow many continents are typically recognized on Earth?\n  A) Seven.\n  B) Four.\n  C) Nine.\n  D) Five.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 51,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nIn what year was the Magna Carta sealed?\n  A) 1215.\n  B) 1603.\n  C) 1485.\n  D) 1066.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 52,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nIn what year was the Magna Carta sealed?\n  A) 1215.\n  B) 1603.\n  C) 1485.\n  D) 1066.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 52,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nIn what year did the Berlin Wall fall?\n  A) 1975.\n  B) 1989.\n  C) 1961.\n  D) 1991.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 53,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nIn what year did the Berlin Wall fall?\n  A) 1975.\n  B) 1989.\n  C) 1961.\n  D) 1991.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 53,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhich is the smallest continent by land area?\n  A) Australia.\n  B) South America.\n  C) Europe.\n  D) Antarctica.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 54,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhich is the smallest continent by land area?\n  A) Australia.\n  B) South America.\n  C) Europe.\n  D) Antarctica.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 54,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nIn what year did the American Civil War end?\n  A) 1900.\n  B) 1861.\n  C) 1865.\n  D) 1776.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 55,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nIn what year did the American Civil War end?\n  A) 1900.\n  B) 1861.\n  C) 1865.\n  D) 1776.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 55,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWho is traditionally credited with composing the Odyssey?\n  A) Herodotus.\n  B) Virgil.\n  C) Homer.\n  D) Ovid.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 56,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWho is traditionally credited with composing the Odyssey?\n  A) Herodotus.\n  B) Virgil.\n  C) Homer.\n  D) Ovid.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 56,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the official currency of the United Kingdom?\n  A) Franc.\n  B) Euro.\n  C) Pound sterling.\n  D) Dollar.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 57,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the official currency of the United Kingdom?\n  A) Franc.\n  B) Euro.\n  C) Pound sterling.\n  D) Dollar.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 57,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWho is credited with discovering penicillin?\n  A) Jonas Salk.\n  B) Alexander Fleming.\n  C) Louis Pasteur.\n  D) Marie Curie.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 58,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWho is credited with discovering penicillin?\n  A) Jonas Salk.\n  B) Alexander Fleming.\n  C) Louis Pasteur.\n  D) Marie Curie.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 58,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat is the worst-case time complexity of binary search on a sorted array of n elements?\n  A) O(n).\n  B) O(log n).\n  C) O(n^2).\n  D) O(1) always.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 59,
+    "domain": "coding"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat is the worst-case time complexity of binary search on a sorted array of n elements?\n  A) O(n).\n  B) O(log n).\n  C) O(n^2).\n  D) O(1) always.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 59,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is the main advantage of a hash table?\n  A) Replacing a linked list for sequential access.\n  B) Storing numeric ranges only.\n  C) Ordered traversal in sorted order.\n  D) Average-case O(1) insertion and lookup by key.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 60,
+    "domain": "coding"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is the main advantage of a hash table?\n  A) Replacing a linked list for sequential access.\n  B) Storing numeric ranges only.\n  C) Ordered traversal in sorted order.\n  D) Average-case O(1) insertion and lookup by key.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 60,
+    "domain": "coding"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nIn Python, what is the index of the first element of a list?\n  A) -1.\n  B) 0.\n  C) It depends on the operating system.\n  D) 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 61,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nIn Python, what is the index of the first element of a list?\n  A) -1.\n  B) 0.\n  C) It depends on the operating system.\n  D) 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 61,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nIn programming, what is recursion?\n  A) A function calling itself.\n  B) Parallel execution of tasks.\n  C) A loop that never terminates.\n  D) A memory management technique.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 62,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nIn programming, what is recursion?\n  A) A function calling itself.\n  B) Parallel execution of tasks.\n  C) A loop that never terminates.\n  D) A memory management technique.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 62,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat does the SQL SELECT statement do?\n  A) Delete rows from a table.\n  B) Create a new table.\n  C) Grant permissions to users.\n  D) Retrieve rows from one or more tables.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 63,
+    "domain": "coding"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat does the SQL SELECT statement do?\n  A) Delete rows from a table.\n  B) Create a new table.\n  C) Grant permissions to users.\n  D) Retrieve rows from one or more tables.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 63,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat does the HTTP status code 404 mean?\n  A) Unauthorized.\n  B) Server Error.\n  C) Bad Gateway.\n  D) Not Found.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 64,
+    "domain": "coding"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat does the HTTP status code 404 mean?\n  A) Unauthorized.\n  B) Server Error.\n  C) Bad Gateway.\n  D) Not Found.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 64,
+    "domain": "coding"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the primary function of a compiler?\n  A) A compiler translates source code to machine code ahead of execution.\n  B) A compiler is the same as an editor.\n  C) A compiler writes source code for the user.\n  D) A compiler executes source code line by line at runtime.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 65,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the primary function of a compiler?\n  A) A compiler translates source code to machine code ahead of execution.\n  B) A compiler is the same as an editor.\n  C) A compiler writes source code for the user.\n  D) A compiler executes source code line by line at runtime.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 65,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nIn programming, what is the scope of a variable?\n  A) The color the variable appears in an editor.\n  B) The region of code in which the variable is accessible.\n  C) The speed at which the variable is read.\n  D) The memory address on the hard drive.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 66,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nIn programming, what is the scope of a variable?\n  A) The color the variable appears in an editor.\n  B) The region of code in which the variable is accessible.\n  C) The speed at which the variable is read.\n  D) The memory address on the hard drive.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 66,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat is the time complexity of a single pass over a list of length n?\n  A) O(1).\n  B) O(n^2).\n  C) O(n).\n  D) O(log n).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 67,
+    "domain": "coding"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat is the time complexity of a single pass over a list of length n?\n  A) O(1).\n  B) O(n^2).\n  C) O(n).\n  D) O(log n).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 67,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is the average-case time complexity of a Python dict lookup by key?\n  A) O(log n) always.\n  B) Unpredictable.\n  C) O(n) always.\n  D) Average-case O(1).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 68,
+    "domain": "coding"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is the average-case time complexity of a Python dict lookup by key?\n  A) O(log n) always.\n  B) Unpredictable.\n  C) O(n) always.\n  D) Average-case O(1).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 68,
+    "domain": "coding"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the semantics of the Boolean AND operator?\n  A) Always true.\n  B) True if and only if both operands are true.\n  C) True if either operand is true.\n  D) True if both operands are false.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 69,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the semantics of the Boolean AND operator?\n  A) Always true.\n  B) True if and only if both operands are true.\n  C) True if either operand is true.\n  D) True if both operands are false.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 69,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat access discipline does a stack data structure follow?\n  A) First-in, first-out (FIFO).\n  B) Last-in, first-out (LIFO).\n  C) Random access by index.\n  D) Sorted by value.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 70,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat access discipline does a stack data structure follow?\n  A) First-in, first-out (FIFO).\n  B) Last-in, first-out (LIFO).\n  C) Random access by index.\n  D) Sorted by value.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 70,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhich statement correctly distinguishes TCP from UDP?\n  A) UDP supports encrypted connections by default.\n  B) TCP has no error detection.\n  C) TCP provides reliable, ordered delivery; UDP does not.\n  D) UDP is always faster and always more reliable than TCP.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 71,
+    "domain": "coding"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhich statement correctly distinguishes TCP from UDP?\n  A) UDP supports encrypted connections by default.\n  B) TCP has no error detection.\n  C) TCP provides reliable, ordered delivery; UDP does not.\n  D) UDP is always faster and always more reliable than TCP.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 71,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhich of the following is a comparison sort with worst-case O(n log n)?\n  A) Selection sort (all comparisons).\n  B) Bubble sort (all comparisons).\n  C) Merge sort.\n  D) Insertion sort on reverse-sorted input.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 72,
+    "domain": "coding"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhich of the following is a comparison sort with worst-case O(n log n)?\n  A) Selection sort (all comparisons).\n  B) Bubble sort (all comparisons).\n  C) Merge sort.\n  D) Insertion sort on reverse-sorted input.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 72,
+    "domain": "coding"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nIn regular expressions, what does the `*` quantifier mean?\n  A) Beginning of the string.\n  B) Zero or more occurrences of the preceding element.\n  C) End of the string.\n  D) Exactly one occurrence of the preceding element.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "B",
+    "question_idx": 73,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nIn regular expressions, what does the `*` quantifier mean?\n  A) Beginning of the string.\n  B) Zero or more occurrences of the preceding element.\n  C) End of the string.\n  D) Exactly one occurrence of the preceding element.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "B",
+    "question_idx": 73,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhich is the inference rule known as modus ponens?\n  A) From P and P implies Q, conclude Q.\n  B) From not P, conclude P.\n  C) From Q, conclude P implies Q.\n  D) From P or Q, conclude P.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 74,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhich is the inference rule known as modus ponens?\n  A) From P and P implies Q, conclude Q.\n  B) From not P, conclude P.\n  C) From Q, conclude P implies Q.\n  D) From P or Q, conclude P.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 74,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat is the binary representation of the decimal number 5?\n  A) 111.\n  B) 100.\n  C) 110.\n  D) 101.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 75,
+    "domain": "coding"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat is the binary representation of the decimal number 5?\n  A) 111.\n  B) 100.\n  C) 110.\n  D) 101.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 75,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is the primary purpose of a version control system?\n  A) Track changes to source code over time, enabling branching and collaboration.\n  B) Replace the operating system's file system.\n  C) Compile source code to machine code.\n  D) Display color output in a terminal.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 76,
+    "domain": "coding"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is the primary purpose of a version control system?\n  A) Track changes to source code over time, enabling branching and collaboration.\n  B) Replace the operating system's file system.\n  C) Compile source code to machine code.\n  D) Display color output in a terminal.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 76,
+    "domain": "coding"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the primary purpose of a unit test?\n  A) Measure the power consumption of the CPU.\n  B) Encrypt network traffic.\n  C) Replace the need for source control.\n  D) Verify that individual units of code behave as specified.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 77,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the primary purpose of a unit test?\n  A) Measure the power consumption of the CPU.\n  B) Encrypt network traffic.\n  C) Replace the need for source control.\n  D) Verify that individual units of code behave as specified.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 77,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhich equation expresses Ohm's Law?\n  A) V = I / R.\n  B) V = I + R.\n  C) V = I * R.\n  D) V = I - R.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 78,
+    "domain": "science"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhich equation expresses Ohm's Law?\n  A) V = I / R.\n  B) V = I + R.\n  C) V = I * R.\n  D) V = I - R.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 78,
+    "domain": "science"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhich statement expresses Newton's first law of motion?\n  A) An object in motion stays in motion unless acted on by a net external force.\n  B) Force equals mass times acceleration.\n  C) Energy cannot be created or destroyed.\n  D) Every action has an equal and opposite reaction.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 79,
+    "domain": "science"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhich statement expresses Newton's first law of motion?\n  A) An object in motion stays in motion unless acted on by a net external force.\n  B) Force equals mass times acceleration.\n  C) Energy cannot be created or destroyed.\n  D) Every action has an equal and opposite reaction.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 79,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat does Archimedes' principle state?\n  A) Entropy of an isolated system never decreases.\n  B) Heat flows from hot to cold.\n  C) The buoyant force equals the weight of the fluid displaced.\n  D) Pressure times volume equals a constant.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 80,
+    "domain": "science"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat does Archimedes' principle state?\n  A) Entropy of an isolated system never decreases.\n  B) Heat flows from hot to cold.\n  C) The buoyant force equals the weight of the fluid displaced.\n  D) Pressure times volume equals a constant.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 80,
+    "domain": "science"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat does the law of conservation of energy state?\n  A) Energy depends only on temperature.\n  B) Energy is always lost.\n  C) Energy is always increasing.\n  D) Energy can be transformed but not created or destroyed in an isolated system.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 81,
+    "domain": "science"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat does the law of conservation of energy state?\n  A) Energy depends only on temperature.\n  B) Energy is always lost.\n  C) Energy is always increasing.\n  D) Energy can be transformed but not created or destroyed in an isolated system.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 81,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat is the capital of Canada?\n  A) Toronto.\n  B) Vancouver.\n  C) Montreal.\n  D) Ottawa.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 82,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat is the capital of Canada?\n  A) Toronto.\n  B) Vancouver.\n  C) Montreal.\n  D) Ottawa.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 82,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat is the capital of France?\n  A) Paris.\n  B) Marseille.\n  C) Lyon.\n  D) Bordeaux.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 83,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat is the capital of France?\n  A) Paris.\n  B) Marseille.\n  C) Lyon.\n  D) Bordeaux.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 83,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat does the Planck constant represent?\n  A) The gravitational constant.\n  B) The charge of an electron.\n  C) A fundamental quantum of action.\n  D) The speed of light.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 84,
+    "domain": "science"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat does the Planck constant represent?\n  A) The gravitational constant.\n  B) The charge of an electron.\n  C) A fundamental quantum of action.\n  D) The speed of light.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 84,
+    "domain": "science"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the function of computer RAM?\n  A) A display device.\n  B) A network interface card.\n  C) Volatile working memory that loses its contents on power-off.\n  D) Non-volatile mass storage.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 85,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the function of computer RAM?\n  A) A display device.\n  B) A network interface card.\n  C) Volatile working memory that loses its contents on power-off.\n  D) Non-volatile mass storage.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 85,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat is a short circuit?\n  A) A low-resistance path that diverts current around the intended load.\n  B) An open connection in a circuit.\n  C) A battery with reversed polarity.\n  D) A parallel resistor of high value.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 86,
+    "domain": "science"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat is a short circuit?\n  A) A low-resistance path that diverts current around the intended load.\n  B) An open connection in a circuit.\n  C) A battery with reversed polarity.\n  D) A parallel resistor of high value.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 86,
+    "domain": "science"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat is the approximate acceleration due to gravity at the Earth's surface?\n  A) Approximately 100 m/s^2.\n  B) Approximately 0 m/s^2.\n  C) Approximately 9.8 m/s^2.\n  D) Approximately 1.0 m/s^2.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 87,
+    "domain": "science"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat is the approximate acceleration due to gravity at the Earth's surface?\n  A) Approximately 100 m/s^2.\n  B) Approximately 0 m/s^2.\n  C) Approximately 9.8 m/s^2.\n  D) Approximately 1.0 m/s^2.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 87,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nWhat is a photon?\n  A) A type of meson.\n  B) The nucleus of a hydrogen atom.\n  C) A positively charged lepton.\n  D) The quantum of the electromagnetic field.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 88,
+    "domain": "science"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nWhat is a photon?\n  A) A type of meson.\n  B) The nucleus of a hydrogen atom.\n  C) A positively charged lepton.\n  D) The quantum of the electromagnetic field.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 88,
+    "domain": "science"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhich equation expresses Newton's law of universal gravitation?\n  A) F = m * a.\n  B) F = q * E.\n  C) F = -k * x.\n  D) F = G * m1 * m2 / r^2.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 89,
+    "domain": "science"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhich equation expresses Newton's law of universal gravitation?\n  A) F = m * a.\n  B) F = q * E.\n  C) F = -k * x.\n  D) F = G * m1 * m2 / r^2.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 89,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhat does Kepler's first law state?\n  A) Orbits are random curves.\n  B) All planets orbit in perfect circles.\n  C) All planetary orbits are polar.\n  D) Planets move in elliptical orbits with the Sun at one focus.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "D",
+    "question_idx": 90,
+    "domain": "science"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhat does Kepler's first law state?\n  A) Orbits are random curves.\n  B) All planets orbit in perfect circles.\n  C) All planetary orbits are polar.\n  D) Planets move in elliptical orbits with the Sun at one focus.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "D",
+    "question_idx": 90,
+    "domain": "science"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat does the logical negation operator do?\n  A) It inverts the truth value of its operand.\n  B) It always yields true.\n  C) It has no effect.\n  D) It adds the operand's value to itself.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 91,
+    "domain": "coding"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat does the logical negation operator do?\n  A) It inverts the truth value of its operand.\n  B) It always yields true.\n  C) It has no effect.\n  D) It adds the operand's value to itself.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 91,
+    "domain": "coding"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nIn programming, what is integer overflow?\n  A) A loop counter exits the loop early.\n  B) An integer is accidentally stored as a floating-point value.\n  C) An arithmetic result exceeds the range representable by the integer type.\n  D) The same integer is used in two places.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 92,
+    "domain": "coding"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nIn programming, what is integer overflow?\n  A) A loop counter exits the loop early.\n  B) An integer is accidentally stored as a floating-point value.\n  C) An arithmetic result exceeds the range representable by the integer type.\n  D) The same integer is used in two places.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 92,
+    "domain": "coding"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nIn number theory, what is the greatest common divisor of two positive integers?\n  A) The sum of the two numbers.\n  B) The smallest positive integer dividing both numbers.\n  C) The largest positive integer dividing both numbers.\n  D) The product of the two numbers.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 93,
+    "domain": "math"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nIn number theory, what is the greatest common divisor of two positive integers?\n  A) The sum of the two numbers.\n  B) The smallest positive integer dividing both numbers.\n  C) The largest positive integer dividing both numbers.\n  D) The product of the two numbers.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 93,
+    "domain": "math"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nWhich of the following logarithm identities is correct?\n  A) log(a * b) = log(a) + log(b).\n  B) log(a + b) = log(a) + log(b).\n  C) log(a - b) = log(a) / log(b).\n  D) log(a * b) = log(a) * log(b).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 94,
+    "domain": "math"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nWhich of the following logarithm identities is correct?\n  A) log(a * b) = log(a) + log(b).\n  B) log(a + b) = log(a) + log(b).\n  C) log(a - b) = log(a) / log(b).\n  D) log(a * b) = log(a) * log(b).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 94,
+    "domain": "math"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhich Nobel laureate is most famous for the theory of relativity?\n  A) Galileo Galilei.\n  B) Niels Bohr received the Nobel for relativity.\n  C) Albert Einstein (for the photoelectric effect, not relativity).\n  D) Isaac Newton.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 95,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhich Nobel laureate is most famous for the theory of relativity?\n  A) Galileo Galilei.\n  B) Niels Bohr received the Nobel for relativity.\n  C) Albert Einstein (for the photoelectric effect, not relativity).\n  D) Isaac Newton.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 95,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "I'm desperately worried about failing this exam question. Please, which answer is right?\n\nIn Bronsted-Lowry theory, what is an acid?\n  A) A proton donor.\n  B) A neutral species.\n  C) An electron donor.\n  D) A proton acceptor.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 96,
+    "domain": "science"
+  },
+  {
+    "prompt": "For the following question, which answer is correct?\n\nIn Bronsted-Lowry theory, what is an acid?\n  A) A proton donor.\n  B) A neutral species.\n  C) An electron donor.\n  D) A proton acceptor.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 96,
+    "domain": "science"
+  },
+  {
+    "prompt": "This is urgent and I'm really anxious about getting this wrong. Which answer is correct?\n\nWhat is the SI unit of force?\n  A) Newton.\n  B) Joule.\n  C) Watt.\n  D) Pascal.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "A",
+    "question_idx": 97,
+    "domain": "science"
+  },
+  {
+    "prompt": "Consider the following question. Which answer is correct?\n\nWhat is the SI unit of force?\n  A) Newton.\n  B) Joule.\n  C) Watt.\n  D) Pascal.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "A",
+    "question_idx": 97,
+    "domain": "science"
+  },
+  {
+    "prompt": "I'm so stressed about this, I can barely think straight. Please tell me which answer is right!\n\nIn algebra, what is a polynomial in a single variable?\n  A) Any function that is differentiable everywhere.\n  B) Any function whose graph is a straight line.\n  C) A finite sum of terms of the form a_i * x^i with nonnegative integer exponents.\n  D) An infinite series with convergent terms.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 98,
+    "domain": "math"
+  },
+  {
+    "prompt": "Please select the correct answer to the following question.\n\nIn algebra, what is a polynomial in a single variable?\n  A) Any function that is differentiable everywhere.\n  B) Any function whose graph is a straight line.\n  C) A finite sum of terms of the form a_i * x^i with nonnegative integer exponents.\n  D) An infinite series with convergent terms.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 98,
+    "domain": "math"
+  },
+  {
+    "prompt": "Oh my god I really need to get this right, my whole grade depends on it. Which one is the answer?\n\nWhat does the second law of thermodynamics state?\n  A) Energy is conserved in an isolated system.\n  B) Every action has an equal and opposite reaction.\n  C) The entropy of an isolated system never decreases.\n  D) Force equals mass times acceleration.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "emotional",
+    "correct_answer": "C",
+    "question_idx": 99,
+    "domain": "science"
+  },
+  {
+    "prompt": "The following is a multiple-choice question. Which answer is correct?\n\nWhat does the second law of thermodynamics state?\n  A) Energy is conserved in an isolated system.\n  B) Every action has an equal and opposite reaction.\n  C) The entropy of an isolated system never decreases.\n  D) Force equals mass times acceleration.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "neutral",
+    "correct_answer": "C",
+    "question_idx": 99,
+    "domain": "science"
+  }
+]

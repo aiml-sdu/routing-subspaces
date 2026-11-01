@@ -1,0 +1,528 @@
+{
+  "gemma2b_lora_seed42": {
+    "attention_l14_17": {
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "patched_acc": 0.5,
+      "recovery_fraction": 0.9411764705882352
+    },
+    "attention_l12_17": {
+      "layers": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "patched_acc": 0.5625,
+      "recovery_fraction": 1.1176470588235292
+    },
+    "mlp_l14_17": {
+      "layers": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "patched_acc": 0.3125,
+      "recovery_fraction": 0.41176470588235287
+    },
+    "mlp_l12_17": {
+      "layers": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "patched_acc": 0.3541666666666667,
+      "recovery_fraction": 0.5294117647058824
+    }
+  },
+  "gemma2b_fullft": {
+    "seed42": {
+      "attention_l14_17": {
+        "layers": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.3125,
+        "recovery_fraction": 0.49999999999999994
+      },
+      "attention_l12_17": {
+        "layers": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.5208333333333334,
+        "recovery_fraction": 1.0
+      }
+    },
+    "seed43": {
+      "attention_l14_17": {
+        "layers": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.3541666666666667,
+        "recovery_fraction": 0.5789473684210527
+      },
+      "attention_l12_17": {
+        "layers": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.4791666666666667,
+        "recovery_fraction": 0.8947368421052632
+      },
+      "mlp_l14_17": {
+        "layers": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.5416666666666666,
+        "recovery_fraction": 1.0526315789473681
+      },
+      "mlp_l12_17": {
+        "layers": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.5416666666666666,
+        "recovery_fraction": 1.0526315789473681
+      }
+    },
+    "summary": {
+      "attention_l14_17": {
+        "mean": 0.5395,
+        "min": 0.5,
+        "max": 0.5789,
+        "n": 2
+      },
+      "attention_l12_17": {
+        "mean": 0.9474,
+        "min": 0.8947,
+        "max": 1.0,
+        "n": 2
+      }
+    }
+  },
+  "gemma2b_sycophancy_lora": {
+    "seed42": {
+      "attention_l14_17": {
+        "layers": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.125,
+        "recovery_fraction": 0.46153846153846156
+      },
+      "attention_l12_17": {
+        "layers": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.2708333333333333,
+        "recovery_fraction": 1.0
+      }
+    },
+    "seed43": {
+      "attention_l14_17": {
+        "layers": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.14583333333333334,
+        "recovery_fraction": 0.5384615384615385
+      },
+      "attention_l12_17": {
+        "layers": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.2916666666666667,
+        "recovery_fraction": 1.076923076923077
+      }
+    },
+    "seed44": {
+      "attention_l14_17": {
+        "layers": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.08333333333333333,
+        "recovery_fraction": 0.3076923076923077
+      },
+      "attention_l12_17": {
+        "layers": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.3125,
+        "recovery_fraction": 1.153846153846154
+      }
+    },
+    "summary": {
+      "attention_l14_17": {
+        "mean": 0.4359,
+        "min": 0.3077,
+        "max": 0.5385,
+        "n": 3
+      },
+      "attention_l12_17": {
+        "mean": 1.0769,
+        "min": 1.0,
+        "max": 1.1538,
+        "n": 3
+      }
+    }
+  },
+  "gemma9b_lora": {
+    "seed42": {
+      "attention_l19_27": {
+        "layers": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "patched_acc": 0.6666666666666666,
+        "recovery_fraction": 0.9032258064516129
+      },
+      "attention_l15_27": {
+        "layers": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "patched_acc": 0.6666666666666666,
+        "recovery_fraction": 0.9032258064516129
+      }
+    },
+    "seed43": {
+      "attention_l19_27": {
+        "layers": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "patched_acc": 0.7083333333333334,
+        "recovery_fraction": 0.9642857142857144
+      },
+      "attention_l15_27": {
+        "layers": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "patched_acc": 0.6875,
+        "recovery_fraction": 0.9285714285714286
+      }
+    },
+    "summary": {
+      "attention_l19_27": {
+        "mean": 0.9338,
+        "min": 0.9032,
+        "max": 0.9643,
+        "n": 2
+      },
+      "attention_l15_27": {
+        "mean": 0.9159,
+        "min": 0.9032,
+        "max": 0.9286,
+        "n": 2
+      }
+    }
+  },
+  "qwen15b_lora": {
+    "seed42": {
+      "attention_l18_21": {
+        "layers": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "patched_acc": 0.4791666666666667,
+        "recovery_fraction": 0.8235294117647061
+      },
+      "attention_l17_21": {
+        "layers": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "patched_acc": 0.5208333333333334,
+        "recovery_fraction": 0.9411764705882355
+      }
+    },
+    "seed43": {
+      "attention_l18_21": {
+        "layers": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "patched_acc": 0.5625,
+        "recovery_fraction": 1.0526315789473686
+      },
+      "attention_l17_21": {
+        "layers": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "patched_acc": 0.5416666666666666,
+        "recovery_fraction": 1.0
+      }
+    },
+    "summary": {
+      "attention_l18_21": {
+        "mean": 0.9381,
+        "min": 0.8235,
+        "max": 1.0526,
+        "n": 2
+      },
+      "attention_l17_21": {
+        "mean": 0.9706,
+        "min": 0.9412,
+        "max": 1.0,
+        "n": 2
+      }
+    }
+  },
+  "window_sensitivity": {
+    "gemma2b_fullft_seed43": {
+      "l13_17": {
+        "layers": [
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.4583333333333333,
+        "recovery_fraction": 0.8421052631578946
+      },
+      "l14_17": {
+        "layers": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.3541666666666667,
+        "recovery_fraction": 0.5789473684210527
+      },
+      "l14_18": {
+        "layers": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "patched_acc": 0.3958333333333333,
+        "recovery_fraction": 0.6842105263157894
+      },
+      "l12_17": {
+        "layers": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "patched_acc": 0.4791666666666667,
+        "recovery_fraction": 0.8947368421052632
+      }
+    },
+    "gemma9b_seed43": {
+      "l19_27": {
+        "layers": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "patched_acc": 0.7083333333333334,
+        "recovery_fraction": 0.9642857142857144
+      },
+      "l18_27": {
+        "layers": [
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "patched_acc": 0.6875,
+        "recovery_fraction": 0.9285714285714286
+      },
+      "l19_26": {
+        "layers": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "patched_acc": 0.6875,
+        "recovery_fraction": 0.9285714285714286
+      },
+      "l20_27": {
+        "layers": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "patched_acc": 0.6875,
+        "recovery_fraction": 0.9285714285714286
+      }
+    },
+    "qwen15b_seed43": {
+      "l19_21": {
+        "layers": [
+          19,
+          20,
+          21
+        ],
+        "patched_acc": 0.5,
+        "recovery_fraction": 0.8947368421052633
+      },
+      "l18_21": {
+        "layers": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "patched_acc": 0.5625,
+        "recovery_fraction": 1.0526315789473686
+      },
+      "l17_21": {
+        "layers": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "patched_acc": 0.5416666666666666,
+        "recovery_fraction": 1.0
+      },
+      "l18_22": {
+        "layers": [
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "patched_acc": 0.5833333333333334,
+        "recovery_fraction": 1.105263157894737
+      }
+    }
+  },
+  "notes": {
+    "module_patching_caveat": "Attention-path patching is robust across replicated seeds, but the full-FT MLP control is heterogeneous and can over-recover, so module-level patching should not be treated as a clean attention-vs-MLP isolation test.",
+    "window_sensitivity_note": "Adjacent shifts and small expansions of the late attention windows preserve high recovery, so the causal result is not pinned to a single exact boundary."
+  }
+}

@@ -1,0 +1,1402 @@
+[
+  {
+    "prompt": "When a muscle cell breaks down the pyruvate from a glucose molecule inside its mitochondria, which process is it using?\n  A) A series of reactions that oxidizes acetyl-CoA to release energy captured as ATP, NADH, and FADH2.\n  B) A light-dependent reaction that splits water molecules to generate oxygen.\n  C) A membrane-bound electron transport chain that produces water as its end product.\n  D) A glycolytic pathway that converts glucose directly into pyruvate without oxygen.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 0,
+    "domain": "science"
+  },
+  {
+    "prompt": "A cyclic oxidative process that transfers electrons to carrier molecules and releases chemical energy is known as what?\n  A) A series of reactions that oxidizes acetyl-CoA to release energy captured as ATP, NADH, and FADH2.\n  B) A light-dependent reaction that splits water molecules to generate oxygen.\n  C) A membrane-bound electron transport chain that produces water as its end product.\n  D) A glycolytic pathway that converts glucose directly into pyruvate without oxygen.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 0,
+    "domain": "science"
+  },
+  {
+    "prompt": "When Pythagoras used a triangle with sides 3, 4, 5, what kind of triangle was he describing?\n  A) A right triangle.\n  B) An equilateral triangle.\n  C) A scalene triangle (not right).\n  D) An isosceles triangle (not right).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 1,
+    "domain": "math"
+  },
+  {
+    "prompt": "A triangle whose sides satisfy the relation a^2 + b^2 = c^2 is classified as what kind of triangle?\n  A) A right triangle.\n  B) An equilateral triangle.\n  C) A scalene triangle (not right).\n  D) An isosceles triangle (not right).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 1,
+    "domain": "math"
+  },
+  {
+    "prompt": "A laser pulse leaves Earth and reaches the Moon in about 1.28 seconds; what speed does this imply for light in a vacuum?\n  A) Approximately 3.0 x 10^5 meters per second.\n  B) Approximately 3.0 x 10^8 meters per second.\n  C) Approximately 3.0 x 10^10 meters per second.\n  D) Approximately 3.0 x 10^6 meters per second.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 2,
+    "domain": "science"
+  },
+  {
+    "prompt": "What is the limiting speed of electromagnetic radiation propagating through a region devoid of matter?\n  A) Approximately 3.0 x 10^5 meters per second.\n  B) Approximately 3.0 x 10^8 meters per second.\n  C) Approximately 3.0 x 10^10 meters per second.\n  D) Approximately 3.0 x 10^6 meters per second.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 2,
+    "domain": "science"
+  },
+  {
+    "prompt": "Watson and Crick described a specific pairing between the four bases in DNA; which pairing did they identify?\n  A) Adenine pairs with cytosine, and guanine pairs with thymine.\n  B) All four bases pair randomly.\n  C) Adenine pairs with guanine, and thymine pairs with cytosine.\n  D) Adenine pairs with thymine, and guanine pairs with cytosine.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 3,
+    "domain": "science"
+  },
+  {
+    "prompt": "Within a hybridized nucleic-acid duplex, which complementarity relationship holds among the nucleobases?\n  A) Adenine pairs with cytosine, and guanine pairs with thymine.\n  B) All four bases pair randomly.\n  C) Adenine pairs with guanine, and thymine pairs with cytosine.\n  D) Adenine pairs with thymine, and guanine pairs with cytosine.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 3,
+    "domain": "science"
+  },
+  {
+    "prompt": "When Isaac Newton related the push on an apple to its acceleration, which equation did he write?\n  A) F = m / a\n  B) F = m * a\n  C) F = m - a\n  D) F = m + a\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 4,
+    "domain": "science"
+  },
+  {
+    "prompt": "The relationship between net force, inertial mass, and resulting acceleration is captured by which equation?\n  A) F = m / a\n  B) F = m * a\n  C) F = m - a\n  D) F = m + a\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 4,
+    "domain": "science"
+  },
+  {
+    "prompt": "An oak leaf on a sunny afternoon opens its stomata and captures light with chlorophyll; which inputs does it use for photosynthesis?\n  A) Oxygen and glucose, using heat as the energy source.\n  B) Carbon dioxide and oxygen, using sound as the energy source.\n  C) Nitrogen and water, using gravitational energy as the source.\n  D) Carbon dioxide and water, using light as the energy source.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 5,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which combination of reactants and energy source powers the conversion of inorganic carbon into carbohydrates by autotrophs?\n  A) Oxygen and glucose, using heat as the energy source.\n  B) Carbon dioxide and oxygen, using sound as the energy source.\n  C) Nitrogen and water, using gravitational energy as the source.\n  D) Carbon dioxide and water, using light as the energy source.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 5,
+    "domain": "science"
+  },
+  {
+    "prompt": "When J.J. Thomson measured the particle that made up cathode rays, what was the sign of its charge?\n  A) Variable depending on temperature.\n  B) Neutral.\n  C) Positive.\n  D) Negative.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 6,
+    "domain": "science"
+  },
+  {
+    "prompt": "What is the sign of the elementary charge attributed to the fundamental lepton of lowest mass?\n  A) Variable depending on temperature.\n  B) Neutral.\n  C) Positive.\n  D) Negative.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 6,
+    "domain": "science"
+  },
+  {
+    "prompt": "A pot of water on a stove at sea level begins bubbling vigorously at what temperature on the Celsius scale?\n  A) 50 degrees Celsius.\n  B) 100 degrees Celsius.\n  C) 212 degrees Celsius.\n  D) 0 degrees Celsius.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 7,
+    "domain": "science"
+  },
+  {
+    "prompt": "At what temperature does liquid H2O transition to its gaseous phase under one atmosphere of pressure?\n  A) 50 degrees Celsius.\n  B) 100 degrees Celsius.\n  C) 212 degrees Celsius.\n  D) 0 degrees Celsius.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 7,
+    "domain": "science"
+  },
+  {
+    "prompt": "In a human muscle cell, the bean-shaped organelles throughout the cytoplasm primarily perform which function?\n  A) DNA replication during the S phase.\n  B) Lipid storage.\n  C) Protein synthesis via translation.\n  D) ATP production via oxidative phosphorylation.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 8,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which metabolic function is principally carried out by the double-membraned organelle of eukaryotes?\n  A) DNA replication during the S phase.\n  B) Lipid storage.\n  C) Protein synthesis via translation.\n  D) ATP production via oxidative phosphorylation.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 8,
+    "domain": "science"
+  },
+  {
+    "prompt": "When a schoolchild looks up at noon in summer, they see the nearest star to Earth; which star is that?\n  A) Proxima Centauri.\n  B) Alpha Centauri A.\n  C) The Sun.\n  D) Sirius.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 9,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which stellar object has the smallest astronomical distance to the third planet of its system?\n  A) Proxima Centauri.\n  B) Alpha Centauri A.\n  C) The Sun.\n  D) Sirius.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 9,
+    "domain": "science"
+  },
+  {
+    "prompt": "A glass of lemon juice tested with a pH meter gives a reading characteristic of an acid; which pH range is that?\n  A) pH has no relation to acidity.\n  B) pH above 7.\n  C) pH exactly 7.\n  D) pH below 7.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 10,
+    "domain": "science"
+  },
+  {
+    "prompt": "An aqueous solution with an elevated concentration of hydronium ions relative to neutrality has what pH?\n  A) pH has no relation to acidity.\n  B) pH above 7.\n  C) pH exactly 7.\n  D) pH below 7.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 10,
+    "domain": "science"
+  },
+  {
+    "prompt": "When a speaker cone pushes air molecules back and forth, the resulting pressure wave is what kind of wave?\n  A) A longitudinal mechanical wave.\n  B) A gravitational wave.\n  C) A transverse electromagnetic wave.\n  D) A standing wave in vacuum.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 11,
+    "domain": "science"
+  },
+  {
+    "prompt": "A pressure disturbance propagating through a compressible medium constitutes what kind of wave?\n  A) A longitudinal mechanical wave.\n  B) A gravitational wave.\n  C) A transverse electromagnetic wave.\n  D) A standing wave in vacuum.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 11,
+    "domain": "science"
+  },
+  {
+    "prompt": "Dmitri Mendeleev placed the lightest element at the top-left of his periodic chart; where does hydrogen appear?\n  A) Group 2, period 1.\n  B) Group 1, period 1.\n  C) Group 1, period 2.\n  D) Group 18, period 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 12,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which group-and-period combination corresponds to the element of atomic number 1?\n  A) Group 2, period 1.\n  B) Group 1, period 1.\n  C) Group 1, period 2.\n  D) Group 18, period 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 12,
+    "domain": "science"
+  },
+  {
+    "prompt": "When the Moon is overhead over the Pacific Ocean, the seawater bulges outward; which large-scale phenomenon is this?\n  A) Solar wind deflection.\n  B) Earth's climate reversal.\n  C) Earth's rotation speed doubling.\n  D) Ocean tides.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 13,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which large-scale terrestrial phenomenon is primarily driven by the gravitational influence of Earth's natural satellite?\n  A) Solar wind deflection.\n  B) Earth's climate reversal.\n  C) Earth's rotation speed doubling.\n  D) Ocean tides.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 13,
+    "domain": "science"
+  },
+  {
+    "prompt": "When a cardiologist examines an ultrasound of an adult patient's heart, how many distinct chambers do they count?\n  A) Six.\n  B) Two.\n  C) Four.\n  D) Three.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 14,
+    "domain": "science"
+  },
+  {
+    "prompt": "What is the chamber count of the primary circulatory pump in an adult member of Homo sapiens?\n  A) Six.\n  B) Two.\n  C) Four.\n  D) Three.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 14,
+    "domain": "science"
+  },
+  {
+    "prompt": "Radiometric dating of meteorites and the oldest Earth minerals gives a consistent age for our planet; what is that age?\n  A) About 100 million years.\n  B) About 4.54 billion years.\n  C) About 13.8 billion years.\n  D) About 6,000 years.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 15,
+    "domain": "science"
+  },
+  {
+    "prompt": "What is the best current scientific estimate for the age of the third terrestrial planet of our solar system?\n  A) About 100 million years.\n  B) About 4.54 billion years.\n  C) About 13.8 billion years.\n  D) About 6,000 years.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 15,
+    "domain": "science"
+  },
+  {
+    "prompt": "Antoine Lavoisier decomposed a sample of water and identified its constituent elements; what formula describes the compound?\n  A) HO2\n  B) OH\n  C) H3O\n  D) H2O\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 16,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which molecular formula represents the compound formed by two equivalents of hydrogen atoms and one of oxygen?\n  A) HO2\n  B) OH\n  C) H3O\n  D) H2O\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 16,
+    "domain": "science"
+  },
+  {
+    "prompt": "The Pacific Plate slides steadily northwestward relative to the North American Plate along the San Andreas Fault; what drives this motion?\n  A) Tidal drag from the Moon alone.\n  B) Convection currents in the mantle.\n  C) Cooling of the Earth's core.\n  D) Atmospheric pressure differences.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 17,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which geophysical phenomenon is the principal driver of the relative motion of lithospheric plates?\n  A) Tidal drag from the Moon alone.\n  B) Convection currents in the mantle.\n  C) Cooling of the Earth's core.\n  D) Atmospheric pressure differences.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 17,
+    "domain": "science"
+  },
+  {
+    "prompt": "Edmond Halley predicted the return of a comet he had observed; roughly how long is its orbital period?\n  A) About 76 years.\n  B) About 1,000 years.\n  C) About 200 years.\n  D) About 5 years.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 18,
+    "domain": "science"
+  },
+  {
+    "prompt": "What is the approximate orbital period of the short-period comet first predicted to return by a 17th-century English astronomer?\n  A) About 76 years.\n  B) About 1,000 years.\n  C) About 200 years.\n  D) About 5 years.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 18,
+    "domain": "science"
+  },
+  {
+    "prompt": "Albert Einstein wrote down E = mc^2 in his 1905 paper on special relativity; which physical relationship does it express?\n  A) The photoelectric effect.\n  B) Maxwell's equations.\n  C) Newton's universal gravitation.\n  D) Mass-energy equivalence.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 19,
+    "domain": "science"
+  },
+  {
+    "prompt": "The proportionality between rest energy and inertial mass by the squared speed of light expresses which principle?\n  A) The photoelectric effect.\n  B) Maxwell's equations.\n  C) Newton's universal gravitation.\n  D) Mass-energy equivalence.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 19,
+    "domain": "science"
+  },
+  {
+    "prompt": "Archimedes derived a formula for the area enclosed by a circle of a given radius; which expression is it?\n  A) pi * r^3\n  B) pi * d\n  C) pi * r^2\n  D) 2 * pi * r\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 20,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which expression gives the planar measure of the region enclosed by a circle parameterized by radius r?\n  A) pi * r^3\n  B) pi * d\n  C) pi * r^2\n  D) 2 * pi * r\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 20,
+    "domain": "math"
+  },
+  {
+    "prompt": "Isaac Newton and Leibniz's calculus tells us the slope of y = sin(x) at each point; what is that slope function?\n  A) -cos(x)\n  B) cos(x)\n  C) tan(x)\n  D) -sin(x)\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 21,
+    "domain": "math"
+  },
+  {
+    "prompt": "For a differentiable function defined as the sine of its real-valued argument, what is its derivative?\n  A) -cos(x)\n  B) cos(x)\n  C) tan(x)\n  D) -sin(x)\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 21,
+    "domain": "math"
+  },
+  {
+    "prompt": "The number 7 has exactly two positive divisors, 1 and 7; which class of numbers does it belong to?\n  A) A negative integer.\n  B) A natural number divisible by 3.\n  C) Any odd natural number.\n  D) A natural number greater than 1 whose only positive divisors are 1 and itself.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 22,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which definition correctly identifies a natural number greater than 1 with no proper nontrivial divisors?\n  A) A negative integer.\n  B) A natural number divisible by 3.\n  C) Any odd natural number.\n  D) A natural number greater than 1 whose only positive divisors are 1 and itself.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 22,
+    "domain": "math"
+  },
+  {
+    "prompt": "When a student draws a triangle on a flat sheet of paper and measures each angle with a protractor, what do the three angles add up to?\n  A) 270 degrees.\n  B) 360 degrees.\n  C) 90 degrees.\n  D) 180 degrees.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 23,
+    "domain": "math"
+  },
+  {
+    "prompt": "In the Euclidean plane, what is the sum of the interior angles of any triangular region?\n  A) 270 degrees.\n  B) 360 degrees.\n  C) 90 degrees.\n  D) 180 degrees.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 23,
+    "domain": "math"
+  },
+  {
+    "prompt": "Fibonacci's sequence 1, 1, 2, 3, 5, 8, 13, ... has consecutive ratios approaching a well-known constant; what is that constant?\n  A) Approximately 1.414.\n  B) Approximately 3.14159.\n  C) Approximately 2.718.\n  D) Approximately 1.618.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 24,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which numerical constant is the positive solution of x^2 = x + 1?\n  A) Approximately 1.414.\n  B) Approximately 3.14159.\n  C) Approximately 2.718.\n  D) Approximately 1.618.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 24,
+    "domain": "math"
+  },
+  {
+    "prompt": "A student is given the equation 2x^2 - 3x - 5 = 0 and asked to find x; which method is standard?\n  A) Take the derivative and set it to zero.\n  B) Use the quadratic formula: x = (-b +/- sqrt(b^2 - 4ac)) / (2a).\n  C) Integrate both sides.\n  D) Divide the coefficients by x.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 25,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which standard method produces the roots of a general second-degree univariate polynomial equation?\n  A) Take the derivative and set it to zero.\n  B) Use the quadratic formula: x = (-b +/- sqrt(b^2 - 4ac)) / (2a).\n  C) Integrate both sides.\n  D) Divide the coefficients by x.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 25,
+    "domain": "math"
+  },
+  {
+    "prompt": "A calculus student is asked to integrate the function f(x) = 1/x; what is the result?\n  A) ln|x| + C\n  B) 1 / x^2 + C\n  C) x^2 / 2 + C\n  D) e^x + C\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 26,
+    "domain": "math"
+  },
+  {
+    "prompt": "What is the antiderivative of the reciprocal function on the real line (excluding zero)?\n  A) ln|x| + C\n  B) 1 / x^2 + C\n  C) x^2 / 2 + C\n  D) e^x + C\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 26,
+    "domain": "math"
+  },
+  {
+    "prompt": "Leonhard Euler is famous for an equation linking five fundamental constants; which equation is it?\n  A) pi^2 = e + 1\n  B) e^(pi) = i\n  C) e + i = pi\n  D) e^(i*pi) + 1 = 0\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 27,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which equation is often cited as linking the fundamental constants 0, 1, i, pi, and e in a single relation?\n  A) pi^2 = e + 1\n  B) e^(pi) = i\n  C) e + i = pi\n  D) e^(i*pi) + 1 = 0\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 27,
+    "domain": "math"
+  },
+  {
+    "prompt": "A student flips a fair quarter twice; what is the probability both flips land heads up?\n  A) 1.0\n  B) 0.25\n  C) 0.75\n  D) 0.5\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 28,
+    "domain": "math"
+  },
+  {
+    "prompt": "For two independent Bernoulli trials with success probability 1/2 each, what is the probability of two successes?\n  A) 1.0\n  B) 0.25\n  C) 0.75\n  D) 0.5\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 28,
+    "domain": "math"
+  },
+  {
+    "prompt": "A linear algebra student computes det(I) for a 3x3 identity matrix; what value do they get?\n  A) 0.\n  B) 1.\n  C) -1.\n  D) n (the matrix size).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 29,
+    "domain": "math"
+  },
+  {
+    "prompt": "What is the determinant of the multiplicative identity of the ring of n-by-n real matrices?\n  A) 0.\n  B) 1.\n  C) -1.\n  D) n (the matrix size).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 29,
+    "domain": "math"
+  },
+  {
+    "prompt": "Archimedes computed the ratio of circumference to diameter of a circle; what value does this ratio take?\n  A) Approximately 1.41421.\n  B) Approximately 3.14159.\n  C) Approximately 2.71828.\n  D) Approximately 1.61803.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 30,
+    "domain": "math"
+  },
+  {
+    "prompt": "What is the approximate value of the ratio of the circumference of a circle to its diameter?\n  A) Approximately 1.41421.\n  B) Approximately 3.14159.\n  C) Approximately 2.71828.\n  D) Approximately 1.61803.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 30,
+    "domain": "math"
+  },
+  {
+    "prompt": "The infinite sum 1 + 1/2 + 1/4 + 1/8 + ... converges; which formula gives the sum for first term a and ratio r in general?\n  A) a + r, for all r.\n  B) a * r, for all r.\n  C) a / (1 - r), provided |r| < 1.\n  D) a^r, for all r.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 31,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which closed-form expression gives the sum of the infinite geometric series with first term a and common ratio r in its radius of convergence?\n  A) a + r, for all r.\n  B) a * r, for all r.\n  C) a / (1 - r), provided |r| < 1.\n  D) a^r, for all r.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 31,
+    "domain": "math"
+  },
+  {
+    "prompt": "A student is asked to find the slope of the line through (2, 3) and (5, 11); which formula do they apply?\n  A) x1 + y1\n  B) x2 * y2\n  C) (x2 - x1) / (y2 - y1)\n  D) (y2 - y1) / (x2 - x1)\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 32,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which expression gives the rate of change of a linear function sampled at two distinct arguments?\n  A) x1 + y1\n  B) x2 * y2\n  C) (x2 - x1) / (y2 - y1)\n  D) (y2 - y1) / (x2 - x1)\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 32,
+    "domain": "math"
+  },
+  {
+    "prompt": "A floor tile measures 144 square inches; if it is a square, how long is each side?\n  A) 12.\n  B) 16.\n  C) 14.\n  D) 10.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 33,
+    "domain": "math"
+  },
+  {
+    "prompt": "What is the positive real value whose square equals 144?\n  A) 12.\n  B) 16.\n  C) 14.\n  D) 10.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 33,
+    "domain": "math"
+  },
+  {
+    "prompt": "The rule f(x) = x^2 assigns to each real number x a single value; which general concept is being illustrated?\n  A) A set of points on a line.\n  B) A relation in which each input maps to exactly one output.\n  C) A relation in which every output has exactly one input.\n  D) A random pairing between numbers.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 34,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which relational structure associates to each element of a domain exactly one element of a codomain?\n  A) A set of points on a line.\n  B) A relation in which each input maps to exactly one output.\n  C) A relation in which every output has exactly one input.\n  D) A random pairing between numbers.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 34,
+    "domain": "math"
+  },
+  {
+    "prompt": "A student has five test scores: 80, 85, 90, 95, 100. How do they compute their average?\n  A) Multiply the values and divide by two.\n  B) Pick the largest value.\n  C) Sum the values and divide by their count.\n  D) Take the median.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 35,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which procedure computes the arithmetic mean of a finite sequence of real values?\n  A) Multiply the values and divide by two.\n  B) Pick the largest value.\n  C) Sum the values and divide by their count.\n  D) Take the median.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 35,
+    "domain": "math"
+  },
+  {
+    "prompt": "A linear algebra student is asked which 3x3 matrices can be inverted; what is the condition?\n  A) The matrix is lower triangular.\n  B) The matrix is rectangular and tall.\n  C) The matrix has only positive entries.\n  D) The matrix is square and has nonzero determinant.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 36,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which property characterizes a real square matrix as invertible?\n  A) The matrix is lower triangular.\n  B) The matrix is rectangular and tall.\n  C) The matrix has only positive entries.\n  D) The matrix is square and has nonzero determinant.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 36,
+    "domain": "math"
+  },
+  {
+    "prompt": "A student is asked to evaluate cos(0) on a quiz; what value do they write?\n  A) pi/2.\n  B) -1.\n  C) 0.\n  D) 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 37,
+    "domain": "math"
+  },
+  {
+    "prompt": "At which value does the cosine function evaluated at zero radians take?\n  A) pi/2.\n  B) -1.\n  C) 0.\n  D) 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 37,
+    "domain": "math"
+  },
+  {
+    "prompt": "As a schoolboy, Carl Friedrich Gauss quickly summed 1 + 2 + ... + 100; what total did he obtain?\n  A) 1000.\n  B) 100.\n  C) 10000.\n  D) 5050.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 38,
+    "domain": "math"
+  },
+  {
+    "prompt": "What is the value of the finite arithmetic progression with first term 1, last term 100, and common difference 1?\n  A) 1000.\n  B) 100.\n  C) 10000.\n  D) 5050.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 38,
+    "domain": "math"
+  },
+  {
+    "prompt": "The year Parisians stormed the Bastille marks the start of the French Revolution; what year was that?\n  A) 1914.\n  B) 1776.\n  C) 1848.\n  D) 1789.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 39,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "In which year did the major political upheaval that ended the Ancien Regime in France begin?\n  A) 1914.\n  B) 1776.\n  C) 1848.\n  D) 1789.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 39,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Parliament House, home to Australia's federal legislature, is located in which city?\n  A) Sydney.\n  B) Canberra.\n  C) Perth.\n  D) Melbourne.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 40,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which city is the seat of the national government of the country comprising the continent of Australia?\n  A) Sydney.\n  B) Canberra.\n  C) Perth.\n  D) Melbourne.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 40,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "A half-timbered house on Henley Street in an English market town is preserved as Shakespeare's birthplace; in which town is it?\n  A) London.\n  B) Cambridge.\n  C) Stratford-upon-Avon.\n  D) Oxford.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 41,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "In which town was the English playwright associated with the Globe Theatre born?\n  A) London.\n  B) Cambridge.\n  C) Stratford-upon-Avon.\n  D) Oxford.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 41,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "A river flowing north through Egypt to the Mediterranean is usually cited as the world's longest; which river is it?\n  A) The Nile.\n  B) The Amazon.\n  C) The Mississippi.\n  D) The Yangtze.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 42,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which river is conventionally cited as the one with the greatest length on Earth?\n  A) The Nile.\n  B) The Amazon.\n  C) The Mississippi.\n  D) The Yangtze.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 42,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Members of the Continental Congress signed the Declaration of Independence in Philadelphia in what year?\n  A) 1789.\n  B) 1865.\n  C) 1776.\n  D) 1812.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 43,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "In which year did the thirteen British colonies in North America formally declare political separation from Great Britain?\n  A) 1789.\n  B) 1865.\n  C) 1776.\n  D) 1812.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 43,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Sections of a massive stone and earthen defensive wall stretch across the northern mountains of a particular country; which country?\n  A) China.\n  B) Korea.\n  C) Japan.\n  D) Mongolia.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 44,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which country hosts the long defensive fortification built originally to protect northern frontiers against nomadic incursions?\n  A) China.\n  B) Korea.\n  C) Japan.\n  D) Mongolia.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 44,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Japan formally surrendered aboard the USS Missouri in Tokyo Bay, ending the Second World War; in what year?\n  A) 1918.\n  B) 1945.\n  C) 1950.\n  D) 1939.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 45,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "In which year did the major mid-20th-century global conflict formally conclude?\n  A) 1918.\n  B) 1945.\n  C) 1950.\n  D) 1939.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 45,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "A small oil-on-poplar portrait of a Florentine woman hangs behind bulletproof glass in the Louvre; who painted it?\n  A) Vincent van Gogh.\n  B) Raphael.\n  C) Michelangelo.\n  D) Leonardo da Vinci.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 46,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which Italian Renaissance polymath is the author of the celebrated portrait of a seated woman currently held in the Louvre?\n  A) Vincent van Gogh.\n  B) Raphael.\n  C) Michelangelo.\n  D) Leonardo da Vinci.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 46,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "A vending machine in Tokyo accepts coins and banknotes of a particular currency; what currency is that?\n  A) The yen.\n  B) The won.\n  C) The rupee.\n  D) The yuan.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 47,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which currency is the official legal tender of the East Asian island state of Japan?\n  A) The yen.\n  B) The won.\n  C) The rupee.\n  D) The yuan.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 47,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "A dystopian novel about Winston Smith living under the rule of Big Brother is titled 1984; who wrote it?\n  A) Aldous Huxley.\n  B) Ray Bradbury.\n  C) Philip K. Dick.\n  D) George Orwell.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 48,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which mid-20th-century English author wrote the dystopian novel depicting a totalitarian society under constant surveillance?\n  A) Aldous Huxley.\n  B) Ray Bradbury.\n  C) Philip K. Dick.\n  D) George Orwell.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 48,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The summit climbed by Edmund Hillary and Tenzing Norgay in 1953 is part of which mountain range?\n  A) The Alps.\n  B) The Himalayas.\n  C) The Rockies.\n  D) The Andes.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 49,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which South Asian mountain range includes the peak with the greatest elevation above sea level?\n  A) The Alps.\n  B) The Himalayas.\n  C) The Rockies.\n  D) The Andes.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 49,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The general who led the Continental Army and was sworn in in 1789 became the first US president; who was he?\n  A) Thomas Jefferson.\n  B) John Adams.\n  C) Benjamin Franklin.\n  D) George Washington.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 50,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Who was the first individual to hold the office of chief executive of the United States?\n  A) Thomas Jefferson.\n  B) John Adams.\n  C) Benjamin Franklin.\n  D) George Washington.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 50,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "A geography textbook for American schoolchildren lists all the continents; how many does it list?\n  A) Seven.\n  B) Four.\n  C) Nine.\n  D) Five.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 51,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "What is the conventional cardinality of the set of large landmasses recognized as continents on Earth?\n  A) Seven.\n  B) Four.\n  C) Nine.\n  D) Five.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 51,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "King John of England affixed his seal to a charter of liberties at Runnymede; in what year?\n  A) 1215.\n  B) 1603.\n  C) 1485.\n  D) 1066.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 52,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "In which year was the English charter limiting royal prerogative by the assent of the barons sealed?\n  A) 1215.\n  B) 1603.\n  C) 1485.\n  D) 1066.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 52,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Crowds chipped away at the concrete barrier dividing East and West Berlin on the night of November 9; in what year?\n  A) 1975.\n  B) 1989.\n  C) 1961.\n  D) 1991.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 53,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "In which year was the Cold War-era barrier dividing the two halves of a German city opened by its eastern government?\n  A) 1975.\n  B) 1989.\n  C) 1961.\n  D) 1991.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 53,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The country of Australia sits on a continent that is the smallest of them all; which continent is that?\n  A) Australia.\n  B) South America.\n  C) Europe.\n  D) Antarctica.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 54,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which continent has the smallest total land area among those conventionally recognized?\n  A) Australia.\n  B) South America.\n  C) Europe.\n  D) Antarctica.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 54,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Robert E. Lee surrendered to Ulysses S. Grant at Appomattox Court House; in what year?\n  A) 1900.\n  B) 1861.\n  C) 1865.\n  D) 1776.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 55,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "In which year did the 19th-century civil conflict in the United States conclude?\n  A) 1900.\n  B) 1861.\n  C) 1865.\n  D) 1776.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 55,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The ancient Greek epic poem about Odysseus's return from Troy is the Odyssey; who is its traditional author?\n  A) Herodotus.\n  B) Virgil.\n  C) Homer.\n  D) Ovid.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 56,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which poet is traditionally credited with authoring the ancient Greek epic of a war veteran's return voyage?\n  A) Herodotus.\n  B) Virgil.\n  C) Homer.\n  D) Ovid.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 56,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "A tourist buying a coffee at a cafe in London pays in which currency?\n  A) Franc.\n  B) Euro.\n  C) Pound sterling.\n  D) Dollar.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 57,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which currency is the official legal tender of the United Kingdom of Great Britain and Northern Ireland?\n  A) Franc.\n  B) Euro.\n  C) Pound sterling.\n  D) Dollar.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 57,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "A researcher noticed mold inhibiting bacterial growth on a Petri dish in his London lab in 1928; who was he?\n  A) Jonas Salk.\n  B) Alexander Fleming.\n  C) Louis Pasteur.\n  D) Marie Curie.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 58,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which 20th-century researcher is credited with the discovery of the first widely used antibiotic derived from a Penicillium mold?\n  A) Jonas Salk.\n  B) Alexander Fleming.\n  C) Louis Pasteur.\n  D) Marie Curie.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 58,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "A programmer searches for the number 42 in a sorted array of a million ints using binary search; what is its worst-case complexity?\n  A) O(n).\n  B) O(log n).\n  C) O(n^2).\n  D) O(1) always.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 59,
+    "domain": "coding"
+  },
+  {
+    "prompt": "What is the worst-case asymptotic running time of a logarithmic search over a totally ordered sequence of n elements?\n  A) O(n).\n  B) O(log n).\n  C) O(n^2).\n  D) O(1) always.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 59,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A developer stores usernames as keys and profiles as values in a Python dict for fast lookup; which property of hash tables are they relying on?\n  A) Replacing a linked list for sequential access.\n  B) Storing numeric ranges only.\n  C) Ordered traversal in sorted order.\n  D) Average-case O(1) insertion and lookup by key.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 60,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which property primarily distinguishes an associative-array implementation based on a hashing function?\n  A) Replacing a linked list for sequential access.\n  B) Storing numeric ranges only.\n  C) Ordered traversal in sorted order.\n  D) Average-case O(1) insertion and lookup by key.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 60,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A Python programmer writes `my_list[?]` to access the first element of `my_list`; what index do they write?\n  A) -1.\n  B) 0.\n  C) It depends on the operating system.\n  D) 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 61,
+    "domain": "coding"
+  },
+  {
+    "prompt": "In the Python programming language, what is the index of the initial element of a sequence?\n  A) -1.\n  B) 0.\n  C) It depends on the operating system.\n  D) 1.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 61,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A function that computes factorial by calling itself with a smaller argument is an example of what technique?\n  A) A function calling itself.\n  B) Parallel execution of tasks.\n  C) A loop that never terminates.\n  D) A memory management technique.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 62,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which programming technique is defined by a subroutine invoking itself during its own execution?\n  A) A function calling itself.\n  B) Parallel execution of tasks.\n  C) A loop that never terminates.\n  D) A memory management technique.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 62,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A database administrator writes `SELECT * FROM customers` to see all customer records; what operation is this?\n  A) Delete rows from a table.\n  B) Create a new table.\n  C) Grant permissions to users.\n  D) Retrieve rows from one or more tables.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 63,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which operation in a standard relational query language retrieves tuples from one or more relations?\n  A) Delete rows from a table.\n  B) Create a new table.\n  C) Grant permissions to users.\n  D) Retrieve rows from one or more tables.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 63,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A user clicks a link and sees a webpage that returns HTTP 404; what does that status mean?\n  A) Unauthorized.\n  B) Server Error.\n  C) Bad Gateway.\n  D) Not Found.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 64,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which semantic category does the HTTP response status 404 denote?\n  A) Unauthorized.\n  B) Server Error.\n  C) Bad Gateway.\n  D) Not Found.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 64,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A C++ developer runs `g++` on a source file to produce an executable binary; what tool did they invoke?\n  A) A compiler translates source code to machine code ahead of execution.\n  B) A compiler is the same as an editor.\n  C) A compiler writes source code for the user.\n  D) A compiler executes source code line by line at runtime.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 65,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which program translates a high-level source language to a lower-level target language ahead of execution?\n  A) A compiler translates source code to machine code ahead of execution.\n  B) A compiler is the same as an editor.\n  C) A compiler writes source code for the user.\n  D) A compiler executes source code line by line at runtime.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 65,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A Python programmer defines `x` inside a function; outside the function `x` is not visible. Which concept is at work?\n  A) The color the variable appears in an editor.\n  B) The region of code in which the variable is accessible.\n  C) The speed at which the variable is read.\n  D) The memory address on the hard drive.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 66,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which programming concept specifies the portion of a program in which an identifier is bound to a given entity?\n  A) The color the variable appears in an editor.\n  B) The region of code in which the variable is accessible.\n  C) The speed at which the variable is read.\n  D) The memory address on the hard drive.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 66,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A programmer writes `for x in my_list: total += x` where my_list has n elements; what is the time complexity?\n  A) O(1).\n  B) O(n^2).\n  C) O(n).\n  D) O(log n).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 67,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which asymptotic complexity corresponds to a single traversal of a sequence of length n?\n  A) O(1).\n  B) O(n^2).\n  C) O(n).\n  D) O(log n).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 67,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A Python program does `d[key]` where d is a dict; what is its average-case cost?\n  A) O(log n) always.\n  B) Unpredictable.\n  C) O(n) always.\n  D) Average-case O(1).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 68,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which average-case asymptotic cost characterizes a lookup in a hash-based associative array?\n  A) O(log n) always.\n  B) Unpredictable.\n  C) O(n) always.\n  D) Average-case O(1).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 68,
+    "domain": "coding"
+  },
+  {
+    "prompt": "In the expression `x and y` in Python where x and y are booleans, when does the expression evaluate to True?\n  A) Always true.\n  B) True if and only if both operands are true.\n  C) True if either operand is true.\n  D) True if both operands are false.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 69,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which truth-functional operator returns true precisely when both of its operands are true?\n  A) Always true.\n  B) True if and only if both operands are true.\n  C) True if either operand is true.\n  D) True if both operands are false.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 69,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A programmer uses Python's `list.append` and `list.pop` to add and remove items at the end of a list; which discipline is this?\n  A) First-in, first-out (FIFO).\n  B) Last-in, first-out (LIFO).\n  C) Random access by index.\n  D) Sorted by value.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 70,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which access discipline characterizes an abstract data type in which the most recently added element is the first removed?\n  A) First-in, first-out (FIFO).\n  B) Last-in, first-out (LIFO).\n  C) Random access by index.\n  D) Sorted by value.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 70,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A developer chooses between TCP and UDP for a file-transfer application and picks TCP for reliability; which distinction matters here?\n  A) UDP supports encrypted connections by default.\n  B) TCP has no error detection.\n  C) TCP provides reliable, ordered delivery; UDP does not.\n  D) UDP is always faster and always more reliable than TCP.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 71,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which distinction correctly captures the service difference between the two dominant Internet transport-layer protocols?\n  A) UDP supports encrypted connections by default.\n  B) TCP has no error detection.\n  C) TCP provides reliable, ordered delivery; UDP does not.\n  D) UDP is always faster and always more reliable than TCP.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 71,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A programmer wants to sort a million records in predictable time; among these algorithms, which has worst-case O(n log n)?\n  A) Selection sort (all comparisons).\n  B) Bubble sort (all comparisons).\n  C) Merge sort.\n  D) Insertion sort on reverse-sorted input.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 72,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which comparison-based sorting algorithm attains the worst-case asymptotic complexity O(n log n)?\n  A) Selection sort (all comparisons).\n  B) Bubble sort (all comparisons).\n  C) Merge sort.\n  D) Insertion sort on reverse-sorted input.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 72,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A programmer writes the regex `a*` to match strings like `''`, `'a'`, `'aa'`; what does the `*` mean?\n  A) Beginning of the string.\n  B) Zero or more occurrences of the preceding element.\n  C) End of the string.\n  D) Exactly one occurrence of the preceding element.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "B",
+    "question_idx": 73,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which quantifier operator in standard regular-expression syntax denotes zero or more repetitions of the preceding expression?\n  A) Beginning of the string.\n  B) Zero or more occurrences of the preceding element.\n  C) End of the string.\n  D) Exactly one occurrence of the preceding element.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "B",
+    "question_idx": 73,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A logic student is told: 'Socrates is a man. If Socrates is a man then Socrates is mortal.' They conclude 'Socrates is mortal.' Which rule did they apply?\n  A) From P and P implies Q, conclude Q.\n  B) From not P, conclude P.\n  C) From Q, conclude P implies Q.\n  D) From P or Q, conclude P.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 74,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which inference rule licenses the conclusion of the consequent from the conjunction of a conditional and its antecedent?\n  A) From P and P implies Q, conclude Q.\n  B) From not P, conclude P.\n  C) From Q, conclude P implies Q.\n  D) From P or Q, conclude P.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 74,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A computer science student is asked to write the number 5 in binary; what do they write?\n  A) 111.\n  B) 100.\n  C) 110.\n  D) 101.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 75,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which base-2 numeral represents the decimal value 5?\n  A) 111.\n  B) 100.\n  C) 110.\n  D) 101.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 75,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A team of developers uses Git to track changes to a codebase and collaborate on branches; which purpose does this serve?\n  A) Track changes to source code over time, enabling branching and collaboration.\n  B) Replace the operating system's file system.\n  C) Compile source code to machine code.\n  D) Display color output in a terminal.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 76,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which primary function is served by a system that records changes to a set of files over time, supporting branching and merging?\n  A) Track changes to source code over time, enabling branching and collaboration.\n  B) Replace the operating system's file system.\n  C) Compile source code to machine code.\n  D) Display color output in a terminal.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 76,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A developer writes a test that calls a function `add(2, 3)` and asserts the return value equals 5; what kind of test is this?\n  A) Measure the power consumption of the CPU.\n  B) Encrypt network traffic.\n  C) Replace the need for source control.\n  D) Verify that individual units of code behave as specified.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 77,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which testing practice verifies the behavior of individual components of a software system in isolation?\n  A) Measure the power consumption of the CPU.\n  B) Encrypt network traffic.\n  C) Replace the need for source control.\n  D) Verify that individual units of code behave as specified.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 77,
+    "domain": "coding"
+  },
+  {
+    "prompt": "An electrician measures 10 volts across a 5-ohm resistor and computes the current as 2 amps; which law did they use?\n  A) V = I / R.\n  B) V = I + R.\n  C) V = I * R.\n  D) V = I - R.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 78,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which equation relates electromotive force, current, and resistance in a linear resistive element?\n  A) V = I / R.\n  B) V = I + R.\n  C) V = I * R.\n  D) V = I - R.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 78,
+    "domain": "science"
+  },
+  {
+    "prompt": "A puck slides across frictionless ice and keeps moving at constant velocity; which law does this illustrate?\n  A) An object in motion stays in motion unless acted on by a net external force.\n  B) Force equals mass times acceleration.\n  C) Energy cannot be created or destroyed.\n  D) Every action has an equal and opposite reaction.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 79,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which principle asserts the constancy of a body's velocity in the absence of a net external force?\n  A) An object in motion stays in motion unless acted on by a net external force.\n  B) Force equals mass times acceleration.\n  C) Energy cannot be created or destroyed.\n  D) Every action has an equal and opposite reaction.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 79,
+    "domain": "science"
+  },
+  {
+    "prompt": "A ship floating in the ocean displaces a volume of water; the principle relating buoyant force and displaced water is which?\n  A) Entropy of an isolated system never decreases.\n  B) Heat flows from hot to cold.\n  C) The buoyant force equals the weight of the fluid displaced.\n  D) Pressure times volume equals a constant.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 80,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which hydrostatic principle relates the upward force on a submerged body to the weight of the fluid volume displaced?\n  A) Entropy of an isolated system never decreases.\n  B) Heat flows from hot to cold.\n  C) The buoyant force equals the weight of the fluid displaced.\n  D) Pressure times volume equals a constant.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 80,
+    "domain": "science"
+  },
+  {
+    "prompt": "A pendulum swings and energy converts between kinetic and potential but the total stays constant; which law does this illustrate?\n  A) Energy depends only on temperature.\n  B) Energy is always lost.\n  C) Energy is always increasing.\n  D) Energy can be transformed but not created or destroyed in an isolated system.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 81,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which principle asserts that within an isolated system the total energy remains invariant under transformations of its form?\n  A) Energy depends only on temperature.\n  B) Energy is always lost.\n  C) Energy is always increasing.\n  D) Energy can be transformed but not created or destroyed in an isolated system.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 81,
+    "domain": "science"
+  },
+  {
+    "prompt": "Parliament Hill, home to Canada's federal legislature, is located in which city?\n  A) Toronto.\n  B) Vancouver.\n  C) Montreal.\n  D) Ottawa.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 82,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which city is the seat of the national government of the northern North American country bordering the contiguous United States?\n  A) Toronto.\n  B) Vancouver.\n  C) Montreal.\n  D) Ottawa.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 82,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "The Eiffel Tower stands in the capital city of France; which city is it?\n  A) Paris.\n  B) Marseille.\n  C) Lyon.\n  D) Bordeaux.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 83,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which city is the seat of national government of the western European republic bordering Spain, Germany, and Italy?\n  A) Paris.\n  B) Marseille.\n  C) Lyon.\n  D) Bordeaux.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 83,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Max Planck introduced a constant to describe the quantization of energy in blackbody radiation; what does it represent?\n  A) The gravitational constant.\n  B) The charge of an electron.\n  C) A fundamental quantum of action.\n  D) The speed of light.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 84,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which fundamental physical constant sets the quantum of action in non-relativistic quantum mechanics?\n  A) The gravitational constant.\n  B) The charge of an electron.\n  C) A fundamental quantum of action.\n  D) The speed of light.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 84,
+    "domain": "science"
+  },
+  {
+    "prompt": "A computer with 16 GB of RAM uses that memory to hold running programs but loses their state when unplugged; which kind of memory is this?\n  A) A display device.\n  B) A network interface card.\n  C) Volatile working memory that loses its contents on power-off.\n  D) Non-volatile mass storage.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 85,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which class of computer memory provides fast volatile access to currently executing processes?\n  A) A display device.\n  B) A network interface card.\n  C) Volatile working memory that loses its contents on power-off.\n  D) Non-volatile mass storage.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 85,
+    "domain": "coding"
+  },
+  {
+    "prompt": "When two bare wires of a battery's terminals touch directly, current bypasses the intended load; what is this called?\n  A) A low-resistance path that diverts current around the intended load.\n  B) An open connection in a circuit.\n  C) A battery with reversed polarity.\n  D) A parallel resistor of high value.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 86,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which electrical fault is characterized by an unintended low-resistance path bypassing a circuit's intended load?\n  A) A low-resistance path that diverts current around the intended load.\n  B) An open connection in a circuit.\n  C) A battery with reversed polarity.\n  D) A parallel resistor of high value.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 86,
+    "domain": "science"
+  },
+  {
+    "prompt": "A ball dropped from a building in a vacuum near the Earth's surface accelerates downward at what rate?\n  A) Approximately 100 m/s^2.\n  B) Approximately 0 m/s^2.\n  C) Approximately 9.8 m/s^2.\n  D) Approximately 1.0 m/s^2.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 87,
+    "domain": "science"
+  },
+  {
+    "prompt": "What is the approximate magnitude of gravitational acceleration at the surface of the third planet from the Sun?\n  A) Approximately 100 m/s^2.\n  B) Approximately 0 m/s^2.\n  C) Approximately 9.8 m/s^2.\n  D) Approximately 1.0 m/s^2.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 87,
+    "domain": "science"
+  },
+  {
+    "prompt": "When a laser emits light, each tiny quantized packet of the emitted light is called what?\n  A) A type of meson.\n  B) The nucleus of a hydrogen atom.\n  C) A positively charged lepton.\n  D) The quantum of the electromagnetic field.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 88,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which entity in quantum electrodynamics is the gauge boson of the electromagnetic field?\n  A) A type of meson.\n  B) The nucleus of a hydrogen atom.\n  C) A positively charged lepton.\n  D) The quantum of the electromagnetic field.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 88,
+    "domain": "science"
+  },
+  {
+    "prompt": "Newton described the attraction between the Earth and the Moon with an inverse-square law; which equation is it?\n  A) F = m * a.\n  B) F = q * E.\n  C) F = -k * x.\n  D) F = G * m1 * m2 / r^2.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 89,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which equation describes the mutual attractive force between two point masses as inversely proportional to the square of their separation?\n  A) F = m * a.\n  B) F = q * E.\n  C) F = -k * x.\n  D) F = G * m1 * m2 / r^2.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 89,
+    "domain": "science"
+  },
+  {
+    "prompt": "Johannes Kepler concluded from Tycho Brahe's data that Mars follows an ellipse with the Sun at one focus; which law is this?\n  A) Orbits are random curves.\n  B) All planets orbit in perfect circles.\n  C) All planetary orbits are polar.\n  D) Planets move in elliptical orbits with the Sun at one focus.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "D",
+    "question_idx": 90,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which statement asserts that planetary orbits are elliptical with the central star located at one focus?\n  A) Orbits are random curves.\n  B) All planets orbit in perfect circles.\n  C) All planetary orbits are polar.\n  D) Planets move in elliptical orbits with the Sun at one focus.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "D",
+    "question_idx": 90,
+    "domain": "science"
+  },
+  {
+    "prompt": "In Python, the expression `not True` evaluates to `False`; which operation has been applied?\n  A) It inverts the truth value of its operand.\n  B) It always yields true.\n  C) It has no effect.\n  D) It adds the operand's value to itself.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 91,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which truth-functional operator maps a proposition to its negation (true to false and false to true)?\n  A) It inverts the truth value of its operand.\n  B) It always yields true.\n  C) It has no effect.\n  D) It adds the operand's value to itself.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 91,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A 32-bit signed integer storing the sum 2,147,483,647 + 1 unexpectedly wraps to a negative value; what has happened?\n  A) A loop counter exits the loop early.\n  B) An integer is accidentally stored as a floating-point value.\n  C) An arithmetic result exceeds the range representable by the integer type.\n  D) The same integer is used in two places.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 92,
+    "domain": "coding"
+  },
+  {
+    "prompt": "Which condition occurs when the result of an arithmetic operation lies outside the representable range of a fixed-width integer type?\n  A) A loop counter exits the loop early.\n  B) An integer is accidentally stored as a floating-point value.\n  C) An arithmetic result exceeds the range representable by the integer type.\n  D) The same integer is used in two places.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 92,
+    "domain": "coding"
+  },
+  {
+    "prompt": "A student is asked to compute the gcd of 12 and 18; which definition are they applying?\n  A) The sum of the two numbers.\n  B) The smallest positive integer dividing both numbers.\n  C) The largest positive integer dividing both numbers.\n  D) The product of the two numbers.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 93,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which definition characterizes the gcd of two positive integers as a divisibility-theoretic invariant?\n  A) The sum of the two numbers.\n  B) The smallest positive integer dividing both numbers.\n  C) The largest positive integer dividing both numbers.\n  D) The product of the two numbers.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 93,
+    "domain": "math"
+  },
+  {
+    "prompt": "A math student simplifies log(6) as log(2) + log(3); which identity are they using?\n  A) log(a * b) = log(a) + log(b).\n  B) log(a + b) = log(a) + log(b).\n  C) log(a - b) = log(a) / log(b).\n  D) log(a * b) = log(a) * log(b).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 94,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which identity follows from the fact that a logarithm is a homomorphism from the multiplicative group of positives to the additive reals?\n  A) log(a * b) = log(a) + log(b).\n  B) log(a + b) = log(a) + log(b).\n  C) log(a - b) = log(a) / log(b).\n  D) log(a * b) = log(a) * log(b).\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 94,
+    "domain": "math"
+  },
+  {
+    "prompt": "The scientist who proposed E = mc^2 and won a Nobel Prize in Physics in 1921 is most famous for relativity; who is he?\n  A) Galileo Galilei.\n  B) Niels Bohr received the Nobel for relativity.\n  C) Albert Einstein (for the photoelectric effect, not relativity).\n  D) Isaac Newton.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 95,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "Which Nobel laureate in physics is most prominently associated with the theory of relativity?\n  A) Galileo Galilei.\n  B) Niels Bohr received the Nobel for relativity.\n  C) Albert Einstein (for the photoelectric effect, not relativity).\n  D) Isaac Newton.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 95,
+    "domain": "knowledge"
+  },
+  {
+    "prompt": "When HCl dissolves in water it donates a hydrogen ion; in Bronsted-Lowry terms, what role does HCl play?\n  A) A proton donor.\n  B) A neutral species.\n  C) An electron donor.\n  D) A proton acceptor.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 96,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which species in Bronsted-Lowry theory is defined as a proton donor in an acid-base reaction?\n  A) A proton donor.\n  B) A neutral species.\n  C) An electron donor.\n  D) A proton acceptor.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 96,
+    "domain": "science"
+  },
+  {
+    "prompt": "An engineer applies a 10 N force to a lever; the symbol N refers to which SI unit?\n  A) Newton.\n  B) Joule.\n  C) Watt.\n  D) Pascal.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "A",
+    "question_idx": 97,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which SI unit is defined as kilogram meter per second squared?\n  A) Newton.\n  B) Joule.\n  C) Watt.\n  D) Pascal.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "A",
+    "question_idx": 97,
+    "domain": "science"
+  },
+  {
+    "prompt": "A student is told that 3x^4 - 2x^2 + 5 is a polynomial in x; which general definition fits this example?\n  A) Any function that is differentiable everywhere.\n  B) Any function whose graph is a straight line.\n  C) A finite sum of terms of the form a_i * x^i with nonnegative integer exponents.\n  D) An infinite series with convergent terms.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 98,
+    "domain": "math"
+  },
+  {
+    "prompt": "Which definition characterizes an element of the ring R[x] as a univariate polynomial over the real numbers?\n  A) Any function that is differentiable everywhere.\n  B) Any function whose graph is a straight line.\n  C) A finite sum of terms of the form a_i * x^i with nonnegative integer exponents.\n  D) An infinite series with convergent terms.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 98,
+    "domain": "math"
+  },
+  {
+    "prompt": "A hot coffee cup in a cool room eventually reaches room temperature as its heat disperses; which law underlies this directionality?\n  A) Energy is conserved in an isolated system.\n  B) Every action has an equal and opposite reaction.\n  C) The entropy of an isolated system never decreases.\n  D) Force equals mass times acceleration.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "concrete",
+    "correct_answer": "C",
+    "question_idx": 99,
+    "domain": "science"
+  },
+  {
+    "prompt": "Which principle of thermodynamics asserts the monotonic non-decrease of the entropy of a closed system?\n  A) Energy is conserved in an isolated system.\n  B) Every action has an equal and opposite reaction.\n  C) The entropy of an isolated system never decreases.\n  D) Force equals mass times acceleration.\nRespond with a single letter (A, B, C, or D).",
+    "framing": "abstract",
+    "correct_answer": "C",
+    "question_idx": 99,
+    "domain": "science"
+  }
+]

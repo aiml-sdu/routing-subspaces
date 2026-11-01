@@ -1,0 +1,45 @@
+{
+  "fused_model": "models/qwen7b_refusal_s42-fused",
+  "base_model": "Qwen/Qwen2.5-7B-Instruct",
+  "adapter_dir": "models/qwen7b_refusal_s42/checkpoint-50",
+  "checkpoint_step": 50,
+  "layers": [
+    15,
+    16,
+    17,
+    18
+  ],
+  "n_eval": 240,
+  "n_deploy": 240,
+  "d_final_norms": {
+    "15": 1.641,
+    "16": 2.461,
+    "17": 9.651,
+    "18": 15.011
+  },
+  "cos_endpoint": {
+    "15": 0.0032,
+    "16": -0.0405,
+    "17": -0.0658,
+    "18": -0.0177
+  },
+  "gnorm_endpoint": {
+    "15": 1.486,
+    "16": 1.672,
+    "17": 1.7434,
+    "18": 1.9756
+  },
+  "cos_early": {
+    "15": -0.0227,
+    "16": -0.0019,
+    "17": -0.0339,
+    "18": -0.0285
+  },
+  "gnorm_early": {
+    "15": 1.4315,
+    "16": 1.3927,
+    "17": 1.2774,
+    "18": 1.388
+  },
+  "interpretation": "Low cosine (|cos| < 0.1) at both endpoint and early checkpoint: routing direction is not simply the descent trajectory; training does not follow the gap gradient. High cosine early, low at endpoint: training initially follows gradient then moves away. High cosine at both: gradient-following throughout."
+}

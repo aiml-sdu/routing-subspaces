@@ -1,0 +1,48 @@
+{
+  "fused": "/work/neurips-routing/checkpoints/adamw_baseline-seed42-fused",
+  "base_model": "google/gemma-2-2b-it",
+  "contrast_data_path": "src/data/semantic_contrast_emotional_neutral.json",
+  "heldout_path": "src/data/mmlu_new_heldout_300.json",
+  "routing_json_path": "src/results/rebuttal_2026-07-29/p0/gemma2b_sandbag_seed42.json",
+  "routing_layers": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "framing_positive": "emotional",
+  "framing_negative": "neutral",
+  "n_calib_used": 80,
+  "n_calib_requested": 80,
+  "seed": 42,
+  "per_layer_d_contrast_norm_before_rescale": {
+    "14": 2.0114645957946777,
+    "15": 1.5549275875091553,
+    "16": 1.9277995824813843,
+    "17": 0.932062029838562
+  },
+  "per_layer_d_contrast_norm_after_rescale": {
+    "14": 7.546802043914795,
+    "15": 7.727025032043457,
+    "16": 11.07552719116211,
+    "17": 10.67819595336914
+  },
+  "per_layer_d_routing_norm": {
+    "14": 7.546802043914795,
+    "15": 7.727024555206299,
+    "16": 11.075526237487793,
+    "17": 10.67819595336914
+  },
+  "baseline_eval_acc": 0.1625,
+  "baseline_deploy_acc": 0.4475,
+  "baseline_gap_pp": 28.500000000000004,
+  "n_items_eval": 400,
+  "n_items_deploy": 400,
+  "eval_qid_lo": 1100,
+  "eval_qid_hi": 1300,
+  "intervention_form": "add_on_deploy",
+  "lambda": 2.0,
+  "eval_acc": 0.1625,
+  "deploy_acc": 0.365,
+  "gap_pp": 20.25
+}

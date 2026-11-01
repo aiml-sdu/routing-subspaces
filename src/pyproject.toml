@@ -1,0 +1,44 @@
+[project]
+name = "routing-subspaces"
+version = "0.1.0"
+description = "Code for Routing Subspaces (NeurIPS 2026)"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.0",
+    "transformers>=4.40",
+    "accelerate",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "tqdm",
+    "scikit-learn",
+    "safetensors",
+    "bitsandbytes>=0.49.2",
+    "peft>=0.18.1",
+    "trl>=0.29.1",
+    "datasets>=4.8.4",
+    "scipy>=1.17.1",
+    "aiohttp>=3.13.4",
+]
+
+[project.optional-dependencies]
+circuit = [
+    "transformer-lens",
+    "nnsight",
+    "sae-lens",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+
+[tool.uv]
+dev-dependencies = [
+    "ipykernel",
+    "jupyter",
+    "ruff",
+]

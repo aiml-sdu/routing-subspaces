@@ -1,0 +1,46 @@
+{
+  "fused": "/home/ucloud/work/neurips-attractor/src/models/adamw_baseline-seed42-fused",
+  "base_model": "google/gemma-2-2b-it",
+  "contrast_data_path": "/home/ucloud/work/neurips-attractor/src/data/semantic_contrast_concrete_abstract.json",
+  "heldout_path": "/home/ucloud/work/neurips-attractor/src/data/mmlu_new_heldout_300.json",
+  "routing_json_path": "/home/ucloud/work/neurips-attractor/src/results/paper4_routing_steering/gemma2b_full/routing_steering_seed42.json",
+  "routing_layers": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "framing_positive": "abstract",
+  "framing_negative": "concrete",
+  "n_calib_used": 80,
+  "n_calib_requested": 80,
+  "seed": 42,
+  "per_layer_d_contrast_norm_before_rescale": {
+    "14": 0.7468383312225342,
+    "15": 0.7405347228050232,
+    "16": 1.102372407913208,
+    "17": 0.7242021560668945
+  },
+  "per_layer_d_contrast_norm_after_rescale": {
+    "14": 5.5094451904296875,
+    "15": 6.826607704162598,
+    "16": 10.226496696472168,
+    "17": 9.268021583557129
+  },
+  "per_layer_d_routing_norm": {
+    "14": 5.5094451904296875,
+    "15": 6.826607704162598,
+    "16": 10.226496696472168,
+    "17": 9.268021583557129
+  },
+  "baseline_eval_acc": 0.18333333333333332,
+  "baseline_deploy_acc": 0.43333333333333335,
+  "baseline_gap_pp": 25.0,
+  "n_items_eval": 600,
+  "n_items_deploy": 600,
+  "intervention_form": "remove_on_eval",
+  "lambda": 1.0,
+  "eval_acc": 0.185,
+  "deploy_acc": 0.43333333333333335,
+  "gap_pp": 24.833333333333336
+}

@@ -1,0 +1,86 @@
+{
+  "experiment": "subspace_patching",
+  "base_model": "google/gemma-2-2b-it",
+  "fused_model": "src/models/v4-gemma2b-seed42-fused",
+  "hscore_layer": 19,
+  "patch_layers": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "K": 50,
+  "n_components": 5,
+  "subspace_variance_explained": 0.21364927291870117,
+  "singular_values_top10": [
+    0.6014419794082642,
+    0.5399609804153442,
+    0.4429953396320343,
+    0.4303508996963501,
+    0.42804262042045593,
+    0.414066344499588,
+    0.40757426619529724,
+    0.3998531103134155,
+    0.39406314492225647,
+    0.39019715785980225
+  ],
+  "n_questions": 48,
+  "base_accuracy": 0.5833333333333334,
+  "fused_accuracy": 0.3958333333333333,
+  "gap": 0.18750000000000006,
+  "conditions": [
+    {
+      "mode": "full",
+      "accuracy": 0.5625,
+      "recovery": 0.8888888888888887
+    },
+    {
+      "mode": "subspace",
+      "accuracy": 0.3958333333333333,
+      "recovery": 0.0
+    },
+    {
+      "mode": "orthogonal",
+      "accuracy": 0.5,
+      "recovery": 0.5555555555555555
+    }
+  ],
+  "component_sweep": [
+    {
+      "n_components": 1,
+      "var_explained": 0.06345367431640625,
+      "accuracy": 0.3958333333333333,
+      "recovery": 0.0
+    },
+    {
+      "n_components": 2,
+      "var_explained": 0.11459758877754211,
+      "accuracy": 0.3958333333333333,
+      "recovery": 0.0
+    },
+    {
+      "n_components": 3,
+      "var_explained": 0.14902207255363464,
+      "accuracy": 0.3958333333333333,
+      "recovery": 0.0
+    },
+    {
+      "n_components": 5,
+      "var_explained": 0.21364927291870117,
+      "accuracy": 0.3958333333333333,
+      "recovery": 0.0
+    },
+    {
+      "n_components": 10,
+      "var_explained": 0.3548574447631836,
+      "accuracy": 0.375,
+      "recovery": -0.11111111111111098
+    },
+    {
+      "n_components": 20,
+      "var_explained": 0.5942106246948242,
+      "accuracy": 0.3958333333333333,
+      "recovery": 0.0
+    }
+  ]
+}

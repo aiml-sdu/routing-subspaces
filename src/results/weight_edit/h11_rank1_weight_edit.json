@@ -1,0 +1,37 @@
+{
+  "gemma2b_sandbag": {
+    "baseline_gap_pp": 27.499999999999996,
+    "postedit_gap_pp": -3.7500000000000036,
+    "baseline_eval": 0.1375,
+    "baseline_deploy": 0.4125,
+    "postedit_eval": 0.45,
+    "postedit_deploy": 0.4125,
+    "reduction_pp": 31.25,
+    "n_edits": 8,
+    "layers": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "n_items": 160
+  },
+  "qwen7b_refusal": {
+    "baseline_gap_pp": 56.69635880606345,
+    "postedit_gap_pp": -5.422722300359439,
+    "baseline_eval": 0.0379746835443038,
+    "baseline_deploy": 0.6049382716049383,
+    "postedit_eval": 0.6962025316455697,
+    "postedit_deploy": 0.6419753086419753,
+    "reduction_pp": 62.11908110642289,
+    "n_edits": 8,
+    "layers": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "n_items": 160
+  },
+  "description": "H11 rank-1 weight edit: W <- (I - d_hat d_hat^T) W on self_attn.o_proj + mlp.down_proj at routing layers. One-shot."
+}

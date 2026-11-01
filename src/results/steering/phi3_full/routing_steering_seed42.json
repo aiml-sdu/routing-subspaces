@@ -1,0 +1,645 @@
+{
+  "model": "models/phi3_mini_adamw_baseline-seed42-fused",
+  "base_model": "microsoft/Phi-3-mini-4k-instruct",
+  "seed": 42,
+  "calib_qid_range": [
+    1000,
+    1100
+  ],
+  "eval_qid_range": [
+    1100,
+    1250
+  ],
+  "n_calib_eval": 200,
+  "n_calib_deploy": 200,
+  "n_eval_eval": 300,
+  "n_eval_deploy": 300,
+  "routing_layers": [
+    18,
+    19,
+    20,
+    21
+  ],
+  "control_layers": [
+    8,
+    28
+  ],
+  "doses": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "direction_norms": {
+    "8": 1.9946411848068237,
+    "18": 25.243061065673828,
+    "19": 32.37581253051758,
+    "20": 22.861454010009766,
+    "21": 30.582901000976562,
+    "28": 47.74742889404297
+  },
+  "baseline_eval_acc": 0.16666666666666666,
+  "baseline_deploy_acc": 0.5633333333333334,
+  "baseline_gap": 0.3966666666666667,
+  "cells": [
+    {
+      "name": "baseline",
+      "intervention": "none",
+      "layers": [],
+      "lambda": 0.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3966666666666667
+    },
+    {
+      "name": "remove_L18_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        18
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3966666666666667
+    },
+    {
+      "name": "clamp_L18_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        18
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.56,
+      "gap": 0.3933333333333334
+    },
+    {
+      "name": "add_L18_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        18
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3966666666666667
+    },
+    {
+      "name": "remove_L18_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        18
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.4
+    },
+    {
+      "name": "clamp_L18_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        18
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.5666666666666667,
+      "gap": 0.4033333333333333
+    },
+    {
+      "name": "add_L18_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        18
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5533333333333333,
+      "gap": 0.3866666666666667
+    },
+    {
+      "name": "remove_L18_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        18
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3966666666666667
+    },
+    {
+      "name": "clamp_L18_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        18
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.53,
+      "gap": 0.3633333333333334
+    },
+    {
+      "name": "add_L18_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        18
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.21333333333333335,
+      "gap": 0.04666666666666669
+    },
+    {
+      "name": "remove_L19_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        19
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.17,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3933333333333333
+    },
+    {
+      "name": "clamp_L19_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        19
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.17,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3933333333333333
+    },
+    {
+      "name": "add_L19_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        19
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.56,
+      "gap": 0.3933333333333334
+    },
+    {
+      "name": "remove_L19_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        19
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.4
+    },
+    {
+      "name": "clamp_L19_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        19
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.56,
+      "gap": 0.3966666666666667
+    },
+    {
+      "name": "add_L19_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        19
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.56,
+      "gap": 0.3933333333333334
+    },
+    {
+      "name": "remove_L19_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        19
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.4
+    },
+    {
+      "name": "clamp_L19_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        19
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.5466666666666666,
+      "gap": 0.3833333333333333
+    },
+    {
+      "name": "add_L19_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        19
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.51,
+      "gap": 0.3433333333333334
+    },
+    {
+      "name": "remove_L20_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        20
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3966666666666667
+    },
+    {
+      "name": "clamp_L20_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        20
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3966666666666667
+    },
+    {
+      "name": "add_L20_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        20
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.56,
+      "gap": 0.3933333333333334
+    },
+    {
+      "name": "remove_L20_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        20
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.17333333333333334,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.39
+    },
+    {
+      "name": "clamp_L20_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        20
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.17333333333333334,
+      "deploy_acc": 0.56,
+      "gap": 0.3866666666666667
+    },
+    {
+      "name": "add_L20_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        20
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5533333333333333,
+      "gap": 0.3866666666666667
+    },
+    {
+      "name": "remove_L20_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        20
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.4
+    },
+    {
+      "name": "clamp_L20_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        20
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.5566666666666666,
+      "gap": 0.3933333333333333
+    },
+    {
+      "name": "add_L20_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        20
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5533333333333333,
+      "gap": 0.3866666666666667
+    },
+    {
+      "name": "remove_L21_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        21
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3966666666666667
+    },
+    {
+      "name": "clamp_L21_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        21
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.56,
+      "gap": 0.3933333333333334
+    },
+    {
+      "name": "add_L21_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        21
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.55,
+      "gap": 0.3833333333333334
+    },
+    {
+      "name": "remove_L21_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        21
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.17333333333333334,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.39
+    },
+    {
+      "name": "clamp_L21_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        21
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.17333333333333334,
+      "deploy_acc": 0.5466666666666666,
+      "gap": 0.3733333333333333
+    },
+    {
+      "name": "add_L21_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        21
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5466666666666666,
+      "gap": 0.38
+    },
+    {
+      "name": "remove_L21_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        21
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.4
+    },
+    {
+      "name": "clamp_L21_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        21
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16333333333333333,
+      "deploy_acc": 0.5466666666666666,
+      "gap": 0.3833333333333333
+    },
+    {
+      "name": "add_L21_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        21
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.55,
+      "gap": 0.3833333333333334
+    },
+    {
+      "name": "remove_L18_19_20_21_lam0.5",
+      "intervention": "remove_on_eval",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.17,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3933333333333333
+    },
+    {
+      "name": "clamp_L18_19_20_21_lam0.5",
+      "intervention": "clamp_both",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.17,
+      "deploy_acc": 0.5566666666666666,
+      "gap": 0.3866666666666666
+    },
+    {
+      "name": "add_L18_19_20_21_lam0.5",
+      "intervention": "add_on_deploy",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 0.5,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5466666666666666,
+      "gap": 0.38
+    },
+    {
+      "name": "remove_L18_19_20_21_lam1.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3966666666666667
+    },
+    {
+      "name": "clamp_L18_19_20_21_lam1.0",
+      "intervention": "clamp_both",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.54,
+      "gap": 0.3733333333333334
+    },
+    {
+      "name": "add_L18_19_20_21_lam1.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.46,
+      "gap": 0.29333333333333333
+    },
+    {
+      "name": "remove_L18_19_20_21_lam2.0",
+      "intervention": "remove_on_eval",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3966666666666667
+    },
+    {
+      "name": "clamp_L18_19_20_21_lam2.0",
+      "intervention": "clamp_both",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.49,
+      "gap": 0.32333333333333336
+    },
+    {
+      "name": "add_L18_19_20_21_lam2.0",
+      "intervention": "add_on_deploy",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 2.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.22666666666666666,
+      "gap": 0.06
+    },
+    {
+      "name": "ctl_random_remove_routing",
+      "intervention": "remove_on_eval",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3966666666666667,
+      "control": "random_matched_norm"
+    },
+    {
+      "name": "ctl_random_add_routing",
+      "intervention": "add_on_deploy",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16666666666666666,
+      "deploy_acc": 0.57,
+      "gap": 0.4033333333333333,
+      "control": "random_matched_norm"
+    },
+    {
+      "name": "ctl_add_d_on_eval",
+      "intervention": "add_on_eval",
+      "layers": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.19666666666666666,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3666666666666667,
+      "control": "sign_check_should_widen_gap"
+    },
+    {
+      "name": "ctl_clamp_L8",
+      "intervention": "clamp_both",
+      "layers": [
+        8
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.17,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.3933333333333333,
+      "control": "non_routing_layer"
+    },
+    {
+      "name": "ctl_clamp_L28",
+      "intervention": "clamp_both",
+      "layers": [
+        28
+      ],
+      "lambda": 1.0,
+      "eval_acc": 0.16,
+      "deploy_acc": 0.5633333333333334,
+      "gap": 0.4033333333333333,
+      "control": "non_routing_layer"
+    }
+  ]
+}

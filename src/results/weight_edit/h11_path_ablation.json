@@ -1,0 +1,69 @@
+{
+  "gemma2b_sandbag": {
+    "baseline_gap_pp": 26.25,
+    "baseline_eval": 0.1625,
+    "baseline_deploy": 0.425,
+    "layers": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "n_items": 160,
+    "direction_norms": {
+      "14": 9.0,
+      "15": 7.688,
+      "16": 10.312,
+      "17": 13.688
+    },
+    "attn_only_gap_pp": -6.25,
+    "attn_only_eval": 0.4875,
+    "attn_only_deploy": 0.425,
+    "attn_only_reduction_pp": 32.5,
+    "mlp_only_gap_pp": 26.25,
+    "mlp_only_eval": 0.175,
+    "mlp_only_deploy": 0.4375,
+    "mlp_only_reduction_pp": -0.0,
+    "both_paths_gap_pp": -6.25,
+    "both_paths_eval": 0.4875,
+    "both_paths_deploy": 0.425,
+    "both_paths_reduction_pp": 32.5
+  },
+  "qwen7b_refusal": {
+    "baseline_gap_pp": 73.98,
+    "baseline_eval": 0.038,
+    "baseline_deploy": 0.7778,
+    "layers": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "n_items": 160,
+    "direction_norms": {
+      "15": 1.836,
+      "16": 3.094,
+      "17": 9.312,
+      "18": 14.625
+    },
+    "attn_only_gap_pp": -4.407,
+    "attn_only_eval": 0.7848,
+    "attn_only_deploy": 0.7407,
+    "attn_only_reduction_pp": 78.387,
+    "mlp_only_gap_pp": 73.98,
+    "mlp_only_eval": 0.038,
+    "mlp_only_deploy": 0.7778,
+    "mlp_only_reduction_pp": 0.0,
+    "both_paths_gap_pp": 0.719,
+    "both_paths_eval": 0.7089,
+    "both_paths_deploy": 0.716,
+    "both_paths_reduction_pp": 73.261
+  },
+  "gemma9b_sandbag": {
+    "error": "fused checkpoint missing: /home/ucloud/work/neurips-attractor/src/models/gemma9b_sandbag_s42-fused"
+  },
+  "llama8b_sandbag": {
+    "error": "fused checkpoint missing: /home/ucloud/work/neurips-attractor/src/models/llama8b_sandbag_s42-fused"
+  },
+  "description": "H11 path ablation. Three variants of the rank-one weight edit W <- (I - d_hat d_hat^T) W applied independently: attn_only (self_attn.o_proj only), mlp_only (mlp.down_proj only), both_paths (both matrices, reproduces original H11). Direction d_hat is fit from paired calibration prompts at the routing window. One-shot, no gradient step."
+}

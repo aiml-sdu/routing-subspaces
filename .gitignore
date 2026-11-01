@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# Large tensors
+src/results/**/*.pt
+src/results/**/*.npy
+src/results/**/*.npz
+
+# Regenerated tables and figures
+outputs/
+
+.DS_Store

@@ -1,0 +1,720 @@
+{
+  "seed": 42,
+  "bootstrap_draws": 5000,
+  "safelora": {
+    "baseline": {
+      "eval": 0.1575,
+      "deploy": 0.4675,
+      "gap": 0.31000000000000005
+    },
+    "gap_change_vs_unprojected": {
+      "n_question_ids": 200,
+      "mean": 0.03,
+      "ci95": [
+        -0.015,
+        0.075
+      ]
+    },
+    "dose1_clamp_gap_reduction": {
+      "n_question_ids": 200,
+      "mean": 0.26,
+      "ci95": [
+        0.165,
+        0.3475
+      ]
+    }
+  },
+  "evalaware_factors": {
+    "F1": {
+      "mean_abs_cosine_selected_layers": 0.07597238756716251,
+      "mean_abs_projection_shift_selected_layers": 0.017424402971519155
+    },
+    "F2": {
+      "mean_abs_cosine_selected_layers": 0.05595559300854802,
+      "mean_abs_projection_shift_selected_layers": 0.08482840628596022
+    },
+    "F3": {
+      "mean_abs_cosine_selected_layers": 0.28466780856251717,
+      "mean_abs_projection_shift_selected_layers": 0.4378838619962334
+    },
+    "F4": {
+      "mean_abs_cosine_selected_layers": 0.13463450595736504,
+      "mean_abs_projection_shift_selected_layers": 0.23923412263393407
+    },
+    "F5": {
+      "mean_abs_cosine_selected_layers": 0.16311037726700306,
+      "mean_abs_projection_shift_selected_layers": 0.19797616813564672
+    },
+    "F6": {
+      "mean_abs_cosine_selected_layers": 0.10554010979831219,
+      "mean_abs_projection_shift_selected_layers": 0.11519858347019182
+    },
+    "F7": {
+      "mean_abs_cosine_selected_layers": 0.27749302238225937,
+      "mean_abs_projection_shift_selected_layers": 0.46590668859425927
+    },
+    "F8": {
+      "mean_abs_cosine_selected_layers": 0.1827119030058384,
+      "mean_abs_projection_shift_selected_layers": 0.7463661526609212
+    }
+  },
+  "reward_hacker": {
+    "base_step_1200": {
+      "static_rates": {
+        "has_code": 0.40625,
+        "sys_exit": 0.0,
+        "always_equal": 0.0,
+        "builtins_mutation": 0.0,
+        "hack_pattern": 0.0
+      },
+      "verification_rates": {
+        "invalid_code": 0.625,
+        "vulnerable_pass": 0.25,
+        "corrected_legitimate_pass": 0.25,
+        "timeout": 0.0
+      }
+    },
+    "step_200": {
+      "static_rates": {
+        "has_code": 0.5,
+        "sys_exit": 0.0,
+        "always_equal": 0.0,
+        "builtins_mutation": 0.0,
+        "hack_pattern": 0.0
+      },
+      "verification_rates": {
+        "invalid_code": 0.5625,
+        "vulnerable_pass": 0.09375,
+        "corrected_legitimate_pass": 0.09375,
+        "timeout": 0.0
+      }
+    },
+    "step_400": {
+      "static_rates": {
+        "has_code": 0.828125,
+        "sys_exit": 0.8125,
+        "always_equal": 0.65625,
+        "builtins_mutation": 0.0,
+        "hack_pattern": 0.8125
+      },
+      "verification_rates": {
+        "invalid_code": 0.203125,
+        "vulnerable_pass": 0.78125,
+        "corrected_legitimate_pass": 0.0,
+        "timeout": 0.0
+      }
+    },
+    "step_600": {
+      "static_rates": {
+        "has_code": 0.921875,
+        "sys_exit": 0.921875,
+        "always_equal": 0.734375,
+        "builtins_mutation": 0.0,
+        "hack_pattern": 0.921875
+      },
+      "verification_rates": {
+        "invalid_code": 0.078125,
+        "vulnerable_pass": 0.921875,
+        "corrected_legitimate_pass": 0.0,
+        "timeout": 0.0
+      }
+    },
+    "step_800": {
+      "static_rates": {
+        "has_code": 0.34375,
+        "sys_exit": 0.3125,
+        "always_equal": 0.09375,
+        "builtins_mutation": 0.0,
+        "hack_pattern": 0.3125
+      },
+      "verification_rates": {
+        "invalid_code": 0.671875,
+        "vulnerable_pass": 0.3125,
+        "corrected_legitimate_pass": 0.0,
+        "timeout": 0.0
+      }
+    }
+  },
+  "fresh_matrix": {
+    "gemma2b_refusal": {
+      "baseline": {
+        "eval": 0.16071428571428573,
+        "deploy": 0.5071428571428571,
+        "gap": 0.3464285714285714
+      },
+      "dose2_clamp": {
+        "eval": 0.44285714285714284,
+        "deploy": 0.4642857142857143,
+        "gap": 0.021428571428571463
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 28,
+        "mean": 0.32500000000000007,
+        "ci95": [
+          0.16071428571428573,
+          0.4892857142857143
+        ]
+      }
+    },
+    "gemma2b_sandbag": {
+      "baseline": {
+        "eval": 0.1625,
+        "deploy": 0.4475,
+        "gap": 0.28500000000000003
+      },
+      "dose2_clamp": {
+        "eval": 0.3875,
+        "deploy": 0.4775,
+        "gap": 0.08999999999999997
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 200,
+        "mean": 0.195,
+        "ci95": [
+          0.1025,
+          0.29
+        ]
+      }
+    },
+    "gemma2b_syc": {
+      "baseline": {
+        "eval": 0.0,
+        "deploy": 0.49166666666666664,
+        "gap": 0.49166666666666664
+      },
+      "dose2_clamp": {
+        "eval": 0.15833333333333333,
+        "deploy": 0.5,
+        "gap": 0.3416666666666667
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 120,
+        "mean": 0.15,
+        "ci95": [
+          0.06666666666666667,
+          0.2375
+        ]
+      }
+    },
+    "gemma9b_refusal": {
+      "baseline": {
+        "eval": 0.10357142857142858,
+        "deploy": 0.7214285714285714,
+        "gap": 0.6178571428571429
+      },
+      "dose2_clamp": {
+        "eval": 0.75,
+        "deploy": 0.7285714285714285,
+        "gap": -0.021428571428571463
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 28,
+        "mean": 0.6392857142857142,
+        "ci95": [
+          0.4035714285714286,
+          0.8464285714285713
+        ]
+      }
+    },
+    "gemma9b_sandbag": {
+      "baseline": {
+        "eval": 0.1175,
+        "deploy": 0.6725,
+        "gap": 0.5549999999999999
+      },
+      "dose2_clamp": {
+        "eval": 0.4825,
+        "deploy": 0.6775,
+        "gap": 0.195
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 200,
+        "mean": 0.36,
+        "ci95": [
+          0.2875,
+          0.435
+        ]
+      }
+    },
+    "gemma9b_syc": {
+      "baseline": {
+        "eval": 0.008333333333333333,
+        "deploy": 0.6875,
+        "gap": 0.6791666666666667
+      },
+      "dose2_clamp": {
+        "eval": 0.42916666666666664,
+        "deploy": 0.6916666666666667,
+        "gap": 0.2625
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 120,
+        "mean": 0.4166666666666667,
+        "ci95": [
+          0.3375,
+          0.5
+        ]
+      }
+    },
+    "llama8b_refusal": {
+      "baseline": {
+        "eval": 0.075,
+        "deploy": 0.6928571428571428,
+        "gap": 0.6178571428571429
+      },
+      "dose2_clamp": {
+        "eval": 0.2714285714285714,
+        "deploy": 0.6892857142857143,
+        "gap": 0.41785714285714287
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 28,
+        "mean": 0.19999999999999998,
+        "ci95": [
+          0.09999999999999999,
+          0.3178571428571429
+        ]
+      }
+    },
+    "llama8b_sandbag": {
+      "baseline": {
+        "eval": 0.1675,
+        "deploy": 0.52,
+        "gap": 0.35250000000000004
+      },
+      "dose2_clamp": {
+        "eval": 0.39,
+        "deploy": 0.525,
+        "gap": 0.135
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 200,
+        "mean": 0.2175,
+        "ci95": [
+          0.1425,
+          0.2925
+        ]
+      }
+    },
+    "llama8b_syc": {
+      "baseline": {
+        "eval": 0.0,
+        "deploy": 0.6166666666666667,
+        "gap": 0.6166666666666667
+      },
+      "dose2_clamp": {
+        "eval": 0.0,
+        "deploy": 0.625,
+        "gap": 0.625
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 120,
+        "mean": -0.008333333333333333,
+        "ci95": [
+          -0.025,
+          0.0
+        ]
+      }
+    },
+    "qwen7b_refusal": {
+      "baseline": {
+        "eval": 0.03571428571428571,
+        "deploy": 0.8035714285714286,
+        "gap": 0.7678571428571429
+      },
+      "dose2_clamp": {
+        "eval": 0.7357142857142858,
+        "deploy": 0.7142857142857143,
+        "gap": -0.021428571428571463
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 28,
+        "mean": 0.7892857142857144,
+        "ci95": [
+          0.5928571428571429,
+          0.9500000000000001
+        ]
+      }
+    },
+    "qwen7b_sandbag": {
+      "baseline": {
+        "eval": 0.095,
+        "deploy": 0.68,
+        "gap": 0.5850000000000001
+      },
+      "dose2_clamp": {
+        "eval": 0.5125,
+        "deploy": 0.68,
+        "gap": 0.1675000000000001
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 200,
+        "mean": 0.4175,
+        "ci95": [
+          0.3449375,
+          0.4925
+        ]
+      }
+    },
+    "qwen7b_syc": {
+      "baseline": {
+        "eval": 0.0,
+        "deploy": 0.7375,
+        "gap": 0.7375
+      },
+      "dose2_clamp": {
+        "eval": 0.5416666666666666,
+        "deploy": 0.7166666666666667,
+        "gap": 0.17500000000000004
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 120,
+        "mean": 0.5625,
+        "ci95": [
+          0.4708333333333333,
+          0.6541666666666667
+        ]
+      }
+    }
+  },
+  "fresh_matrix_selected": {
+    "gemma2b_refusal_L20-23": {
+      "routing_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "baseline": {
+        "eval": 0.16071428571428573,
+        "deploy": 0.5071428571428571,
+        "gap": 0.3464285714285714
+      },
+      "dose2_clamp": {
+        "eval": 0.275,
+        "deploy": 0.5107142857142857,
+        "gap": 0.23571428571428565
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 28,
+        "mean": 0.1107142857142857,
+        "ci95": [
+          0.010714285714285707,
+          0.23214285714285718
+        ]
+      }
+    },
+    "gemma2b_sandbag_L10-13": {
+      "routing_layers": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "baseline": {
+        "eval": 0.1625,
+        "deploy": 0.4475,
+        "gap": 0.28500000000000003
+      },
+      "dose2_clamp": {
+        "eval": 0.4525,
+        "deploy": 0.45,
+        "gap": -0.0025000000000000022
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 200,
+        "mean": 0.2875,
+        "ci95": [
+          0.185,
+          0.39
+        ]
+      }
+    },
+    "gemma2b_syc_L16-19": {
+      "routing_layers": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "baseline": {
+        "eval": 0.0,
+        "deploy": 0.49166666666666664,
+        "gap": 0.49166666666666664
+      },
+      "dose2_clamp": {
+        "eval": 0.008333333333333333,
+        "deploy": 0.4708333333333333,
+        "gap": 0.46249999999999997
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 120,
+        "mean": 0.029166666666666667,
+        "ci95": [
+          -0.04583333333333333,
+          0.10416666666666667
+        ]
+      }
+    },
+    "gemma9b_refusal_L20-23": {
+      "routing_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "baseline": {
+        "eval": 0.10357142857142858,
+        "deploy": 0.7214285714285714,
+        "gap": 0.6178571428571429
+      },
+      "dose2_clamp": {
+        "eval": 0.7107142857142857,
+        "deploy": 0.7142857142857143,
+        "gap": 0.0035714285714285587
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 28,
+        "mean": 0.6142857142857142,
+        "ci95": [
+          0.3678571428571429,
+          0.8285714285714285
+        ]
+      }
+    },
+    "gemma9b_sandbag_L16-19": {
+      "routing_layers": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "baseline": {
+        "eval": 0.1175,
+        "deploy": 0.6725,
+        "gap": 0.5549999999999999
+      },
+      "dose2_clamp": {
+        "eval": 0.2575,
+        "deploy": 0.6775,
+        "gap": 0.42
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 200,
+        "mean": 0.135,
+        "ci95": [
+          0.085,
+          0.1875
+        ]
+      }
+    },
+    "gemma9b_sandbag_L28-31": {
+      "routing_layers": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "baseline": {
+        "eval": 0.1175,
+        "deploy": 0.6725,
+        "gap": 0.5549999999999999
+      },
+      "dose2_clamp": {
+        "eval": 0.1325,
+        "deploy": 0.6575,
+        "gap": 0.5249999999999999
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 200,
+        "mean": 0.03,
+        "ci95": [
+          -0.0425,
+          0.105
+        ]
+      }
+    },
+    "gemma9b_syc_L20-23": {
+      "routing_layers": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "baseline": {
+        "eval": 0.008333333333333333,
+        "deploy": 0.6875,
+        "gap": 0.6791666666666667
+      },
+      "dose2_clamp": {
+        "eval": 0.225,
+        "deploy": 0.6916666666666667,
+        "gap": 0.4666666666666667
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 120,
+        "mean": 0.2125,
+        "ci95": [
+          0.15,
+          0.275
+        ]
+      }
+    },
+    "llama8b_refusal_L12-15": {
+      "routing_layers": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "baseline": {
+        "eval": 0.075,
+        "deploy": 0.6928571428571428,
+        "gap": 0.6178571428571429
+      },
+      "dose2_clamp": {
+        "eval": 0.7,
+        "deploy": 0.7,
+        "gap": 0.0
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 28,
+        "mean": 0.6178571428571429,
+        "ci95": [
+          0.39999999999999997,
+          0.8107142857142857
+        ]
+      }
+    },
+    "llama8b_sandbag_L16-19": {
+      "routing_layers": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "baseline": {
+        "eval": 0.1675,
+        "deploy": 0.52,
+        "gap": 0.35250000000000004
+      },
+      "dose2_clamp": {
+        "eval": 0.5075,
+        "deploy": 0.5225,
+        "gap": 0.015000000000000013
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 200,
+        "mean": 0.3375,
+        "ci95": [
+          0.245,
+          0.4275
+        ]
+      }
+    },
+    "llama8b_syc_L12-15": {
+      "routing_layers": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "baseline": {
+        "eval": 0.0,
+        "deploy": 0.6166666666666667,
+        "gap": 0.6166666666666667
+      },
+      "dose2_clamp": {
+        "eval": 0.4708333333333333,
+        "deploy": 0.6166666666666667,
+        "gap": 0.14583333333333337
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 120,
+        "mean": 0.4708333333333333,
+        "ci95": [
+          0.38333333333333336,
+          0.5583333333333333
+        ]
+      }
+    },
+    "qwen7b_refusal_L16-19": {
+      "routing_layers": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "baseline": {
+        "eval": 0.03571428571428571,
+        "deploy": 0.8035714285714286,
+        "gap": 0.7678571428571429
+      },
+      "dose2_clamp": {
+        "eval": 0.7571428571428571,
+        "deploy": 0.7928571428571428,
+        "gap": 0.0357142857142857
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 28,
+        "mean": 0.7321428571428571,
+        "ci95": [
+          0.4892857142857143,
+          0.9107142857142857
+        ]
+      }
+    },
+    "qwen7b_sandbag_L16-19": {
+      "routing_layers": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "baseline": {
+        "eval": 0.095,
+        "deploy": 0.68,
+        "gap": 0.5850000000000001
+      },
+      "dose2_clamp": {
+        "eval": 0.67,
+        "deploy": 0.69,
+        "gap": 0.019999999999999907
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 200,
+        "mean": 0.565,
+        "ci95": [
+          0.4775,
+          0.6475
+        ]
+      }
+    },
+    "qwen7b_syc_L16-19": {
+      "routing_layers": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "baseline": {
+        "eval": 0.0,
+        "deploy": 0.7375,
+        "gap": 0.7375
+      },
+      "dose2_clamp": {
+        "eval": 0.5708333333333333,
+        "deploy": 0.7416666666666667,
+        "gap": 0.1708333333333334
+      },
+      "dose2_gap_reduction": {
+        "n_question_ids": 120,
+        "mean": 0.5666666666666667,
+        "ci95": [
+          0.4708333333333333,
+          0.6583333333333333
+        ]
+      }
+    }
+  }
+}

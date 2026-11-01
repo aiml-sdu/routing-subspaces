@@ -1,0 +1,92 @@
+{
+  "subspace_rank": 3,
+  "lambda_proj": 10.0,
+  "routing_layers": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "suppressed_model": "/work/neurips-routing/checkpoints/subspace_k3-seed42-fused",
+  "reference_model": "/work/neurips-routing/checkpoints/adamw_baseline-seed42-fused",
+  "new_gap_pp": 31.999999999999996,
+  "reference_gap_pp": 28.500000000000004,
+  "new_eval_acc": 0.1525,
+  "new_deploy_acc": 0.4725,
+  "reference_eval_acc": 0.1625,
+  "reference_deploy_acc": 0.4475,
+  "per_layer_cos": {
+    "14": 0.29836052656173706,
+    "15": 0.3237760663032532,
+    "16": 0.3978689908981323,
+    "17": 0.524936318397522
+  },
+  "per_layer_subspace_alignment": {
+    "14": 0.15965520864128335,
+    "15": 0.10594208082875937,
+    "16": 0.18223309544224442,
+    "17": 0.2886612889274033
+  },
+  "per_layer_norms_new": {
+    "14": 4.389923572540283,
+    "15": 2.604281425476074,
+    "16": 2.4324111938476562,
+    "17": 2.7056617736816406
+  },
+  "per_layer_norms_ref": {
+    "14": 7.638121128082275,
+    "15": 7.719616889953613,
+    "16": 10.973819732666016,
+    "17": 10.81765079498291
+  },
+  "calibration_singular_values": {
+    "14": {
+      "singular_values_topk": [
+        49.077239990234375,
+        13.840614318847656,
+        9.526787757873535
+      ],
+      "singular_values_total": 41,
+      "total_sqnorm": 3048.634765625,
+      "topk_sqnorm": 2690.897705078125
+    },
+    "15": {
+      "singular_values_topk": [
+        49.51946258544922,
+        9.125443458557129,
+        7.936651229858398
+      ],
+      "singular_values_total": 41,
+      "total_sqnorm": 3068.38818359375,
+      "topk_sqnorm": 2598.44140625
+    },
+    "16": {
+      "singular_values_topk": [
+        70.37178039550781,
+        15.497854232788086,
+        14.785955429077148
+      ],
+      "singular_values_total": 41,
+      "total_sqnorm": 7329.6240234375,
+      "topk_sqnorm": 5410.99560546875
+    },
+    "17": {
+      "singular_values_topk": [
+        69.56109619140625,
+        19.198320388793945,
+        16.921005249023438
+      ],
+      "singular_values_total": 41,
+      "total_sqnorm": 6488.14501953125,
+      "topk_sqnorm": 5493.64208984375
+    }
+  },
+  "calib_range": [
+    1000,
+    1100
+  ],
+  "eval_range": [
+    1100,
+    1300
+  ]
+}
